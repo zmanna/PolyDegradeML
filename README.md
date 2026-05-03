@@ -17,6 +17,7 @@ source "/Users/mannz/Desktop/polymer degredation/firstdataset/activate-project.s
 - `src/firstdataset/week10_features.py`: Week 10 feature engineering tiers and evaluation
 - `src/firstdataset/week11_analysis.py`: Week 11 feature importance and selection
 - `src/firstdataset/week12_uncertainty_analysis.py`: Week 12 uncertainty, calibration, and reliability analysis
+- `src/firstdataset/week13_model_selection.py`: Week 13 final model selection and reliability report
 - `scripts/run_regression_baselines.py`: generic regression runner for any CSV with a numeric target
 - `scripts/train_week6_fnn.py`: Week 6 feedforward neural network run
 - `scripts/train_week7_gnn.py`: Week 7 descriptor-graph prototype run
@@ -25,6 +26,7 @@ source "/Users/mannz/Desktop/polymer degredation/firstdataset/activate-project.s
 - `scripts/run_week10_feature_engineering.py`: Week 10 feature engineering comparison
 - `scripts/run_week11_feature_analysis.py`: Week 11 feature importance and selection
 - `scripts/run_week12_uncertainty_analysis.py`: Week 12 uncertainty and calibration analysis
+- `scripts/run_week13_model_selection.py`: Week 13 final model comparison and report generation
 
 ## Run regression baselines
 
@@ -99,3 +101,21 @@ This writes:
 - `reports/week12_cross_env_uncertainty.csv`
 - `reports/week12_uncertainty_summary.txt`
 - `reports/week12_charts/`
+
+## Run Week 13 final model selection
+
+```sh
+PYTHONPATH="/Users/mannz/Desktop/polymer degredation/firstdataset/src" \
+MPLBACKEND=Agg MPLCONFIGDIR="/tmp/matplotlib-week13" \
+python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_week13_model_selection.py"
+```
+
+This writes:
+
+- `reports/week13_model_reliability_scoreboard.csv`
+- `reports/week13_model_selection_report.md`
+- `reports/week13_model_selection_summary.txt`
+- `reports/week13_predictions_reused.csv`
+- `reports/week13_uncertainty_metrics_reused.csv`
+- `reports/week13_selective_prediction_reused.csv`
+- `reports/week13_charts/`

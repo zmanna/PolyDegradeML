@@ -41,6 +41,12 @@ from .week11_analysis import (
     write_week11_charts,
 )
 from .week12_uncertainty_analysis import run_week12_uncertainty_analysis, write_week12_charts
+from .week13_model_selection import (
+    build_week13_report_markdown,
+    build_week13_scoreboard,
+    build_week13_summary_text,
+    write_week13_charts,
+)
 
 __all__ = [
     "CURATED_DATA_PATH",
@@ -58,6 +64,9 @@ __all__ = [
     "apply_smote",
     "compute_feature_rankings",
     "evaluate_feature_sets",
+    "build_week13_report_markdown",
+    "build_week13_scoreboard",
+    "build_week13_summary_text",
     "run_qsar_classification_baselines",
     "run_qsar_fnn_classifier",
     "run_regression_baselines",
@@ -80,4 +89,5 @@ __all__ = [
     "write_week10_chart",
     "write_week11_charts",
     "write_week12_charts",
+    "write_week13_charts",
 ]

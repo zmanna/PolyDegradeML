@@ -23,6 +23,7 @@ from firstdataset.week9_validation import apply_smote, run_week9_validation
 from firstdataset.week10_features import build_tier2_proxy_features, build_week10_feature_bundle, run_week10_feature_evaluation
 from firstdataset.week11_analysis import compute_feature_rankings, evaluate_feature_sets
 from firstdataset.week12_uncertainty_analysis import run_week12_uncertainty_analysis
+from firstdataset.week13_model_selection import build_week13_scoreboard
 
 
 class QSARDataTests(unittest.TestCase):
@@ -151,6 +152,18 @@ class QSARDataTests(unittest.TestCase):
         self.assertIn("ece", metrics.columns)
         self.assertIn("coverage", selective.columns)
         self.assertTrue((cross_env["evaluation_type"] == "cross_environment").all())
+
+    def test_week13_scoreboard_outputs(self) -> None:
+        predictions, metrics, selective, scoreboard = build_week13_scoreboard(
+            random_state=42,
+            model_names=("random_forest_classifier",),
+        )
+        self.assertEqual(scoreboard.shape[0], 4)
+        self.assertEqual(scoreboard["feature_set"].nunique(), 4)
+        self.assertIn("overall_reliability_score", scoreboard.columns)
+        self.assertIn("candidate", scoreboard.columns)
+        self.assertTrue(((scoreboard["selective_accuracy_25"] >= 0.0) & (scoreboard["selective_accuracy_25"] <= 1.0)).all())
+        self.assertTrue((scoreboard["overall_rank"] >= 1).all())
 
 
 if __name__ == "__main__":
