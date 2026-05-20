@@ -4,7 +4,7 @@ Validation: 5-fold stratified cross-validation
 Sampling conditions: baseline, smote
 
 Fold diagnostics file:
-  /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week9_fold_diagnostics.csv
+  reports/week09/fold_diagnostics.csv
 
 Mean metrics by model and sampling:
 baseline | feedforward_neural_network

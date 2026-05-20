@@ -2,8 +2,8 @@
   "created_at_utc": "2026-04-06T01:38:00.453866+00:00",
   "dataset": "qsar_biodegradation",
   "validation_type": "5_fold_stratified_cross_validation",
-  "diagnostics_csv": "/Users/mannz/Desktop/polymer degredation/firstdataset/reports/week9_fold_diagnostics.csv",
-  "results_csv": "/Users/mannz/Desktop/polymer degredation/firstdataset/reports/week9_model_results.csv",
+  "diagnostics_csv": "reports/week09/fold_diagnostics.csv",
+  "results_csv": "reports/week09/model_results.csv",
   "summary": [
     {
       "sampling": "baseline",

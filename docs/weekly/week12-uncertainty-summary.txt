@@ -88,6 +88,6 @@ Plain-language interpretation:
   - Cross-environment failure should ideally come with higher uncertainty. Where incorrect cross-environment predictions still have high confidence, that is a sign of overconfidence under distribution shift. The clearest case here was proxy_only.
 
 Charts:
-  - /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week12_charts/week12_calibration_curve.png
-  - /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week12_charts/week12_selective_accuracy.png
-  - /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week12_charts/week12_uncertainty_correct_vs_incorrect.png
+  - reports/week12/charts/week12_calibration_curve.png
+  - reports/week12/charts/week12_selective_accuracy.png
+  - reports/week12/charts/week12_uncertainty_correct_vs_incorrect.png

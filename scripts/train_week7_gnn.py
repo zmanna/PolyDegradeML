@@ -9,13 +9,15 @@ from firstdataset.week7_gnn import run_week7_descriptor_graph_prototype
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-JSON_PATH = REPORTS_DIR / "week7_gnn_metrics.json"
-TXT_PATH = PROJECT_ROOT / "WEEK7_GNN_RESULTS.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week07"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+JSON_PATH = REPORTS_DIR / "gnn_metrics.json"
+TXT_PATH = DOCS_DIR / "week07-gnn-results.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
     baseline_results = run_qsar_classification_baselines()
     fnn_result = run_qsar_fnn_classifier()

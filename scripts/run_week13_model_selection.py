@@ -11,18 +11,20 @@ from firstdataset.week13_model_selection import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-CHARTS_DIR = REPORTS_DIR / "week13_charts"
-SCOREBOARD_CSV = REPORTS_DIR / "week13_model_reliability_scoreboard.csv"
-PREDICTIONS_CSV = REPORTS_DIR / "week13_predictions_reused.csv"
-METRICS_CSV = REPORTS_DIR / "week13_uncertainty_metrics_reused.csv"
-SELECTIVE_CSV = REPORTS_DIR / "week13_selective_prediction_reused.csv"
-REPORT_MD = REPORTS_DIR / "week13_model_selection_report.md"
-SUMMARY_TXT = REPORTS_DIR / "week13_model_selection_summary.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week13"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+CHARTS_DIR = REPORTS_DIR / "charts"
+SCOREBOARD_CSV = REPORTS_DIR / "model_reliability_scoreboard.csv"
+PREDICTIONS_CSV = REPORTS_DIR / "predictions_reused.csv"
+METRICS_CSV = REPORTS_DIR / "uncertainty_metrics_reused.csv"
+SELECTIVE_CSV = REPORTS_DIR / "selective_prediction_reused.csv"
+REPORT_MD = DOCS_DIR / "week13-model-selection-report.md"
+SUMMARY_TXT = DOCS_DIR / "week13-model-selection-summary.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
     predictions, metrics, selective, scoreboard = build_week13_scoreboard()
     chart_paths = write_week13_charts(scoreboard, selective, CHARTS_DIR)

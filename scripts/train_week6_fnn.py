@@ -8,13 +8,15 @@ from firstdataset.modeling import run_qsar_classification_baselines, run_qsar_fn
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-JSON_PATH = REPORTS_DIR / "week6_fnn_metrics.json"
-TXT_PATH = PROJECT_ROOT / "WEEK6_FNN_RESULTS.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week06"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+JSON_PATH = REPORTS_DIR / "fnn_metrics.json"
+TXT_PATH = DOCS_DIR / "week06-fnn-results.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
     baseline_results = run_qsar_classification_baselines()
     fnn_result = run_qsar_fnn_classifier()

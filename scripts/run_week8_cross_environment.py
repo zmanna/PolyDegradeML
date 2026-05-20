@@ -8,11 +8,12 @@ from firstdataset.week8_validation import run_cross_environment_validation, writ
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-CHARTS_DIR = REPORTS_DIR / "week8_charts"
-JSON_PATH = REPORTS_DIR / "week8_cross_environment_metrics.json"
-CSV_PATH = REPORTS_DIR / "week8_cross_environment_summary.csv"
-MD_PATH = PROJECT_ROOT / "WEEK8_CROSS_ENVIRONMENT_VALIDATION.md"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week08"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+CHARTS_DIR = REPORTS_DIR / "charts"
+JSON_PATH = REPORTS_DIR / "cross_environment_metrics.json"
+CSV_PATH = REPORTS_DIR / "cross_environment_summary.csv"
+MD_PATH = DOCS_DIR / "week08-cross-environment-validation.md"
 
 
 def dataframe_to_markdown(frame) -> str:
@@ -29,6 +30,7 @@ def dataframe_to_markdown(frame) -> str:
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
     fold_results, summary = run_cross_environment_validation()
     chart_paths = write_week8_charts(summary, CHARTS_DIR)
 

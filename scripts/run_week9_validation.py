@@ -8,15 +8,17 @@ from firstdataset.week9_validation import run_week9_validation
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-JSON_PATH = REPORTS_DIR / "week9_validation_metrics.json"
-DIAGNOSTICS_CSV = REPORTS_DIR / "week9_fold_diagnostics.csv"
-RESULTS_CSV = REPORTS_DIR / "week9_model_results.csv"
-TXT_PATH = PROJECT_ROOT / "WEEK9_VALIDATION_SUMMARY.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week09"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+JSON_PATH = REPORTS_DIR / "validation_metrics.json"
+DIAGNOSTICS_CSV = REPORTS_DIR / "fold_diagnostics.csv"
+RESULTS_CSV = REPORTS_DIR / "model_results.csv"
+TXT_PATH = DOCS_DIR / "week09-validation-summary.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
     diagnostics, results = run_week9_validation()
 
     diagnostics.to_csv(DIAGNOSTICS_CSV, index=False)

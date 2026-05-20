@@ -6,17 +6,19 @@ from firstdataset.week12_uncertainty_analysis import run_week12_uncertainty_anal
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-CHARTS_DIR = REPORTS_DIR / "week12_charts"
-PREDICTIONS_CSV = REPORTS_DIR / "week12_prediction_level_uncertainty.csv"
-METRICS_CSV = REPORTS_DIR / "week12_uncertainty_metrics.csv"
-SELECTIVE_CSV = REPORTS_DIR / "week12_selective_prediction.csv"
-CROSS_ENV_CSV = REPORTS_DIR / "week12_cross_env_uncertainty.csv"
-SUMMARY_TXT = REPORTS_DIR / "week12_uncertainty_summary.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week12"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+CHARTS_DIR = REPORTS_DIR / "charts"
+PREDICTIONS_CSV = REPORTS_DIR / "prediction_level_uncertainty.csv"
+METRICS_CSV = REPORTS_DIR / "uncertainty_metrics.csv"
+SELECTIVE_CSV = REPORTS_DIR / "selective_prediction.csv"
+CROSS_ENV_CSV = REPORTS_DIR / "cross_env_uncertainty.csv"
+SUMMARY_TXT = DOCS_DIR / "week12-uncertainty-summary.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
     predictions, metrics, selective, cross_env = run_week12_uncertainty_analysis()
     chart_paths = write_week12_charts(predictions, selective, CHARTS_DIR)

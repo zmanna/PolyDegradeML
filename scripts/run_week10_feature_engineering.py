@@ -14,16 +14,18 @@ from firstdataset.week10_features import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-CHART_PATH = REPORTS_DIR / "week10_feature_comparison.png"
-FEATURES_JSON = REPORTS_DIR / "week10_feature_sets.json"
-RESULTS_CSV = REPORTS_DIR / "week10_feature_results.csv"
-DIAGNOSTICS_CSV = REPORTS_DIR / "week10_feature_diagnostics.csv"
-TXT_PATH = PROJECT_ROOT / "WEEK10_FEATURE_ENGINEERING_SUMMARY.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week10"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+CHART_PATH = REPORTS_DIR / "feature_comparison.png"
+FEATURES_JSON = REPORTS_DIR / "feature_sets.json"
+RESULTS_CSV = REPORTS_DIR / "feature_results.csv"
+DIAGNOSTICS_CSV = REPORTS_DIR / "feature_diagnostics.csv"
+TXT_PATH = DOCS_DIR / "week10-feature-engineering-summary.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
     diagnostics, results = run_week10_feature_evaluation()
     diagnostics.to_csv(DIAGNOSTICS_CSV, index=False)
     results.to_csv(RESULTS_CSV, index=False)

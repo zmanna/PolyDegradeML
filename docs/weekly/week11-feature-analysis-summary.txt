@@ -238,5 +238,5 @@ top_ranked | smote | random_forest_classifier
   rb_recall: 0.7978
 
 Charts:
-  /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week11_charts/week11_top_feature_importance.png
-  /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week11_charts/week11_feature_set_comparison.png
+  reports/week11/charts/week11_top_feature_importance.png
+  reports/week11/charts/week11_feature_set_comparison.png

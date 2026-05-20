@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "firstdataset"
 version = "0.1.0"
-description = "Reusable data loading pipeline for the QSAR biodegradation dataset."
+description = "Machine learning pipeline for polymer degradation pathway prediction."
 requires-python = ">=3.14"
 dependencies = [
   "numpy>=2.4.3",

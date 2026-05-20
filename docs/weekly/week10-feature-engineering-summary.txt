@@ -126,4 +126,4 @@ tier1_plus_tier2 | smote | random_forest_classifier
   roc_auc: 0.9367
   rb_recall: 0.7837
 
-Chart: /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week10_feature_comparison.png
+Chart: reports/week10/feature_comparison.png

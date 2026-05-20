@@ -8,13 +8,15 @@ from firstdataset.data import CURATED_DATA_PATH, DEFAULT_DATA_PATH, build_curate
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-METADATA_PATH = REPORTS_DIR / "week4_dataset_metadata.json"
-REPORT_PATH = REPORTS_DIR / "week4_dataset_curation.md"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week04"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+METADATA_PATH = REPORTS_DIR / "dataset_metadata.json"
+REPORT_PATH = DOCS_DIR / "week04-dataset-curation.md"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
     curated = build_curated_qsar_dataset()
 
     metadata = {

@@ -270,7 +270,7 @@
     }
   ],
   "charts": [
-    "/Users/mannz/Desktop/polymer degredation/firstdataset/reports/week8_charts/week8_mean_scores.png",
-    "/Users/mannz/Desktop/polymer degredation/firstdataset/reports/week8_charts/week8_rb_recall_heatmap.png"
+    "reports/week08/charts/week8_mean_scores.png",
+    "reports/week08/charts/week8_rb_recall_heatmap.png"
   ]
 }

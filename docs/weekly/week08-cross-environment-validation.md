@@ -30,8 +30,8 @@ Proxy environments were defined by running stratified k-means clustering with 3 
 | random_forest_classifier | 0.0000 | 0.9216 | 0.4284 |
 
 ## Charts
-- /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week8_charts/week8_mean_scores.png
-- /Users/mannz/Desktop/polymer degredation/firstdataset/reports/week8_charts/week8_rb_recall_heatmap.png
+- reports/week08/charts/week8_mean_scores.png
+- reports/week08/charts/week8_rb_recall_heatmap.png
 
 ## Interpretation
 These results show how performance changes when models are tested outside the descriptor region they were trained on. The most important signal is whether RB recall collapses under distribution shift.

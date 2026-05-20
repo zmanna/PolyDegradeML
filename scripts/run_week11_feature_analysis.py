@@ -13,18 +13,20 @@ from firstdataset.week11_analysis import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-CHARTS_DIR = REPORTS_DIR / "week11_charts"
-RANKING_CSV = REPORTS_DIR / "week11_feature_rankings.csv"
-RESULTS_CSV = REPORTS_DIR / "week11_feature_set_results.csv"
-DIAGNOSTICS_CSV = REPORTS_DIR / "week11_feature_set_diagnostics.csv"
-GENERALIZATION_CSV = REPORTS_DIR / "week11_feature_set_generalization.csv"
-FEATURES_JSON = REPORTS_DIR / "week11_feature_sets.json"
-TXT_PATH = PROJECT_ROOT / "WEEK11_FEATURE_ANALYSIS_SUMMARY.txt"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week11"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+CHARTS_DIR = REPORTS_DIR / "charts"
+RANKING_CSV = REPORTS_DIR / "feature_rankings.csv"
+RESULTS_CSV = REPORTS_DIR / "feature_set_results.csv"
+DIAGNOSTICS_CSV = REPORTS_DIR / "feature_set_diagnostics.csv"
+GENERALIZATION_CSV = REPORTS_DIR / "feature_set_generalization.csv"
+FEATURES_JSON = REPORTS_DIR / "feature_sets.json"
+TXT_PATH = DOCS_DIR / "week11-feature-analysis-summary.txt"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
     ranking = compute_feature_rankings()
     diagnostics, results, generalization, feature_sets = evaluate_feature_sets()

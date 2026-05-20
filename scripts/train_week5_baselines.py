@@ -8,13 +8,15 @@ from firstdataset.modeling import run_qsar_classification_baselines
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-REPORTS_DIR = PROJECT_ROOT / "reports"
-METRICS_PATH = REPORTS_DIR / "week5_baseline_metrics.json"
-REPORT_PATH = REPORTS_DIR / "week5_baseline_modeling.md"
+REPORTS_DIR = PROJECT_ROOT / "reports" / "week05"
+DOCS_DIR = PROJECT_ROOT / "docs" / "weekly"
+METRICS_PATH = REPORTS_DIR / "baseline_metrics.json"
+REPORT_PATH = DOCS_DIR / "week05-baseline-modeling.md"
 
 
 def main() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
     results = run_qsar_classification_baselines()
 
     metrics = {
