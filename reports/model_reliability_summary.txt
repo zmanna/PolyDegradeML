@@ -1,0 +1,33 @@
+Model Reliability Scoreboard Summary
+
+Top 3 candidates:
+1. top_ranked | random_forest_classifier
+   reliability_score: 0.8860
+   cv_accuracy: 0.8626
+   cv_brier_score: 0.1003
+   selective_accuracy_25: 0.8030
+   cross_accuracy: 0.5848
+   cross_incorrect_confidence: 0.7748
+
+2. top_ranked | feedforward_neural_network
+   reliability_score: 0.8447
+   cv_accuracy: 0.8578
+   cv_brier_score: 0.1050
+   selective_accuracy_25: 0.8068
+   cross_accuracy: 0.5763
+   cross_incorrect_confidence: 0.6731
+
+3. top_ranked | logistic_regression
+   reliability_score: 0.7971
+   cv_accuracy: 0.8474
+   cv_brier_score: 0.1138
+   selective_accuracy_25: 0.8106
+   cross_accuracy: 0.6455
+   cross_incorrect_confidence: 0.7889
+
+Final recommendation:
+  top_ranked | random_forest_classifier
+  reliability_score: 0.8860
+
+Key caution:
+  weakest cross-environment candidate: proxy_only | logistic_regression (cross_accuracy=0.1659)

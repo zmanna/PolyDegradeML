@@ -1,0 +1,52 @@
+sequenceDiagram
+    participant User
+    participant Scripts as scripts/
+    participant Data as data.py
+    participant Models as models.py
+    participant CV as cross_validation.py
+    participant Env as environment_validation.py
+    participant Features as feature_engineering.py
+    participant Select as feature_selection.py
+    participant Uncertainty as uncertainty.py
+    participant Reliability as reliability_scoreboard.py
+    participant Outputs as results + figures + reports
+
+    User->>Scripts: run generate_all_results.py
+    Scripts->>Data: curate raw QSAR dataset
+    Data-->>Outputs: curated CSV + metadata + dataset report
+
+    Scripts->>Models: run baseline classifiers
+    Models->>Data: load/split descriptor dataset
+    Models-->>Outputs: baseline metrics + report
+
+    Scripts->>Models: run feedforward neural network baseline
+    Models->>Data: load/split descriptor dataset
+    Models-->>Outputs: neural baseline metrics + FNN finding report
+
+    Scripts->>Env: run proxy cross-environment validation
+    Env->>Data: load descriptor dataset
+    Env-->>Outputs: cross-environment tables + figures + report
+
+    Scripts->>CV: run stratified cross-validation
+    CV->>Data: load descriptor dataset
+    CV-->>Outputs: fold diagnostics + model metrics
+
+    Scripts->>Features: compare baseline vs proxy chemistry features
+    Features->>Data: load and standardize descriptors
+    Features->>CV: evaluate feature sets
+    Features-->>Outputs: feature-engineering tables + figure + summary
+
+    Scripts->>Select: rank features and evaluate selected sets
+    Select->>Features: build enhanced feature matrix
+    Select->>CV: evaluate selected feature sets
+    Select->>Env: test selected sets under environment shift
+    Select-->>Outputs: feature rankings + selection tables + figures
+
+    Scripts->>Uncertainty: evaluate calibration and uncertainty
+    Uncertainty->>Select: reuse selected feature sets
+    Uncertainty->>Env: evaluate cross-environment reliability
+    Uncertainty-->>Outputs: uncertainty metrics + prediction-level outputs + figures
+
+    Scripts->>Reliability: build final reliability scoreboard
+    Reliability->>Uncertainty: reuse uncertainty outputs
+    Reliability-->>Outputs: final scoreboard + model reliability report + model-selection figures

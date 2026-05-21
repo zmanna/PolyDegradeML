@@ -3,14 +3,16 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "firstdataset"
+name = "biodegradation-ml-framework"
 version = "0.1.0"
-description = "Reusable data loading pipeline for the QSAR biodegradation dataset."
-requires-python = ">=3.14"
+description = "Reliability-centered machine learning framework for biodegradation prediction."
+requires-python = ">=3.11"
 dependencies = [
   "numpy>=2.4.3",
   "pandas>=3.0.1",
   "scikit-learn>=1.8.0",
+  "imbalanced-learn>=0.14.0",
+  "matplotlib>=3.10.0",
 ]
 
 [tool.setuptools]

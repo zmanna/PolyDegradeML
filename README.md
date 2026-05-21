@@ -1,121 +1,214 @@
-# firstdataset
+# Biodegradation ML Framework
 
-QSAR biodegradation dataset curation, modeling, and validation code.
+Reliability-centered machine learning workflows for predicting biodegradation behavior from descriptor-based chemical data.
 
-## Setup
+This repository organizes a QSAR/QSPR-style biodegradation prediction project as a reusable scientific framework and case study. The current implementation uses a descriptor-based biodegradation dataset, compares multiple machine learning models, evaluates chemistry-informed feature engineering, and emphasizes reliability metrics such as calibration, uncertainty separation, selective prediction, and cross-environment generalization.
 
-```sh
-source "/Users/mannz/Desktop/polymer degredation/firstdataset/activate-project.sh"
+Repository URL: [zmanna/polymer-degradation-pathway-prediction](https://github.com/zmanna/polymer-degradation-pathway-prediction)
+
+## Research Question
+
+Can chemistry-informed feature engineering and reliability-focused evaluation improve the trustworthiness of machine learning models for biodegradation prediction?
+
+The project is framed around model trustworthiness rather than raw accuracy alone. Standard classification metrics are reported alongside calibration, uncertainty, and distribution-shift behavior.
+
+## Project Structure
+
+```text
+.
+├── data/
+│   ├── raw/                         # Original QSAR biodegradation CSV
+│   ├── processed/                   # Curated dataset with stable labels/columns
+│   └── metadata/                    # Dataset metadata and curation decisions
+├── src/biodegradation_ml_framework/ # Reusable Python package
+├── scripts/                         # Ordered research workflow scripts
+├── results/
+│   ├── tables/                      # Generated CSV result tables
+│   ├── predictions/                 # Prediction-level outputs
+│   └── metadata/                    # Generated JSON metrics/config artifacts
+├── figures/                         # Generated paper/presentation figures
+├── reports/                         # Human-readable analysis summaries
+├── presentation/                    # Slide deck and slide assets
+├── notebooks/exploratory/           # Non-canonical exploratory notebooks
+├── docs/uml/                        # UML-style architecture diagrams
+├── paper/                           # Manuscript planning space
+└── tests/                           # Regression tests for data/model workflows
 ```
 
-## Main files
+## Dataset
 
-- `src/firstdataset/data.py`: dataset loading and curation
-- `src/firstdataset/modeling.py`: baseline classification and regression models
-- `src/firstdataset/week8_validation.py`: cross-environment validation helpers
-- `src/firstdataset/week9_validation.py`: 5-fold stratified validation with SMOTE support
-- `src/firstdataset/week10_features.py`: Week 10 feature engineering tiers and evaluation
-- `src/firstdataset/week11_analysis.py`: Week 11 feature importance and selection
-- `src/firstdataset/week12_uncertainty_analysis.py`: Week 12 uncertainty, calibration, and reliability analysis
-- `src/firstdataset/week13_model_selection.py`: Week 13 final model selection and reliability report
-- `scripts/run_regression_baselines.py`: generic regression runner for any CSV with a numeric target
-- `scripts/train_week6_fnn.py`: Week 6 feedforward neural network run
-- `scripts/train_week7_gnn.py`: Week 7 descriptor-graph prototype run
-- `scripts/run_week8_cross_environment.py`: Week 8 proxy environment validation
-- `scripts/run_week9_validation.py`: Week 9 validation and imbalance comparison
-- `scripts/run_week10_feature_engineering.py`: Week 10 feature engineering comparison
-- `scripts/run_week11_feature_analysis.py`: Week 11 feature importance and selection
-- `scripts/run_week12_uncertainty_analysis.py`: Week 12 uncertainty and calibration analysis
-- `scripts/run_week13_model_selection.py`: Week 13 final model comparison and report generation
+The current dataset is the QSAR biodegradation dataset stored at:
 
-## Run regression baselines
-
-```sh
-python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_regression_baselines.py" \
-  --csv "/path/to/your_regression_dataset.csv" \
-  --target your_numeric_target_column \
-  --output "/Users/mannz/Desktop/polymer degredation/firstdataset/regression_scores.json"
+```text
+data/raw/qsar_biodegradation.csv
 ```
 
-## Run Week 9 validation
+The curated version is generated at:
 
-```sh
-PYTHONPATH="/Users/mannz/Desktop/polymer degredation/firstdataset/src" \
-python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_week9_validation.py"
+```text
+data/processed/qsar_biodegradation_curated.csv
 ```
 
-This writes:
+The dataset contains 1055 samples, 41 numeric descriptor columns, and a binary biodegradation class target:
 
-- `reports/week9_fold_diagnostics.csv`
-- `reports/week9_model_results.csv`
-- `reports/week9_validation_metrics.json`
-- `WEEK9_VALIDATION_SUMMARY.txt`
+- `NRB`: not readily biodegradable
+- `RB`: readily biodegradable
 
-## Run Week 10 feature engineering
+Important limitation: this dataset is descriptor-only. It does not include polymer names, molecular structures, SMILES, BigSMILES, or continuous degradation-rate constants.
 
-```sh
-PYTHONPATH="/Users/mannz/Desktop/polymer degredation/firstdataset/src" \
-MPLBACKEND=Agg MPLCONFIGDIR="/tmp/matplotlib-week10" \
-python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_week10_feature_engineering.py"
-```
+## How To Run
 
-This writes:
-
-- `reports/week10_feature_sets.json`
-- `reports/week10_feature_diagnostics.csv`
-- `reports/week10_feature_results.csv`
-- `reports/week10_feature_comparison.png`
-- `WEEK10_FEATURE_ENGINEERING_SUMMARY.txt`
-
-## Run Week 11 feature analysis
+From the repository root:
 
 ```sh
-PYTHONPATH="/Users/mannz/Desktop/polymer degredation/firstdataset/src" \
-MPLBACKEND=Agg MPLCONFIGDIR="/tmp/matplotlib-week11" \
-python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_week11_feature_analysis.py"
+source ./activate-project.sh
+python -m pip install -e .
 ```
 
-This writes:
-
-- `reports/week11_feature_rankings.csv`
-- `reports/week11_feature_set_results.csv`
-- `reports/week11_feature_set_diagnostics.csv`
-- `reports/week11_feature_set_generalization.csv`
-- `reports/week11_feature_sets.json`
-- `reports/week11_charts/`
-- `WEEK11_FEATURE_ANALYSIS_SUMMARY.txt`
-
-## Run Week 12 uncertainty analysis
+Then run the workflow scripts in order:
 
 ```sh
-PYTHONPATH="/Users/mannz/Desktop/polymer degredation/firstdataset/src" \
-MPLBACKEND=Agg MPLCONFIGDIR="/tmp/matplotlib-week12" \
-python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_week12_uncertainty_analysis.py"
+python scripts/01_curate_dataset.py
+python scripts/02_run_baseline_models.py
+python scripts/03_run_neural_network_baseline.py
+python scripts/04_run_descriptor_graph_prototype.py
+python scripts/05_run_cross_environment_validation.py
+python scripts/06_run_stratified_cross_validation.py
+python scripts/07_run_feature_engineering_comparison.py
+python scripts/08_run_feature_importance_selection.py
+python scripts/09_run_uncertainty_reliability_analysis.py
+python scripts/10_run_model_reliability_scoreboard.py
 ```
 
-This writes:
-
-- `reports/week12_prediction_level_uncertainty.csv`
-- `reports/week12_uncertainty_metrics.csv`
-- `reports/week12_selective_prediction.csv`
-- `reports/week12_cross_env_uncertainty.csv`
-- `reports/week12_uncertainty_summary.txt`
-- `reports/week12_charts/`
-
-## Run Week 13 final model selection
+Or regenerate the full project in one command:
 
 ```sh
-PYTHONPATH="/Users/mannz/Desktop/polymer degredation/firstdataset/src" \
-MPLBACKEND=Agg MPLCONFIGDIR="/tmp/matplotlib-week13" \
-python "/Users/mannz/Desktop/polymer degredation/firstdataset/scripts/run_week13_model_selection.py"
+python scripts/generate_all_results.py
 ```
 
-This writes:
+For a quick pipeline check:
 
-- `reports/week13_model_reliability_scoreboard.csv`
-- `reports/week13_model_selection_report.md`
-- `reports/week13_model_selection_summary.txt`
-- `reports/week13_predictions_reused.csv`
-- `reports/week13_uncertainty_metrics_reused.csv`
-- `reports/week13_selective_prediction_reused.csv`
-- `reports/week13_charts/`
+```sh
+python scripts/smoke_test_pipeline.py
+```
+
+To run the reusable tabular regression template on a separate QSAR/QSPR dataset:
+
+```sh
+python scripts/template_run_tabular_regression_baselines.py \
+  --csv /path/to/regression_dataset.csv \
+  --target numeric_target_column \
+  --output results/metadata/regression_baseline_metrics.json
+```
+
+## Reproducibility
+
+The project uses deterministic random seeds in the main model workflows, usually `random_state=42`. Generated outputs are organized by artifact type:
+
+- `results/tables/`: model comparison tables, cross-validation results, feature selection outputs, uncertainty metrics, and the final reliability scoreboard.
+- `results/predictions/`: prediction-level uncertainty and selective prediction outputs.
+- `results/metadata/`: JSON metadata and machine-readable run summaries.
+- `figures/`: generated plots for cross-environment validation, feature engineering, feature importance, uncertainty, calibration, and final model selection.
+- `reports/`: human-readable summaries suitable for a case-study writeup or manuscript draft.
+
+The most important final output is:
+
+```text
+results/tables/model_reliability_scoreboard.csv
+```
+
+The main narrative summary is:
+
+```text
+reports/main_findings.md
+reports/model_reliability_report.md
+```
+
+## Architecture Diagrams
+
+UML-style Mermaid diagrams are available in `docs/uml/`:
+
+- `project_architecture.mmd`: package/module-level architecture
+- `class_diagram.mmd`: major dataclasses and model classes
+- `workflow_sequence.mmd`: end-to-end workflow sequence
+
+These diagrams are intended to help future developers and research collaborators understand how data, scripts, source modules, generated outputs, and reports connect.
+
+## Methods Summary
+
+The project currently evaluates:
+
+- Logistic Regression
+- Random Forest Classifier
+- Feedforward Neural Network
+- Descriptor-graph neural network prototype
+
+The Feedforward Neural Network is included as a nonlinear dense baseline for tabular QSAR descriptor inputs. It was tested to determine whether a more flexible neural model could learn descriptor interactions that simpler classical models might miss. The main lesson so far is that neural-network complexity alone did not outperform the strongest classical baseline on this descriptor-only dataset. Its value is as a comparison point in the reliability story: it shows that model class matters less than representation quality, feature selection, calibration, and robustness under distribution shift.
+
+Evaluation includes:
+
+- Train/test baseline metrics
+- Stratified cross-validation
+- SMOTE imbalance comparison
+- Proxy cross-environment validation
+- Chemistry-aware proxy feature engineering
+- Feature importance and reduced feature-set comparison
+- Calibration metrics including Brier score, log loss, and expected calibration error
+- Prediction-level uncertainty
+- Selective prediction accuracy at reduced coverage
+- Final reliability-centered model ranking
+
+## Feedforward Neural Network Context
+
+The separate workspace folder `fnn_biodegradability/` contains an earlier downloaded Kaggle notebook focused on feedforward neural-network classification by biodegradability. That notebook is best treated as historical exploration. The reproducible version of that idea is incorporated here through:
+
+```text
+scripts/03_run_neural_network_baseline.py
+reports/neural_network_baseline_summary.txt
+results/metadata/neural_network_baseline_metrics.json
+```
+
+In the research narrative, the feedforward neural network helps answer a specific methodological question: does a dense neural model improve biodegradation prediction from tabular descriptors compared with Logistic Regression and Random Forest? The current result is cautious. The neural baseline is valid and sometimes competitive under later feature/reliability analysis, but it is not the final recommended model. That negative or mixed result is useful because it supports the broader conclusion that trustworthy biodegradation prediction depends on reliability-centered evaluation, not simply using a more complex model.
+
+Exploratory notebooks should live in `notebooks/exploratory/`. They are useful for research development, but the canonical, reproducible workflow should remain in `scripts/` and `src/`.
+
+## Tests
+
+Run the test suite with:
+
+```sh
+PYTHONPATH=src python -m unittest discover -s tests -p 'test*.py'
+```
+
+The tests check dataset loading, curation, model workflow outputs, feature engineering, cross-validation, uncertainty analysis, and final reliability scoreboard construction.
+
+## Developer Notes
+
+This repository was reorganized from an earlier course-style project layout into a research-oriented layout. The old public interface used names such as `firstdataset`, `week10_features.py`, `run_week12_uncertainty_analysis.py`, and root-level files such as `WEEK9_VALIDATION_SUMMARY.txt`. Those names were replaced with scientific workflow names so the repository reads as a reusable biodegradation machine learning framework and QSAR/QSPR case study rather than a weekly assignment archive.
+
+The reorganization was intentionally scoped as Phase 1:
+
+- File, folder, package, script, and output names were cleaned up.
+- Generated artifacts were separated into `results/`, `figures/`, and `reports/`.
+- The package was renamed to `biodegradation_ml_framework`.
+- The README was rewritten for scientific users.
+- Model behavior and evaluation logic were preserved unless a change was required by the move.
+
+Phase 2 should focus on deeper maintainability only after the scientific structure is stable. Good next steps would be adding a shared configuration file, reducing duplicated report-writing code, adding a lockfile or environment export, and formalizing dataset citation/license metadata.
+
+### Verification Notes
+
+The full workflow was verified after the reorganization with:
+
+```sh
+PYTHONPATH=src MPLBACKEND=Agg python scripts/generate_all_results.py
+PYTHONPATH=src MPLBACKEND=Agg python -m unittest discover -s tests -p 'test*.py'
+```
+
+At the time of reorganization, the local project `.venv` was tied to a Homebrew Python 3.14 build with a broken `pyexpat`/matplotlib linkage. The code itself compiled and ran successfully in a clean temporary Python 3.13 environment with `numpy`, `pandas`, `scikit-learn`, `imbalanced-learn`, and `matplotlib` installed. Because the code does not require Python 3.14-specific features, `pyproject.toml` now declares `requires-python = ">=3.11"`.
+
+During workflow and test runs, NumPy may emit a correlation warning during descriptor-graph prototype construction if a descriptor column is constant or near-constant. The prototype already handles this with `nan_to_num`; the warning is not currently a test failure.
+
+## Notes For Scientific Use
+
+This repository is suitable as a reusable template for descriptor-based biodegradation or related QSAR/QSPR machine learning studies. Before using it for publication, confirm the dataset citation, decide on a code license, and document the exact software environment used for the final reported results.

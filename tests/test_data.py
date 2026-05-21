@@ -5,7 +5,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from firstdataset.data import (
+from biodegradation_ml_framework.data import (
     CURATED_DATA_PATH,
     DEFAULT_DATA_PATH,
     TARGET_COLUMN,
@@ -15,15 +15,15 @@ from firstdataset.data import (
     split_qsar_biodegradation,
     split_tabular_regression_dataset,
 )
-from firstdataset.modeling import run_regression_baselines_from_csv
-from firstdataset.modeling import run_qsar_fnn_classifier
-from firstdataset.week7_gnn import run_week7_descriptor_graph_prototype
-from firstdataset.week8_validation import run_cross_environment_validation
-from firstdataset.week9_validation import apply_smote, run_week9_validation
-from firstdataset.week10_features import build_tier2_proxy_features, build_week10_feature_bundle, run_week10_feature_evaluation
-from firstdataset.week11_analysis import compute_feature_rankings, evaluate_feature_sets
-from firstdataset.week12_uncertainty_analysis import run_week12_uncertainty_analysis
-from firstdataset.week13_model_selection import build_week13_scoreboard
+from biodegradation_ml_framework.models import run_regression_baselines_from_csv
+from biodegradation_ml_framework.models import run_qsar_fnn_classifier
+from biodegradation_ml_framework.descriptor_graph_model import run_descriptor_graph_prototype
+from biodegradation_ml_framework.environment_validation import run_cross_environment_validation
+from biodegradation_ml_framework.cross_validation import apply_smote, run_cross_validation
+from biodegradation_ml_framework.feature_engineering import build_tier2_proxy_features, build_feature_engineering_bundle, run_feature_engineering_evaluation
+from biodegradation_ml_framework.feature_selection import compute_feature_rankings, evaluate_feature_sets
+from biodegradation_ml_framework.uncertainty import run_uncertainty
+from biodegradation_ml_framework.reliability_scoreboard import build_model_reliability_scoreboard
 
 
 class QSARDataTests(unittest.TestCase):
@@ -88,14 +88,14 @@ class QSARDataTests(unittest.TestCase):
         self.assertEqual(len(result.confusion_matrix), 2)
         self.assertEqual(len(result.confusion_matrix[0]), 2)
 
-    def test_week7_descriptor_graph_prototype(self) -> None:
-        result = run_week7_descriptor_graph_prototype(random_state=42)
+    def test_descriptor_graph_prototype(self) -> None:
+        result = run_descriptor_graph_prototype(random_state=42)
         self.assertEqual(result.model_name, "descriptor_graph_neural_network_prototype")
         self.assertEqual(set(result.metrics), {"accuracy", "precision", "recall", "f1_score", "roc_auc", "rb_recall"})
         self.assertEqual(result.graph_info["num_nodes"], 41)
         self.assertEqual(len(result.confusion_matrix), 2)
 
-    def test_week8_cross_environment_validation(self) -> None:
+    def test_cross_environment_validation(self) -> None:
         results, summary = run_cross_environment_validation(random_state=42)
         self.assertEqual(len(results), 12)
         self.assertEqual(summary.shape[0], 12)
@@ -109,40 +109,40 @@ class QSARDataTests(unittest.TestCase):
         self.assertEqual(X_res.shape[0], 6)
         self.assertEqual(np.bincount(y_res).tolist(), [3, 3])
 
-    def test_week9_validation_shapes(self) -> None:
-        diagnostics, results = run_week9_validation(random_state=42)
+    def test_cross_validation_shapes(self) -> None:
+        diagnostics, results = run_cross_validation(random_state=42)
         self.assertEqual(diagnostics.shape[0], 5)
         self.assertEqual(results.shape[0], 30)
         self.assertIn("sampling", results.columns)
         self.assertIn("rb_recall", results.columns)
 
-    def test_week10_proxy_feature_building(self) -> None:
-        bundle = build_week10_feature_bundle()
+    def test_proxy_feature_building(self) -> None:
+        bundle = build_feature_engineering_bundle()
         proxy = build_tier2_proxy_features(bundle.baseline_X)
         self.assertEqual(proxy.shape[1], 12)
         self.assertEqual(bundle.enhanced_X.shape[1], bundle.baseline_X.shape[1] + 12)
 
-    def test_week10_feature_evaluation_shapes(self) -> None:
-        diagnostics, results = run_week10_feature_evaluation(random_state=42)
+    def test_feature_engineering_evaluation_shapes(self) -> None:
+        diagnostics, results = run_feature_engineering_evaluation(random_state=42)
         self.assertEqual(diagnostics.shape[0], 10)
         self.assertEqual(results.shape[0], 60)
         self.assertIn("feature_set", results.columns)
 
-    def test_week11_feature_rankings(self) -> None:
+    def test_feature_rankings(self) -> None:
         ranking = compute_feature_rankings(random_state=42)
         self.assertIn("feature_name", ranking.columns)
         self.assertIn("combined_rank", ranking.columns)
         self.assertGreaterEqual(ranking.shape[0], 53)
 
-    def test_week11_feature_evaluation_shapes(self) -> None:
+    def test_feature_selection_evaluation_shapes(self) -> None:
         diagnostics, results, generalization, feature_sets = evaluate_feature_sets(random_state=42)
         self.assertEqual(diagnostics["feature_set"].nunique(), 4)
         self.assertEqual(results["feature_set"].nunique(), 4)
         self.assertEqual(generalization.shape[0], 4)
         self.assertGreaterEqual(len(feature_sets.top_ranked), 10)
 
-    def test_week12_uncertainty_outputs(self) -> None:
-        predictions, metrics, selective, cross_env = run_week12_uncertainty_analysis(
+    def test_uncertainty_outputs(self) -> None:
+        predictions, metrics, selective, cross_env = run_uncertainty(
             random_state=42,
             model_names=("random_forest_classifier",),
         )
@@ -153,8 +153,8 @@ class QSARDataTests(unittest.TestCase):
         self.assertIn("coverage", selective.columns)
         self.assertTrue((cross_env["evaluation_type"] == "cross_environment").all())
 
-    def test_week13_scoreboard_outputs(self) -> None:
-        predictions, metrics, selective, scoreboard = build_week13_scoreboard(
+    def test_model_reliability_scoreboard_outputs(self) -> None:
+        predictions, metrics, selective, scoreboard = build_model_reliability_scoreboard(
             random_state=42,
             model_names=("random_forest_classifier",),
         )

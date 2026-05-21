@@ -1,0 +1,88 @@
+classDiagram
+    class QSARDataBundle {
+        +DataFrame X
+        +Series y
+        +DataFrame frame
+        +str target_column
+    }
+
+    class DatasetSplit {
+        +DataFrame X_train
+        +DataFrame X_test
+        +Series y_train
+        +Series y_test
+    }
+
+    class BaselineResult {
+        +str model_name
+        +str task_type
+        +dict metrics
+    }
+
+    class ClassificationResult {
+        +str model_name
+        +dict metrics
+        +list confusion_matrix
+    }
+
+    class FoldDiagnostics {
+        +int fold_id
+        +int train_size
+        +int test_size
+        +int train_nrb
+        +int train_rb
+        +int test_nrb
+        +int test_rb
+    }
+
+    class CrossEnvironmentFoldResult {
+        +str model_name
+        +int environment_id
+        +dict metrics
+        +list confusion_matrix
+    }
+
+    class FeatureEngineeringBundle {
+        +DataFrame baseline_X
+        +DataFrame enhanced_X
+        +ndarray y_binary
+    }
+
+    class SelectedFeatureSets {
+        +list full_enhanced
+        +list top_ranked
+        +list proxy_only
+        +list reduced_hybrid
+    }
+
+    class UncertaintyFeatureMap {
+        +dict feature_frames
+        +ndarray y_binary
+    }
+
+    class DescriptorGraphResult {
+        +str model_name
+        +dict metrics
+        +list confusion_matrix
+        +dict graph_info
+    }
+
+    class DescriptorGraphNetwork {
+        +ndarray adjacency
+        +int hidden_dim_1
+        +int hidden_dim_2
+        +float learning_rate
+        +int epochs
+        +fit(X_train, y_train)
+        +predict_proba(X)
+        +predict(X)
+    }
+
+    QSARDataBundle --> DatasetSplit : split into
+    QSARDataBundle --> FeatureEngineeringBundle : builds descriptor frames
+    FeatureEngineeringBundle --> SelectedFeatureSets : ranked and reduced into
+    SelectedFeatureSets --> UncertaintyFeatureMap : defines reliability candidates
+    FoldDiagnostics --> BaselineResult : summarizes CV folds
+    CrossEnvironmentFoldResult --> UncertaintyFeatureMap : informs shift analysis
+    DescriptorGraphNetwork --> DescriptorGraphResult : produces
+    ClassificationResult --> BaselineResult : comparable metrics

@@ -1,0 +1,61 @@
+flowchart LR
+    raw["data/raw<br/>Source QSAR biodegradation CSV"]
+    processed["data/processed<br/>Curated dataset"]
+    metadata["data/metadata<br/>Dataset metadata"]
+
+    scripts["scripts<br/>Ordered workflow entry points"]
+    data["data.py<br/>Loading, splitting, curation"]
+    models["models.py<br/>Baseline classifiers and regression template"]
+    cv["cross_validation.py<br/>Stratified CV and SMOTE"]
+    env["environment_validation.py<br/>Proxy cross-environment testing"]
+    features["feature_engineering.py<br/>Chemistry-informed proxy features"]
+    selection["feature_selection.py<br/>Feature ranking and selected sets"]
+    uncertainty["uncertainty.py<br/>Calibration, uncertainty, selective prediction"]
+    reliability["reliability_scoreboard.py<br/>Final reliability ranking"]
+    graph["descriptor_graph_model.py<br/>Descriptor-graph prototype"]
+
+    tables["results/tables<br/>Metrics and scoreboards"]
+    predictions["results/predictions<br/>Prediction-level outputs"]
+    result_meta["results/metadata<br/>Run metadata and feature sets"]
+    figures["figures<br/>Generated plots"]
+    reports["reports<br/>Human-readable summaries"]
+    paper["paper<br/>Manuscript planning"]
+    presentation["presentation<br/>Slide artifacts"]
+
+    raw --> data
+    data --> processed
+    data --> metadata
+    data --> models
+    data --> cv
+    data --> env
+    data --> features
+    data --> graph
+
+    scripts --> data
+    scripts --> models
+    scripts --> cv
+    scripts --> env
+    scripts --> features
+    scripts --> selection
+    scripts --> uncertainty
+    scripts --> reliability
+    scripts --> graph
+
+    features --> cv
+    features --> selection
+    selection --> cv
+    selection --> env
+    selection --> uncertainty
+    env --> uncertainty
+    uncertainty --> reliability
+    models --> reports
+    graph --> reports
+
+    scripts --> tables
+    scripts --> predictions
+    scripts --> result_meta
+    scripts --> figures
+    scripts --> reports
+    reports --> paper
+    figures --> paper
+    figures --> presentation
