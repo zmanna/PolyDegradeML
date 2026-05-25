@@ -1,6 +1,6 @@
 # UML Diagrams
 
-This folder contains UML-style diagrams for the Biodegradation ML Framework.
+This folder contains UML-style diagrams for PolyDegradeML.
 
 The diagrams are written in Mermaid so they render directly on GitHub and remain easy to edit in plain text.
 

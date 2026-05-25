@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -19,6 +20,10 @@ MD_PATH = REPORTS_DIR / "cross_environment_validation.md"
 
 def project_relative(path: Path) -> str:
     return str(path.resolve().relative_to(PROJECT_ROOT))
+
+
+def report_relative(path: Path) -> str:
+    return os.path.relpath(path.resolve(), start=MD_PATH.parent.resolve())
 
 
 def dataframe_to_markdown(frame) -> str:
@@ -89,7 +94,7 @@ def main() -> None:
     ]
     for path in chart_paths:
         lines.append(f"- {project_relative(path)}")
-        lines.append(f"![{Path(path).stem}]({project_relative(path)})")
+        lines.append(f"![{Path(path).stem}]({report_relative(path)})")
         lines.append("")
     lines.extend(
         [

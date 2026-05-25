@@ -1,10 +1,41 @@
-# Biodegradation ML Framework
+# PolyDegradeML
 
-Reliability-centered machine learning workflows for predicting biodegradation behavior from descriptor-based chemical data.
+Reliability-aware machine learning for polymer biodegradation prediction from descriptor-based chemical data.
 
-This repository organizes a QSAR/QSPR-style biodegradation prediction project as a reusable scientific framework and case study. The current implementation uses a descriptor-based biodegradation dataset, compares multiple machine learning models, evaluates chemistry-informed feature engineering, and emphasizes reliability metrics such as calibration, uncertainty separation, selective prediction, and cross-environment generalization.
+![PolyDegradeML banner](figures/branding/polydegrademl_banner.png)
+
+This repository organizes a QSAR/QSPR-style biodegradation prediction study as a reusable scientific evaluation framework. The current implementation uses a descriptor-based biodegradation dataset, compares multiple machine learning models, evaluates chemistry-informed feature engineering, and emphasizes reliability metrics such as calibration, uncertainty separation, selective prediction, and cross-environment generalization.
 
 Repository URL: [zmanna/polymer-degradation-pathway-prediction](https://github.com/zmanna/polymer-degradation-pathway-prediction)
+
+## Quickstart
+
+```sh
+git clone https://github.com/zmanna/polymer-degradation-pathway-prediction.git
+cd polymer-degradation-pathway-prediction
+source ./activate-project.sh
+python -m pip install -e .
+python scripts/generate_all_results.py
+```
+
+## Key Findings
+
+- Random Forest with the top-ranked feature set achieved the strongest final reliability profile in the current scoreboard.
+- Calibration, uncertainty separation, selective prediction, and cross-environment behavior changed the interpretation of model quality beyond accuracy alone.
+- Chemistry-informed proxy features and feature selection were scientifically useful because their value could be evaluated through reliability metrics rather than a single headline score.
+- The feedforward neural-network baseline was informative as a nonlinear complexity check, but model complexity alone did not supersede the strongest classical baseline on this descriptor-only dataset.
+
+## Research Workflow
+
+![PolyDegradeML research workflow](figures/paper/figure_1_research_workflow.png)
+
+## Result Highlights
+
+| Feature Importance | Calibration | Reliability Scoreboard |
+| --- | --- | --- |
+| ![Top feature importance](figures/paper/figure_2_feature_importance.png) | ![Calibration curve](figures/paper/figure_3_calibration_curve.png) | ![Reliability scoreboard](figures/paper/figure_4_reliability_scoreboard.png) |
+
+The curated paper-facing figure set lives in `figures/paper/`. The canonical generated plots remain grouped by analysis workflow under `figures/`.
 
 ## Research Question
 
@@ -26,8 +57,9 @@ The project is framed around model trustworthiness rather than raw accuracy alon
 │   ├── tables/                      # Generated CSV result tables
 │   ├── predictions/                 # Prediction-level outputs
 │   └── metadata/                    # Generated JSON metrics/config artifacts
-├── figures/                         # Generated paper/presentation figures
+├── figures/                         # Generated figures plus curated branding/paper views
 ├── reports/                         # Human-readable analysis summaries
+├── source_materials/                # Original weekly reports and reading reports
 ├── presentation/                    # Slide deck and slide assets
 ├── notebooks/exploratory/           # Non-canonical exploratory notebooks
 ├── docs/uml/                        # UML-style architecture diagrams
@@ -108,8 +140,9 @@ The project uses deterministic random seeds in the main model workflows, usually
 - `results/tables/`: model comparison tables, cross-validation results, feature selection outputs, uncertainty metrics, and the final reliability scoreboard.
 - `results/predictions/`: prediction-level uncertainty and selective prediction outputs.
 - `results/metadata/`: JSON metadata and machine-readable run summaries.
-- `figures/`: generated plots for cross-environment validation, feature engineering, feature importance, uncertainty, calibration, and final model selection.
-- `reports/`: human-readable summaries suitable for a case-study writeup or manuscript draft.
+- `figures/`: generated plots for cross-environment validation, feature engineering, feature importance, uncertainty, calibration, final model selection, and curated paper-facing copies.
+- `reports/`: human-readable summaries suitable for a research writeup or manuscript draft.
+- `source_materials/`: preserved applied-work and outside-reading reports used as research provenance for the literature review and scientific interpretation.
 
 The most important final output is:
 
@@ -184,7 +217,7 @@ The tests check dataset loading, curation, model workflow outputs, feature engin
 
 ## Developer Notes
 
-This repository was reorganized from an earlier course-style project layout into a research-oriented layout. The old public interface used names such as `firstdataset`, `week10_features.py`, `run_week12_uncertainty_analysis.py`, and root-level files such as `WEEK9_VALIDATION_SUMMARY.txt`. Those names were replaced with scientific workflow names so the repository reads as a reusable biodegradation machine learning framework and QSAR/QSPR case study rather than a weekly assignment archive.
+This repository was reorganized from an earlier course-style project layout into a research-oriented layout. The old public interface used names such as `firstdataset`, `week10_features.py`, `run_week12_uncertainty_analysis.py`, and root-level files such as `WEEK9_VALIDATION_SUMMARY.txt`. Those names were replaced with scientific workflow names so the repository reads as a reusable biodegradation machine learning framework and QSAR/QSPR evaluation study rather than a weekly assignment archive.
 
 The reorganization was intentionally scoped as Phase 1:
 

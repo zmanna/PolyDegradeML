@@ -1,6 +1,6 @@
 # biodegradation_ml_framework
 
-Reusable Python package for the Biodegradation ML Framework.
+Reusable Python package for PolyDegradeML.
 
 Main modules:
 

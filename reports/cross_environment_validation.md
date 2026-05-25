@@ -31,10 +31,10 @@ Proxy environments were defined by running stratified k-means clustering with 3 
 
 ## Charts
 - figures/cross_environment/mean_scores.png
-![mean_scores](figures/cross_environment/mean_scores.png)
+![mean_scores](../figures/cross_environment/mean_scores.png)
 
 - figures/cross_environment/rb_recall_heatmap.png
-![rb_recall_heatmap](figures/cross_environment/rb_recall_heatmap.png)
+![rb_recall_heatmap](../figures/cross_environment/rb_recall_heatmap.png)
 
 
 ## Interpretation
