@@ -5,6 +5,11 @@ __pycache__/
 **/__pycache__/
 *.pyc
 ~$*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.log
 
 # Local generated examples
 synthetic_regression_example.csv
