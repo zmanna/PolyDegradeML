@@ -4,7 +4,7 @@ message: "If you use this repository, please cite it using this metadata."
 type: software
 authors:
   - name: "PolyDegradeML contributors"
-repository-code: "https://github.com/zmanna/polymer-degradation-pathway-prediction"
+repository-code: "https://github.com/zmanna/PolyDegradeML"
 abstract: "Reliability-centered machine learning framework for QSAR biodegradation prediction using descriptor-based features, calibration, uncertainty analysis, and cross-environment validation."
 keywords:
   - biodegradation

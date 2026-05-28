@@ -6,13 +6,13 @@ Reliability-aware machine learning for polymer biodegradation prediction from de
 
 This repository organizes a QSAR/QSPR-style biodegradation prediction study as a reusable scientific evaluation framework. The current implementation uses a descriptor-based biodegradation dataset, compares multiple machine learning models, evaluates chemistry-informed feature engineering, and emphasizes reliability metrics such as calibration, uncertainty separation, selective prediction, and cross-environment generalization.
 
-Repository URL: [zmanna/polymer-degradation-pathway-prediction](https://github.com/zmanna/polymer-degradation-pathway-prediction)
+Repository URL: [zmanna/PolyDegradeML](https://github.com/zmanna/PolyDegradeML)
 
 ## Quickstart
 
 ```sh
-git clone https://github.com/zmanna/polymer-degradation-pathway-prediction.git
-cd polymer-degradation-pathway-prediction
+git clone https://github.com/zmanna/PolyDegradeML.git
+cd PolyDegradeML
 source ./activate-project.sh
 python -m pip install -e .
 python scripts/generate_all_results.py
