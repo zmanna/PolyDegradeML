@@ -1,0 +1,39 @@
+{
+  "dataset_name": "homopolymer_bigsmiles_tg_benchmark",
+  "dataset_type": "polymer_structure_property_benchmark",
+  "created_at_utc": "2026-05-28T21:13:56.707245+00:00",
+  "source_article": "Choi et al. (2024), Automated BigSMILES conversion workflow and dataset for homopolymeric macromolecules",
+  "source_article_doi": "10.1038/s41597-024-03212-4",
+  "figshare_collection_doi": "10.6084/m9.figshare.c.6858337.v1",
+  "figshare_with_tg_article_id": "24219958",
+  "figshare_with_tg_doi": "10.6084/m9.figshare.24219958.v1",
+  "download_url": "https://ndownloader.figshare.com/files/42507037",
+  "raw_zip_path": "datasets/homopolymer_bigsmiles_tg_benchmark/raw/with_Tg.zip",
+  "raw_files": [
+    "datasets/homopolymer_bigsmiles_tg_benchmark/raw/with_Tg/Bicerano_bigsmiles.csv",
+    "datasets/homopolymer_bigsmiles_tg_benchmark/raw/with_Tg/JCIM_sup_bigsmiles.csv"
+  ],
+  "curated_path": "datasets/homopolymer_bigsmiles_tg_benchmark/processed/homopolymer_bigsmiles_tg_curated.csv",
+  "row_count": 966,
+  "source_counts": {
+    "Bicerano_bigsmiles": 304,
+    "JCIM_sup_bigsmiles": 662
+  },
+  "missing_values": {
+    "polymer_name": 662,
+    "smiles": 0,
+    "bigsmiles": 0,
+    "tg_value": 0
+  },
+  "representation_status": {
+    "smiles_available": true,
+    "bigsmiles_available": true,
+    "polymer_identity_available": true,
+    "repeat_unit_available": true,
+    "biodegradation_labels_available": false,
+    "degradation_rates_available": false,
+    "glass_transition_temperature_available": true
+  },
+  "scientific_use": "Use as a polymer representation and Tg property benchmark. Do not use as biodegradation evidence.",
+  "license_status": "Scientific Data article is CC BY 4.0; verify Figshare file terms before redistribution."
+}

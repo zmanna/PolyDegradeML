@@ -1,0 +1,967 @@
+sample_id,source_file,source_subset,polymer_name,smiles,bigsmiles,tg_value,tg_unit,tg_source_type
+homopolymer_bigsmiles_00001,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[oxy(diethylsilylene)],*O[Si](*)(CC)CC,{<O[Si](CC)(CC)>},130,K,experimental
+homopolymer_bigsmiles_00002,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(dimethyl siloxane),*O[Si](*)(C)C,{<O[Si](C)(C)>},152,K,experimental
+homopolymer_bigsmiles_00003,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(cis-1,4-butadiene)",*C/C=C\C*,{$C/C=C\C$},171,K,experimental
+homopolymer_bigsmiles_00004,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(dimethylsilylenemethylene),*C[Si](*)(C)C,{<C[Si](C)(C)>},173,K,experimental
+homopolymer_bigsmiles_00005,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[oxy(methylphenylsilylene)],*O[Si](*)(C)c1ccccc1,{<O[Si](c1ccccc1)(C)>},187,K,experimental
+homopolymer_bigsmiles_00006,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-hexoxypropylene oxide),*CC(COCCCCCC)O*,"{<CC(COCCCCCC)O>,<C(COCCCCCC)CO>}",188,K,experimental
+homopolymer_bigsmiles_00007,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyoxytetramethylene,*CCCCO*,{<CCCCO>},190,K,experimental
+homopolymer_bigsmiles_00008,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(1,1-dimethylsilazane)",*N[Si](*)(C)C,{<N[Si](C)(C)>},191,K,experimental
+homopolymer_bigsmiles_00009,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2-n-butyl-1,4-butadiene)",*CC=C(C*)CCCC,{$CC=C(CCCC)C$},192,K,experimental
+homopolymer_bigsmiles_00010,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl n-octyl ether),*CC(*)OCCCCCCCC,{$CC(OCCCCCCCC)$},194,K,experimental
+homopolymer_bigsmiles_00011,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-butoxypropylene oxide),*CC(COCCCC)O*,"{<CC(COCCCC)O>,<C(COCCCC)CO>}",194,K,experimental
+homopolymer_bigsmiles_00012,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyethylene,*CC*,{$CC$},195,K,experimental
+homopolymer_bigsmiles_00013,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyoxytrimethylene,*CCCO*,{<CCCO>},195,K,experimental
+homopolymer_bigsmiles_00014,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2-n-propyl-1,4-butadiene)",*CC=C(C*)CCC,{$CC=C(CCC)C$},196,K,experimental
+homopolymer_bigsmiles_00015,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl n-decyl ether),*CC(*)OCCCCCCCCCC,{$CC(OCCCCCCCCCC)$},197,K,experimental
+homopolymer_bigsmiles_00016,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2-ethyl-1,4-butadiene)",*CC=C(C*)CC,{$CC=C(CC)C$},197,K,experimental
+homopolymer_bigsmiles_00017,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[oxy(methyl ¥ã-trifluoropropylsilylene)],*O[Si](*)(C)CCC(F)(F)F,{<O[Si](CCC(F)(F)F)(C)>},199,K,experimental
+homopolymer_bigsmiles_00018,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyisobutylene,*CC(*)(C)C,{$CC(C)(C)$},199,K,experimental
+homopolymer_bigsmiles_00019,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(dimethylsilylenetrimethylene),*CCC[Si](*)(C)C,{<CCC[Si](C)(C)>},203,K,experimental
+homopolymer_bigsmiles_00020,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyoxyoctamethylene,*CCCCCCCCO*,{<CCCCCCCCO>},203,K,experimental
+homopolymer_bigsmiles_00021,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyoxyhexamethylene,*CCCCCCO*,{<CCCCCCO>},204,K,experimental
+homopolymer_bigsmiles_00022,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(tetramethylene adipate),*OCCCCOC(=O)CCCCC(*)=O,"{<C(=O)CCCCC(=O)<,>OCCCCO>}",205,K,experimental
+homopolymer_bigsmiles_00023,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyoxyethylene,*CCO*,{<CCO>},206,K,experimental
+homopolymer_bigsmiles_00024,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(propylene oxide),*CC(C)O*,"{<CC(C)O>,<C(C)CO>}",206,K,experimental
+homopolymer_bigsmiles_00025,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl n-pentyl ether),*CC(*)OCCCCC,{$CC(OCCCCC)$},207,K,experimental
+homopolymer_bigsmiles_00026,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl 2-ethylhexyl ether),*CC(*)OCC(CC)CCCC,{$CC(OCC(CC)CCCC)$},207,K,experimental
+homopolymer_bigsmiles_00027,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-octyl acrylate),*CC(*)C(=O)OCCCCCCCC,{$CC(C(=O)OCCCCCCCC)$},208,K,experimental
+homopolymer_bigsmiles_00028,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl n-hexyl ether),*CC(*)OCCCCCC,{$CC(OCCCCCC)$},209,K,experimental
+homopolymer_bigsmiles_00029,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-methoxypropylene oxide),*CC(COC)O*,"{<CC(COC)O>,<C(COC)CO>}",211,K,experimental
+homopolymer_bigsmiles_00030,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-heptyl acrylate),*CC(*)C(=O)OCCCCCCC,{$CC(C(=O)OCCCCCCC)$},213,K,experimental
+homopolymer_bigsmiles_00031,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(¥å-caprolactone),*OCCCCCC(*)=O,{<OCCCCCC(=O)>},213,K,experimental
+homopolymer_bigsmiles_00032,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-nonyl acrylate),*CC(*)C(=O)OCCCCCCCCC,{$CC(C(=O)OCCCCCCCCC)$},215,K,experimental
+homopolymer_bigsmiles_00033,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-hexyl acrylate),*CC(*)C(=O)OCCCCCC,{$CC(C(=O)OCCCCCC)$},216,K,experimental
+homopolymer_bigsmiles_00034,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(decamethylene adipate),*OCCCCCCCCCCOC(=O)CCCCC(*)=O,"{<C(=O)CCCCC(=O)<,>OCCCCCCCCCCO>}",217,K,experimental
+homopolymer_bigsmiles_00035,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyoxymethylene,*CO*,{<CO>},218,K,experimental
+homopolymer_bigsmiles_00036,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-dodecyl methacrylate),*CC(*)(C)C(=O)OCCCCCCCCCCCC,{$CC(C(=O)OCCCCCCCCCCCC)(C)$},218,K,experimental
+homopolymer_bigsmiles_00037,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-butyl acrylate),*CC(*)C(=O)OCCCC,{$CC(C(=O)OCCCC)$},219,K,experimental
+homopolymer_bigsmiles_00038,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(1-heptene),*CC(*)CCCC,{$CC(CCCCC)$},220,K,experimental
+homopolymer_bigsmiles_00039,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(oxycarbonyl-3- methylpentamethylene),*OCCC(C)CCC(*)=O,{<OCCC(C)CCC(=O)>},220,K,experimental
+homopolymer_bigsmiles_00040,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl n-butyl ether),*CC(*)OCCCC,{$CC(OCCCC)$},221,K,experimental
+homopolymer_bigsmiles_00041,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2-isopropyl-1,4-butadiene)",*CC=C(C*)C(C)C,{$CC=C(C(C)C)C$},221,K,experimental
+homopolymer_bigsmiles_00042,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(l-hexene),*CC(*)CCCC,{$CC(CCCC)$},223,K,experimental
+homopolymer_bigsmiles_00043,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(l-pentene),*CC(*)CCC,{$CC(CCC)$},223,K,experimental
+homopolymer_bigsmiles_00044,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polychloroprene,*CC=C(Cl)C*,{$CC=C(Cl)C$},225,K,experimental
+homopolymer_bigsmiles_00045,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(propylene sulfide),*CC(C)S*,{<CC(C)S>},226,K,experimental
+homopolymer_bigsmiles_00046,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(1-butene),*CC(*)CC,{$CC(CC)$},228,K,experimental
+homopolymer_bigsmiles_00047,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene azelate),*OCCOC(=O)CCCCCCCC(*)=O,"{<C(=O)CCCCCCCC(=O)<,>OCCO>}",228,K,experimental
+homopolymer_bigsmiles_00048,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-octyl acrylate),*CC(*)C(=O)OC(C)CCCCCC,{$CC(C(=O)OC(C)CCCCCC)$},228,K,experimental
+homopolymer_bigsmiles_00049,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-propyl acrylate),*CC(*)C(=O)OCCC,{$CC(C(=O)OCCC)$},229,K,experimental
+homopolymer_bigsmiles_00050,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polypropylene,*CC(*)C,{$CC(C)$},233,K,experimental
+homopolymer_bigsmiles_00051,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinylidene fluoride),*CC(*)(F)F,{$CC(F)(F)$},233,K,experimental
+homopolymer_bigsmiles_00052,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene adipate),*OCCOC(=O)CCCCC(*)=O,"{<C(=O)CCCCC(=O)<,>OCCO>}",233,K,experimental
+homopolymer_bigsmiles_00053,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-heptyl acrylate),*CC(*)C(=O)OC(C)CCCCC,{$CC(C(=O)OC(C)CCCCC)$},235,K,experimental
+homopolymer_bigsmiles_00054,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(6-methyl-1-heptene),*CC(*)CCCC(C)C,{$CC(CCCC(C)C)$},239,K,experimental
+homopolymer_bigsmiles_00055,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxycarbonyl-1,5- dimethylpentamethylene)",*OC(C)CCCC(C)C(*)=O,{<OC(C)CCCC(C)C(=O)>},240,K,experimental
+homopolymer_bigsmiles_00056,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2-bromo-1,4-butadiene)",*CC=C(Br)C*,{$CC=C(Br)C$},241,K,experimental
+homopolymer_bigsmiles_00057,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene sebacate),*OCCOC(=O)CCCCCCCCC(*)=O,"{<C(=O)CCCCCCCCC(=O)<,>OCCO>}",243,K,experimental
+homopolymer_bigsmiles_00058,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[(methyl)phenylsilylenetrimethylene],*CCC[Si](*)(C)c1ccccc1,{<CCC[Si](c1ccccc1)(C)>},243,K,experimental
+homopolymer_bigsmiles_00059,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(isobutyl acrylate),*CC(*)C(=O)OCC(C)C,{$CC(C(=O)OCC(C)C)$},249,K,experimental
+homopolymer_bigsmiles_00060,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl isobutyl ether),*CC(*)OCC(C)C,{$CC(OCC(C)C)$},251,K,experimental
+homopolymer_bigsmiles_00061,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethyl acrylate),*CC(*)C(=O)OCC,{$CC(C(=O)OCC)$},251,K,experimental
+homopolymer_bigsmiles_00062,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-octyl methacrylate),*CC(*)(C)C(=O)OCCCCCCCC,{$CC(C(=O)OCCCCCCCC)(C)$},253,K,experimental
+homopolymer_bigsmiles_00063,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl sec-butyl ether),*CC(*)OC(C)CC,{$CC(OC(C)CC)$},253,K,experimental
+homopolymer_bigsmiles_00064,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(sec-butyl acrylate),*CC(*)C(=O)OC(C)CC,{$CC(C(=O)OC(C)CC)$},253,K,experimental
+homopolymer_bigsmiles_00065,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl ethyl ether),*CC(*)OCC,{$CC(OCC)$},254,K,experimental
+homopolymer_bigsmiles_00066,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Perfluoropolymer,*c1nc(C(F)(F)F)nc(C(F)(OC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)OC(*)(F)C(F)(F)F)C(F)(F)F)n1,{<c1nc(C)nc(n1)C(F)(C(F)(F)F)OC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)OC(C(F)(F)F)>},255,K,experimental
+homopolymer_bigsmiles_00067,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinylidene chloride),*CC(*)(Cl)Cl,{$CC(Cl)(Cl)$},256,K,experimental
+homopolymer_bigsmiles_00068,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-pentyl acrylate),*CC(*)C(=O)OC(CC)CC,{$CC(C(=O)OC(CC)CC)$},257,K,experimental
+homopolymer_bigsmiles_00069,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(5-methyl-1-hexene),*CC(*)CCC(C)C,{$CC(CCC(C)C)$},259,K,experimental
+homopolymer_bigsmiles_00070,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Perfluoropolymer,*c1nc(C(F)(F)C(F)(F)OC(F)(F)F)nc(C(F)(F)C(F)(F)C(F)(F)C(*)(F)F)n1,{<c1nc(nc(C(F)(F)F)n1)C(C(F)(F)F)OC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)OC(C(F)(F)F)>},260,K,experimental
+homopolymer_bigsmiles_00071,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxy-2,2- dichloromethyltrimethylene)",*CC(CCl)(CCl)CO*,{<CC(CCl)(CCl)CO>},265,K,experimental
+homopolymer_bigsmiles_00072,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[(4-dimethylaminophenyl) methylsilylenetrimethylene],*CCC[Si](*)(C)c1ccc(N(C)C)cc1,{<CCC[Si](c1ccc(N(C)C)cc1)(C)>},267,K,experimental
+homopolymer_bigsmiles_00073,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-hexyl methacrylate),*CC(*)(C)C(=O)OCCCCCC,{$CC(C(=O)OCCCCCC)(C)$},268,K,experimental
+homopolymer_bigsmiles_00074,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(1,2-butadiene)",*CC(*)C=C,{$CC(C=C)$},269,K,experimental
+homopolymer_bigsmiles_00075,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl isopropyl ether),*CC(*)OC(C)C,{$CC(OC(C)C)$},270,K,experimental
+homopolymer_bigsmiles_00076,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene succinate),*OCCOC(=O)CCC(*)=O,"{<C(=O)CCC(=O)<,>OCCO>}",272,K,experimental
+homopolymer_bigsmiles_00077,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl methyl sulfide),*CC(*)SC,{$CC(SC)$},272,K,experimental
+homopolymer_bigsmiles_00078,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxydiphenylsilylene oxydimethylsilylene-1,4- phenylenedimethylsilylene)",*O[Si](O[Si](C)(C)c1ccc([Si](*)(C)C)cc1)(c1ccccc1)c1ccccc1,{<O[Si](c1ccccc1)(c1ccccc1)O[Si](C)(C)c1ccc(cc1)[Si](C)(C)>},273,K,experimental
+homopolymer_bigsmiles_00079,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl butyrate),*CC(*)OC(=O)CCC,{$CC(OC(=O)CCC)$},278,K,experimental
+homopolymer_bigsmiles_00080,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-n-hexoxymethyl styrene),*CC(*)c1ccc(COCCCCCC)cc1,{$CC(c1ccc(COCCCCCC)cc1)$},278,K,experimental
+homopolymer_bigsmiles_00081,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-n-butyl styrene),*CC(*)c1ccc(CCCC)cc1,{$CC(c1ccc(CCCC)cc1)$},279,K,experimental
+homopolymer_bigsmiles_00082,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(methyl acrylate),*CC(*)C(=O)OC,{$CC(C(=O)OC)$},281,K,experimental
+homopolymer_bigsmiles_00083,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl propionate),*CC(*)OC(=O)CC,{$CC(OC(=O)CC)$},283,K,experimental
+homopolymer_bigsmiles_00084,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-ethylbutyl methacrylate),*CC(*)(C)C(=O)OCC(CC)CC,{$CC(C(=O)OCC(CC)CC)(C)$},284,K,experimental
+homopolymer_bigsmiles_00085,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-n-octoxy styrene),*CC(*)c1ccccc1OCCCCCCCC,{$CC(c1ccccc1OCCCCCCCC)$},286,K,experimental
+homopolymer_bigsmiles_00086,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2-t-butyl-1,4-butadiene)",*CC=C(C*)C(C)(C)C,{$CC=C(C(C)(C)C)C$},293,K,experimental
+homopolymer_bigsmiles_00087,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-butyl methacrylate),*CC(*)(C)C(=O)OCCCC,{$CC(C(=O)OCCCC)(C)$},293,K,experimental
+homopolymer_bigsmiles_00088,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-methoxyethyl methacrylate),*CC(*)(C)C(=O)OCCOC,{$CC(C(=O)OCCOC)(C)$},293,K,experimental
+homopolymer_bigsmiles_00089,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-n-propoxymethyl styrene),*CC(*)c1ccc(COCCC)cc1,{$CC(c1ccc(COCCC)cc1)$},295,K,experimental
+homopolymer_bigsmiles_00090,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethyl-p-xylylene),*Cc1ccc(C*)c(CC)c1,{$Cc1ccc(c(CC)c1)C$},298,K,experimental
+homopolymer_bigsmiles_00091,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(3,3,3-trifuoropropylene)",*CC(*)C(F)(F)F,{$CC(C(F)(F)F)$},300,K,experimental
+homopolymer_bigsmiles_00092,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl acetate),*CC(*)OC(C)=O,{$CC(OC(C)=O)$},301,K,experimental
+homopolymer_bigsmiles_00093,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(4-methyl-1-pentene),*CC(*)CC(C)C,{$CC(CC(C)C)$},302,K,experimental
+homopolymer_bigsmiles_00094,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl formate),*CC(*)OC=O,{$CC(OC=O)$},304,K,experimental
+homopolymer_bigsmiles_00095,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl chloroacetate),*CC(*)OC(=O)CCl,{$CC(OC(=O)CCl)$},304,K,experimental
+homopolymer_bigsmiles_00096,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(neopentyl methacrylate),*CC(*)(C)C(=O)OCC(C)(C)C,{$CC(C(=O)OCC(C)(C)C)(C)$},306,K,experimental
+homopolymer_bigsmiles_00097,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-propyl methacrylate),*CC(*)(C)C(=O)OCCC,{$CC(C(=O)OCCC)(C)$},308,K,experimental
+homopolymer_bigsmiles_00098,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(12-aminododecanoic acid),*NCCCCCCCCCCCC(*)=O,{<NCCCCCCCCCCCC(=O)>},310,K,experimental
+homopolymer_bigsmiles_00099,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[di(p-tolyl)silylenetrimethylene],*CCC[Si](*)(c1ccc(C)cc1)c1ccc(C)cc1,{<CCC[Si](c1ccc(C)cc1)(c1ccc(C)cc1)>},311,K,experimental
+homopolymer_bigsmiles_00100,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(hexamethylene sebacamide),*NCCCCCCNC(=O)CCCCCCCCC(*)=O,"{<C(=O)CCCCCCCCC(=O)<,>NCCCCCCN>}",313,K,experimental
+homopolymer_bigsmiles_00101,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(4-cyclohexyl-1-butene),*CC(*)CCC1CCCCC1,{$CC(CCC1CCCCC1)$},313,K,experimental
+homopolymer_bigsmiles_00102,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[(pentafluoroethyl)ethylene],*CC(*)C(F)(F)C(F)(F)F,{$CC(C(F)(F)C(F)(F)F)$},314,K,experimental
+homopolymer_bigsmiles_00103,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(11-aminoundecanoic acid),*NCCCCCCCCCCC(*)=O,{<NCCCCCCCCCCC(=O)>},315,K,experimental
+homopolymer_bigsmiles_00104,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(t-butyl acrylate),*CC(*)C(=O)OC(C)(C)C,{$CC(C(=O)OC(C)(C)C)$},315,K,experimental
+homopolymer_bigsmiles_00105,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-phenoxypropylene oxide),*CC(COc1ccccc1)O*,"{<CC(COc1ccccc1)O>,<C(COc1ccccc1)CO>}",315,K,experimental
+homopolymer_bigsmiles_00106,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,3,3,3-tetrafluoropropylene)",*CC(*)(F)C(F)(F)F,{$CC(C(F)(F)F)(F)$},315,K,experimental
+homopolymer_bigsmiles_00107,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(10-aminodecanoic acid),*NCCCCCCCCCC(*)=O,{<NCCCCCCCCCC(=O)>},316,K,experimental
+homopolymer_bigsmiles_00108,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[oxy(m-phenylene)],*Oc1cccc(*)c1,{<Oc1cccc(c1)>},318,K,experimental
+homopolymer_bigsmiles_00109,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(3,3-dimethylbutyl methacrylate)",*CC(*)(C)C(=O)OCCC(C)(C)C,{$CC(C(=O)OCCC(C)(C)C)(C)$},318,K,experimental
+homopolymer_bigsmiles_00110,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(decamethylene sebacamide),*NCCCCCCCCCCNC(=O)CCCCCCCCC(*)=O,"{<C(=O)CCCCCCCCC(=O)<,>NCCCCCCCCCCN>}",319,K,experimental
+homopolymer_bigsmiles_00111,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-butyl acrylamide),*CC(*)C(=O)NCCCC,{$CC(C(=O)NCCCC)$},319,K,experimental
+homopolymer_bigsmiles_00112,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl trifluoroacetate),*CC(*)OC(=O)C(F)(F)F,{$CC(OC(=O)C(F)(F)F)$},319,K,experimental
+homopolymer_bigsmiles_00113,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-n-butoxy styrene),*CC(*)c1ccc(OCCCC)cc1,{$CC(c1ccc(OCCCC)cc1)$},320,K,experimental
+homopolymer_bigsmiles_00114,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(isobutyl methacrylate),*CC(*)(C)C(=O)OCC(C)C,{$CC(C(=O)OCC(C)C)(C)$},321,K,experimental
+homopolymer_bigsmiles_00115,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-methyl-1-butene),*CC(*)C(C)C,{$CC(C(C)C)$},323,K,experimental
+homopolymer_bigsmiles_00116,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(9-aminononanoic acid),*NCCCCCCCCC(*)=O,{<NCCCCCCCCC(=O)>},324,K,experimental
+homopolymer_bigsmiles_00117,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(8-aminocaprylic acid),*NCCCCCCCC(*)=O,{<NCCCCCCCC(=O)>},324,K,experimental
+homopolymer_bigsmiles_00118,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl butyral),*CC1CC(*)OC(CCC)O1,{<CC1CC(OC(CCC)O1)>},324,K,experimental
+homopolymer_bigsmiles_00119,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene isophthalate),*OCCOC(=O)c1cccc(C(*)=O)c1,"{<C(=O)c1cccc(c1)C(=O)<,>OCCO>}",324,K,experimental
+homopolymer_bigsmiles_00120,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethyl methacrylate),*CC(*)(C)C(=O)OCC,{$CC(C(=O)OCC)(C)$},324,K,experimental
+homopolymer_bigsmiles_00121,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[(4-dimethylaminophenyl) phenylsilylenetrimethylene)],*CCC[Si](*)(c1ccccc1)c1ccc(N(C)C)cc1,{<CCC[Si](c1ccc(N(C)C)cc1)(c1ccccc1)>},325,K,experimental
+homopolymer_bigsmiles_00122,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(isopropyl methacrylate),*CC(*)(C)C(=O)OC(C)C,{$CC(C(=O)OC(C)C)(C)$},327,K,experimental
+homopolymer_bigsmiles_00123,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(methyl-p-xylylene),*Cc1ccc(C*)c(C)c1,{$Cc1ccc(c(C)c1)C$},328,K,experimental
+homopolymer_bigsmiles_00124,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl isobutylral),*CC(*)C(=O)C(C)C,{<CC1CC(OC(C(C)C)O1)>},329,K,experimental
+homopolymer_bigsmiles_00125,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-butyl ¥á-chloroacrylate),*CC(*)(Cl)C(=O)OCCCC,{$CC(C(=O)OCCCC)(Cl)$},330,K,experimental
+homopolymer_bigsmiles_00126,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(7-aminoheptanoic acid),*NCCCCCCC(*)=O,{<NCCCCCCC(=O)>},330,K,experimental
+homopolymer_bigsmiles_00127,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(sec-butyl methacrylate),*CC(*)(C)C(=O)OC(C)CC,{$CC(C(=O)OC(C)CC)(C)$},330,K,experimental
+homopolymer_bigsmiles_00128,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(hexamethylene adipamide),*NCCCCCCNC(=O)CCCCC(*)=O,"{<C(=O)CCCCC(=O)<,>NCCCCCCN>}",330,K,experimental
+homopolymer_bigsmiles_00129,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-isopentoxy styrene),*CC(*)c1ccc(OCCC(C)C)cc1,{$CC(c1ccc(OCCC(C)C)cc1)$},330,K,experimental
+homopolymer_bigsmiles_00130,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[(heptafluoropropyl)ethylene],*CC(*)C(F)(F)C(F)(F)C(F)(F)F,{$CC(C(F)(F)C(F)(F)C(F)(F)F)$},331,K,experimental
+homopolymer_bigsmiles_00131,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxydiphenylsilylene-1,3- phenylene)",*O[Si](c1ccccc1)(c1ccccc1)c1cccc(*)c1,{<O[Si](c1ccccc1)(c1ccccc1)c1cccc(c1)>},331,K,experimental
+homopolymer_bigsmiles_00132,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-xylylene),*Cc1ccc(C*)cc1,{<Cc1ccc(cc1)C>},333,K,experimental
+homopolymer_bigsmiles_00133,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-cyclopentyl-1-propene),*CC(*)CC1CCCC1,{$CC(CC1CCCC1)$},333,K,experimental
+homopolymer_bigsmiles_00134,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-phenyl-1-propene),*CC(*)Cc1ccccc1,{$CC(Cc1ccccc1)$},333,K,experimental
+homopolymer_bigsmiles_00135,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(¥å-caprolactam),*NCCCCCC(*)=O,{<NCCCCCC(=O)>},335,K,experimental
+homopolymer_bigsmiles_00136,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(ethylene-1,4- naphthalenedicarboxylate)",*OCCOC(=O)c1ccc(C(*)=O)c2ccccc12,"{<C(=O)c1ccc(c2ccccc12)C(=O)<,>OCCO>}",337,K,experimental
+homopolymer_bigsmiles_00137,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-n-propoxy styrene),*CC(*)c1ccc(OCCC)cc1,{$CC(c1ccc(OCCC)cc1)$},343,K,experimental
+homopolymer_bigsmiles_00138,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(n-propyl ¥á-chloroacrylate),*CC(*)(Cl)C(=O)OCCC,{$CC(C(=O)OCCC)(Cl)$},344,K,experimental
+homopolymer_bigsmiles_00139,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(ethylene-1,5- naphthalenedicarboxylate)",*OCCOC(=O)c1cccc2c(C(*)=O)cccc12,"{<C(=O)c1cccc2c(cccc12)C(=O)<,>OCCO>}",344,K,experimental
+homopolymer_bigsmiles_00140,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene terephthalate),*OCCOC(=O)c1ccc(C(*)=O)cc1,"{<C(=O)c1ccc(cc1)C(=O)<,>OCCO>}",345,K,experimental
+homopolymer_bigsmiles_00141,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(sec-butyl ¥á-chloroacrylate),*CC(*)(Cl)C(=O)OC(C)CC,{$CC(C(=O)OC(C)CC)(Cl)$},347,K,experimental
+homopolymer_bigsmiles_00142,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl chloride),*CC(*)Cl,{$CC(Cl)$},348,K,experimental
+homopolymer_bigsmiles_00143,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-cyclohexyl-1-propene),*CC(*)CC1CCCCC1,{$CC(CC1CCCCC1)$},348,K,experimental
+homopolymer_bigsmiles_00144,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl cyclopentane) ,*CC(*)C1CCCC1,{$CC(C1CCCC1)$},348,K,experimental
+homopolymer_bigsmiles_00145,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-hydroxypropyl methacrylate),*CC(*)(C)C(=O)OCC(C)O,{$CC(C(=O)OCC(C)O)(C)$},349,K,experimental
+homopolymer_bigsmiles_00146,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-methoxymethyl styrene),*CC(*)c1ccc(COC)cc1,{$CC(c1ccc(COC)cc1)$},350,K,experimental
+homopolymer_bigsmiles_00147,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(chloro-p-xylylene),*Cc1ccc(C*)c(Cl)c1,{$Cc1ccc(c(Cl)c1)C$},353,K,experimental
+homopolymer_bigsmiles_00148,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(bromo-p-xylylene),*Cc1ccc(C*)c(Br)c1,{$Cc1ccc(c(Br)c1)C$},353,K,experimental
+homopolymer_bigsmiles_00149,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethylene oxybenzoate),*CCOC(=O)c1ccc(O*)cc1,{<CCOC(=O)c1ccc(cc1)O>},355,K,experimental
+homopolymer_bigsmiles_00150,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl alcohol),*CC(*)O,{$CC(O)$},358,K,experimental
+homopolymer_bigsmiles_00151,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[oxy(p-phenylene)],*Oc1ccc(*)cc1,{<Oc1ccc(cc1)>},358,K,experimental
+homopolymer_bigsmiles_00152,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-sec-butyl styrene),*CC(*)c1ccc(C(C)CC)cc1,{$CC(c1ccc(C(C)CC)cc1)$},359,K,experimental
+homopolymer_bigsmiles_00153,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-ethoxy styrene),*CC(*)c1ccc(OCC)cc1,{$CC(c1ccc(OCC)cc1)$},359,K,experimental
+homopolymer_bigsmiles_00154,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-hydroxyethyl methacrylate),*CC(*)(C)C(=O)OCCO,{$CC(C(=O)OCCO)(C)$},359,K,experimental
+homopolymer_bigsmiles_00155,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[thio(p-phenylene)],*Sc1ccc(*)cc1,{<Sc1ccc(cc1)>},360,K,experimental
+homopolymer_bigsmiles_00156,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-isopropyl styrene),*CC(*)c1ccc(C(C)C)cc1,{$CC(c1ccc(C(C)C)cc1)$},360,K,experimental
+homopolymer_bigsmiles_00157,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-methyl-5-t-butyl styrene),*CC(*)c1cc(C(C)(C)C)ccc1C,{$CC(c1cc(C(C)(C)C)ccc1C)$},360,K,experimental
+homopolymer_bigsmiles_00158,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-methoxy styrene),*CC(*)c1ccc(OC)cc1,{$CC(c1ccc(OC)cc1)$},362,K,experimental
+homopolymer_bigsmiles_00159,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(isopropyl ¥á-chloroacrylate),*CC(*)(Cl)C(=O)OC(C)C,{$CC(C(=O)OC(C)C)(Cl)$},363,K,experimental
+homopolymer_bigsmiles_00160,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(4-methoxy-2-methyl styrene),*CC(*)c1ccc(OC)cc1C,{$CC(c1ccc(OC)cc1C)$},363,K,experimental
+homopolymer_bigsmiles_00161,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl cyclohexane),*CC(*)C1CCCCC1,{$CC(C1CCCCC1)$},363,K,experimental
+homopolymer_bigsmiles_00162,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(cyano-p-xylylene),*Cc1ccc(C*)c(C#N)c1,{$Cc1ccc(c(C#N)c1)C$},363,K,experimental
+homopolymer_bigsmiles_00163,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(¥á,¥á,¥á',¥á'-tetratluoro-p-xylylene)",*c1ccc(C(F)(F)C(*)(F)F)cc1,"{<c1ccc(cc1)<,>C(F)(F)C(F)(F)>}",363,K,experimental
+homopolymer_bigsmiles_00164,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(m-xylylene adipamide),*NCc1cccc(CNC(=O)CCCCC(*)=O)c1,{<NCc1cccc(c1)CNC(=O)CCCCC(=O)>},363,K,experimental
+homopolymer_bigsmiles_00165,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(m-chloro styrene),*CC(*)c1cccc(Cl)c1,{$CC(c1cccc(Cl)c1)$},363,K,experimental
+homopolymer_bigsmiles_00166,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-chloroethyl methacrylate),*CC(*)(C)C(=O)OCCCl,{$CC(C(=O)OCCCl)(C)$},365,K,experimental
+homopolymer_bigsmiles_00167,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(ethyl ¥á-chloroacrylate),*CC(*)(Cl)C(=O)OCC,{$CC(C(=O)OCC)(Cl)$},366,K,experimental
+homopolymer_bigsmiles_00168,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(cyclohexylmethylsilane),*[Si](*)(C)C1CCCCC1,{$[Si](C1CCCCC1)(C)$},366,K,experimental
+homopolymer_bigsmiles_00169,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(1,4-cyclohexylidene dimethylene terephthalate)",*OCC1CCC(COC(=O)c2ccc(C(*)=O)cc2)CC1,"{<C(=O)c2ccc(cc2)C(=O)<,>OCC1CCC(CC1)CO>}",368,K,experimental
+homopolymer_bigsmiles_00170,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(m-methyl styrene),*CC(*)c1cccc(C)c1,{$CC(c1cccc(C)c1)$},370,K,experimental
+homopolymer_bigsmiles_00171,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,5-dimethyl-p-xylylene)",*Cc1cc(C)c(C*)cc1C,{<Cc1cc(C)c(cc1C)C>},373,K,experimental
+homopolymer_bigsmiles_00172,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polychlorotrifluoroethylene,*C(F)(F)C(*)(F)Cl,{$C(F)(F)C(Cl)(F)$},373,K,experimental
+homopolymer_bigsmiles_00173,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polystyrene,*CC(*)c1ccccc1,{$CC(c1ccccc1)$},373,K,experimental
+homopolymer_bigsmiles_00174,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-methyl styrene),*CC(*)c1ccc(C)cc1,{$CC(c1ccc(C)cc1)$},374,K,experimental
+homopolymer_bigsmiles_00175,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,5-difluoro styrene)",*CC(*)c1cc(F)ccc1F,{$CC(c1cc(F)ccc1F)$},374,K,experimental
+homopolymer_bigsmiles_00176,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-ethyl styrene),*CC(*)c1ccccc1CC,{$CC(c1ccccc1CC)$},376,K,experimental
+homopolymer_bigsmiles_00177,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(3,5-dimethyl styrene)",*CC(*)c1cc(C)cc(C)c1,{$CC(c1cc(C)cc(C)c1)$},377,K,experimental
+homopolymer_bigsmiles_00178,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(cyclohexyl methacrylate),*CC(*)(C)C(=O)OC1CCCCC1,{$CC(C(=O)OC1CCCCC1)(C)$},377,K,experimental
+homopolymer_bigsmiles_00179,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-vinyl pyridine),*CC(*)c1ccccn1,{$CC(c1ccccn1)$},377,K,experimental
+homopolymer_bigsmiles_00180,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(methyl methacrylate),*CC(*)(C)C(=O)OC,{$CC(C(=O)OC)(C)$},378,K,experimental
+homopolymer_bigsmiles_00181,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyacrylonitrile,*CC(*)C#N,{$CC(C#N)$},378,K,experimental
+homopolymer_bigsmiles_00182,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(vinyl formal),*CC1CC(*)OCO1,{<CC1CC(OCO1)>},378,K,experimental
+homopolymer_bigsmiles_00183,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-fluoro styrene),*CC(*)c1ccccc1F,{$CC(c1ccccc1F)$},378,K,experimental
+homopolymer_bigsmiles_00184,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,3,4,5,6-pentafluoro styrene)",*CC(*)c1c(F)c(F)c(F)c(F)c1F,{$CC(c1c(F)c(F)c(F)c(F)c1F)$},378,K,experimental
+homopolymer_bigsmiles_00185,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(acrylic acid),*CC(*)C(=O)O,{$CC(C(=O)O)$},379,K,experimental
+homopolymer_bigsmiles_00186,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-fluoro styrere),*CC(*)c1ccc(F)cc1,{$CC(c1ccc(F)cc1)$},379,K,experimental
+homopolymer_bigsmiles_00187,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(t-butyl methacrylate),*CC(*)(C)C(=O)OC(C)(C)C,{$CC(C(=O)OC(C)(C)C)(C)$},380,K,experimental
+homopolymer_bigsmiles_00188,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(3,4-dimethyl styrene)",*CC(*)c1ccc(C)c(C)c1,{$CC(c1ccc(C)c(C)c1)$},384,K,experimental
+homopolymer_bigsmiles_00189,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-fluoro-5-methyl styrene),*CC(*)c1cc(C)ccc1F,{$CC(c1cc(C)ccc1F)$},384,K,experimental
+homopolymer_bigsmiles_00190,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,4 dimethyl styrene)",*CC(*)c1ccc(Cl)cc1Cl,{$CC(c1ccc(C)cc1C)$},385,K,experimental
+homopolymer_bigsmiles_00191,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-methoxycarbonyl styrene),*CC(*)c1ccc(C(=O)OC)cc1,{$CC(c1ccc(C(=O)OC)cc1)$},386,K,experimental
+homopolymer_bigsmiles_00192,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-methyl-4-chloro styrene),*CC(*)c1ccc(Cl)c(C)c1,{$CC(c1ccc(Cl)c(C)c1)$},387,K,experimental
+homopolymer_bigsmiles_00193,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(cyclohexyl ¥á-chloroacrylate),*CC(*)(Cl)C(=O)OC1CCCCC1,{$CC(C(=O)OC1CCCCC1)(Cl)$},387,K,experimental
+homopolymer_bigsmiles_00194,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-xylylene sebacamide),*NCc1ccc(CNC(=O)CCCCCCCCC(*)=O)cc1,"{<C(=O)CCCCCCCCC(=O)<,>NCc1ccc(cc1)CN>}",388,K,experimental
+homopolymer_bigsmiles_00195,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[thio bis(4-phenyl)carbonate],*Oc1ccc(Sc2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)Sc2ccc(cc2)O<,>C(=O)>}",388,K,experimental
+homopolymer_bigsmiles_00196,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-chloro styrene),*CC(*)c1ccc(Cl)cc1,{$CC(c1ccc(Cl)cc1)$},389,K,experimental
+homopolymer_bigsmiles_00197,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Perfluoropolymer,*C(F)(F)C1(F)C(F)(F)C(*)(F)C(F)(F)C1(F)F,{<c1nc(C(F)(F)C(F)(F)OC(F)(F)F)nc(n1)C(F)(F)C(F)(F)C(F)(F)C(F)(F)>},390,K,experimental
+homopolymer_bigsmiles_00198,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(phenylmethylsilane),*[Si](*)(C)c1ccccc1,{$[Si](c1ccccc1)(C)$},390,K,experimental
+homopolymer_bigsmiles_00199,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-chloro styrene),*CC(*)c1ccccc1Cl,{$CC(c1ccccc1Cl)$},392,K,experimental
+homopolymer_bigsmiles_00200,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-butane bis (4-(2-methylphenyl)) carbonate]",*Oc1ccc(C(C)(CC)c2ccc(OC(*)=O)cc2C)c(C)c1,"{<Oc1ccc(cc1C)C(C)(CC)c2ccc(c(C)c2)O<,>C(=O)>}",392,K,experimental
+homopolymer_bigsmiles_00201,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,5-dichloro styrene)",*CC(*)c1cc(Cl)ccc1Cl,{$CC(c1cc(Cl)ccc1Cl)$},393,K,experimental
+homopolymer_bigsmiles_00202,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(phenyl methacrylate),*CC(*)(C)C(=O)Oc1ccccc1,{$CC(C(=O)Oc1ccccc1)(C)$},393,K,experimental
+homopolymer_bigsmiles_00203,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polymethacrylonitrile,*CC(*)(C)C#N,{$CC(C#N)(C)$},393,K,experimental
+homopolymer_bigsmiles_00204,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(¥á-p-dimethyl styrene),*CC(*)(C)c1ccc(C)cc1,{$CC(c1ccc(C)cc1)(C)$},394,K,experimental
+homopolymer_bigsmiles_00205,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(3-fluoro-4-chloro styrene),*CC(*)c1ccc(Cl)c(F)c1,{$CC(c1ccc(Cl)c(F)c1)$},395,K,experimental
+homopolymer_bigsmiles_00206,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-butane bis(4- phenyl)carbonate]",*Oc1ccc(C(CCC)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(CCC)c2ccc(cc2)O<,>C(=O)>}",396,K,experimental
+homopolymer_bigsmiles_00207,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(ethylene-2,6- naphthalenedicarboxylate)",*OCCOC(=O)c1ccc2cc(C(*)=O)ccc2c1,"{<C(=O)c1ccc2cc(ccc2c1)C(=O)<,>OCCO>}",397,K,experimental
+homopolymer_bigsmiles_00208,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(m-hydroxymethyl styrene),*CC(*)c1cccc(CO)c1,{$CC(c1cccc(CO)c1)$},398,K,experimental
+homopolymer_bigsmiles_00209,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(3,4-dichlorostyrene)",*CC(*)c1ccc(Cl)c(Cl)c1,{$CC(c1ccc(Cl)c(Cl)c1)$},401,K,experimental
+homopolymer_bigsmiles_00210,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*Oc1ccc(Oc2ccc(Oc3ccc4c(c3)C(=O)N(CCCCCCN3C(=O)c5ccc(*)cc5C3=O)C4=O)cc2)cc1,{<CCN1C(=O)c2ccc(cc2C1=O)Oc3ccc(cc3)Oc4ccc(cc4)Oc5ccc6c(c5)C(=O)N(C6=O)>},410,K,experimental
+homopolymer_bigsmiles_00211,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-butyl styrene),*CC(*)c1ccc(C(C)(C)C)cc1,{$CC(c1ccc(CCCC)cc1)$},402,K,experimental
+homopolymer_bigsmiles_00212,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(hexamethylene isophthalamide),*NCCCCCCNC(=O)c1cccc(C(*)=O)c1,"{<C(=O)c1cccc(c1)C(=O)<,>NCCCCCCN>}",403,K,experimental
+homopolymer_bigsmiles_00213,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-ethane bis(4- phenyl)carbonate]",*Oc1ccc(C(C)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(C)c2ccc(cc2)O<,>C(=O)>}",403,K,experimental
+homopolymer_bigsmiles_00214,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,4-dichloro styrene)",*CC(*)c1ccc(C)cc1C,{$CC(c1ccc(Cl)cc1Cl)$},406,K,experimental
+homopolymer_bigsmiles_00215,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2 butane bis(4- phenyl)carbonate]",*Oc1ccc(C(C)(CC)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(C)(CC)c2ccc(cc2)O<,>C(=O)>}",407,K,experimental
+homopolymer_bigsmiles_00216,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-methyl styrene),*CC(*)c1ccccc1C,{$CC(c1ccccc1C)$},409,K,experimental
+homopolymer_bigsmiles_00217,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(¥á-methyl styrene),*CC(*)(C)c1ccccc1,{$CC(c1ccccc1)(C)$},409,K,experimental
+homopolymer_bigsmiles_00218,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-pentane bis(4- phenyl)carbonate]",*Oc1ccc(C(C)(CCC)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(C)(CCC)c2ccc(cc2)O<,>C(=O)>}",410,K,experimental
+homopolymer_bigsmiles_00219,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(m-phenylene isophthalate),*Oc1cccc(OC(=O)c2cccc(C(*)=O)c2)c1,"{<C(=O)c2cccc(c2)C(=O)<,>Nc1cccc(c1)N>}",411,K,experimental
+homopolymer_bigsmiles_00220,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-phenyl styrene),*CC(*)c1ccc(-c2ccccc2)cc1,{$CC(c1ccc(c2ccccc2)cc1)$},411,K,experimental
+homopolymer_bigsmiles_00221,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxycarbonyloxy-2-chloro-1,4- phenyleneisopropylidene-2-methyl-1,4- phenylene)",*Oc1ccc(C(C)(C)c2ccc(OC(*)=O)cc2)cc1Cl,"{<Oc1ccc(cc1C)C(C)(C)c2ccc(c(Cl)c2)O<,>C(=O)>}",411,K,experimental
+homopolymer_bigsmiles_00222,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-hydroxymethyl styrene),*CC(*)c1ccc(CO)cc1,{$CC(c1ccc(CO)cc1)$},413,K,experimental
+homopolymer_bigsmiles_00223,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-vinyl pyridine),*CC(*)c1ccncc1,{$CC(c1ccncc1)$},415,K,experimental
+homopolymer_bigsmiles_00224,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-butane bis{4-(2- chlorophenyl)} carbonate]",*OC(=O)Oc1ccc(C(C)(CC)c2ccc(*)cc2Cl)c(Cl)c1,{<OC(=O)Oc1ccc(c(Cl)c1)C(C)(CC)c2ccc(cc2Cl)>},415,K,experimental
+homopolymer_bigsmiles_00225,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(2,5-dimethyl styrene)",*CC(*)c1cc(C)ccc1C,{$CC(c1cc(C)ccc1C)$},416,K,experimental
+homopolymer_bigsmiles_00226,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-bromo styrene),*CC(*)c1ccc(Br)cc1,{$CC(c1ccc(Br)cc1)$},417,K,experimental
+homopolymer_bigsmiles_00227,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(2-methyl-4-chloro styrene),*CC(*)c1ccc(Cl)cc1C,{$CC(c1ccc(Cl)cc1C)$},418,K,experimental
+homopolymer_bigsmiles_00228,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(N-vinyl pyrrolidone),*CC(*)N1CCCC1=O,{$CC(N1CCCC1=O)$},418,K,experimental
+homopolymer_bigsmiles_00229,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxycarbonyloxy-2-chloro-1,4- phenyleneisopropylidene-1,4- phenylene)",*Oc1c(Cl)cc(C(C)(C)c2ccc(OC(*)=O)cc2)cc1Cl,"{<Oc1ccc(cc1Cl)C(C)(C)c2ccc(cc2)O<,>C(=O)>}",419,K,experimental
+homopolymer_bigsmiles_00230,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-propane bis{4-(2- chlorophenyl)}carbonate]",*OC(=O)Oc1ccc(C(C)(C)c2ccc(*)cc2Cl)c(Cl)c1,"{<Oc1ccc(cc1Cl)C(C)(C)c2ccc(c(Cl)c2)O<,>C(=O)>}",419,K,experimental
+homopolymer_bigsmiles_00231,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxy-1,4-phenylene-oxy-1,4- phenylene-carbonyl-1,4-phenylene)",*Oc1ccc(Oc2ccc(C(=O)c3ccc(*)cc3)cc2)cc1,"{<c2ccc(cc2)C(=O)c3ccc(cc3)<,>Oc1ccc(cc1)O>}",419,K,experimental
+homopolymer_bigsmiles_00232,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[methane bis(4-phenyl)carbonate],*Oc1ccc(Cc2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)Cc2ccc(cc2)O<,>C(=O)>}",420,K,experimental
+homopolymer_bigsmiles_00233,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-hydroxybenzoate),*Oc1ccc(C(*)=O)cc1,{<Oc1ccc(cc1)C(=O)>},420,K,experimental
+homopolymer_bigsmiles_00234,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[4,4-heptane bis(4- phenyl)carbonate]",*Oc1ccc(C(CCC)(CCC)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(CCC)(CCC)c2ccc(cc2)O<,>C(=O)>}",421,K,experimental
+homopolymer_bigsmiles_00235,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-(2-methyl propane) bis(4- phenyl)carbonate]",*Oc1ccc(C(c2ccc(OC(*)=O)cc2)C(C)C)cc1,"{<Oc1ccc(cc1)C(C(C)C)c2ccc(cc2)O<,>C(=O)>}",422,K,experimental
+homopolymer_bigsmiles_00236,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Bisphenol-A polycarbonate,*Oc1ccc(C(C)(C)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(C)(C)c2ccc(cc2)O<,>C(=O)>}",423,K,experimental
+homopolymer_bigsmiles_00237,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(N-vinyl carbazole),*CC(*)n1c2ccccc2c2ccccc21,{$CC(n1c2ccccc2c2ccccc21)$},423,K,experimental
+homopolymer_bigsmiles_00238,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(¥â-vinyl naphthalene),*CC(*)c1ccc2ccccc2c1,{$CC(c1ccc2ccccc2c1)$},424,K,experimental
+homopolymer_bigsmiles_00239,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyhexafluoropropylene,*C(F)(F)C(*)(F)C(F)(F)F,{$C(F)(F)C(C(F)(F)F)(F)$},425,K,experimental
+homopolymer_bigsmiles_00240,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-dichloroethylene bis(4- phenyl)carbonate]",*OC(=O)Oc1ccc(C(=C(Cl)Cl)c2ccc(*)cc2)cc1,{<OC(=O)Oc1ccc(cc1)C(=C(Cl)Cl)c2ccc(cc2)>},430,K,experimental
+homopolymer_bigsmiles_00241,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(¥á-vinyl naphthalene),*CC(*)c1cccc2ccccc12,{$CC(c1cccc2ccccc12)$},432,K,experimental
+homopolymer_bigsmiles_00242,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(o-hydroxymethyl styrene),*CC(*)c1ccccc1CO,{$CC(c1ccccc1CO)$},433,K,experimental
+homopolymer_bigsmiles_00243,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(methyl ¥á-cyanoacrylate),*CC(*)(C#N)C(=O)OC,{$CC(C(=O)OC)(C#N)$},433,K,experimental
+homopolymer_bigsmiles_00244,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-cyclopentane bis(4- phenyl)carbonate]",*Oc1ccc(C2(c3ccc(OC(*)=O)cc3)CCCC2)cc1,"{<Oc1ccc(cc1)C2(CCCC2)c3ccc(cc3)O<,>C(=O)>}",440,K,experimental
+homopolymer_bigsmiles_00245,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxyterephthaloyloxy-2-methyl-1,4-phenyleneisopropylidene-3-methyl-1,4-phenylene)",*Oc1ccc(C(C)(C)c2ccc(OC(=O)c3ccc(C(*)=O)cc3)c(C)c2)cc1C,"{<C(=O)c1ccc(cc1)C(=O)<,>Oc2ccc(cc2C)C(C)(C)c3ccc(c(C)c3)O>}",444,K,experimental
+homopolymer_bigsmiles_00246,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-cyclohexane bis(4- phenyl)carbonate]",*Oc1ccc(C2(c3ccc(OC(*)=O)cc3)CCCCC2)cc1,"{<Oc1ccc(cc1)C2(CCCCC2)c3ccc(cc3)O<,>C(=O)>}",444,K,experimental
+homopolymer_bigsmiles_00247,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-hexafluoropropane bis(4- phenyl)carbonate]",*Oc1ccc(C(c2ccc(OC(*)=O)cc2)(C(F)(F)F)C(F)(F)F)cc1,"{<Oc1ccc(cc1)C(C(F)(F)F)(C(F)(F)F)c2ccc(cc2)O<,>C(=O)>}",449,K,experimental
+homopolymer_bigsmiles_00248,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[1,1-(1-phenylethane) bis(4- phenyl)carbonate]",*Oc1ccc(C(C)(c2ccccc2)c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)C(C)(c2ccccc2)c2ccc(cc2)O<,>C(=O)>}",449,K,experimental
+homopolymer_bigsmiles_00249,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-(1,3-dichloro-1,1,3,3- tetrafluoro)propane bis(4- phenyl)carbonate]",*Oc1ccc(C(c2ccc(OC(*)=O)cc2)(C(F)(F)Cl)C(F)(F)Cl)cc1,"{<Oc1ccc(cc1)C(C(F)(F)Cl)(C(F)(F)Cl)c2ccc(cc2)O<,>C(=O)>}",457,K,experimental
+homopolymer_bigsmiles_00250,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[4,4'-isopropylidene diphenoxy di(4-phenylene) sulfone]",*Oc1ccc(C(C)(C)c2ccc(Oc3ccc(S(=O)(=O)c4ccc(*)cc4)cc3)cc2)cc1,"{<Oc3ccc(cc3)C(C)(C)c4ccc(cc4)O<,>c1ccc(cc1)S(=O)(=O)c2ccc(cc2)>}",458,K,experimental
+homopolymer_bigsmiles_00251,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxycarbonyloxy-2,6-dichloro-1,4- phenyleneisopropylidene-1,4- phenylene)",*CCC(C)CCC(=O)O*,"{<Oc1ccc(cc1)C(C)(C)c2cc(Cl)c(c(Cl)c2)O<,>C(=O)>}",459,K,experimental
+homopolymer_bigsmiles_00252,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(perfluorostyrene),*C(F)(F)C(*)(F)c1c(F)c(F)c(F)c(F)c1F,{$C(F)(F)C(c1c(F)c(F)c(F)c(F)c1F)(F)$},467,K,experimental
+homopolymer_bigsmiles_00253,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-propane bis(4-(2,6- dimethylphenyl)} carbonate]",*Oc1cc(C)c(C(C)(C)c2c(C)cc(OC(*)=O)cc2C)c(C)c1,"{<Oc1cc(C)c(c(C)c1)C(C)(C)c2c(C)cc(cc2C)O<,>C(=O)>}",473,K,experimental
+homopolymer_bigsmiles_00254,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1cccc(C(=O)c2cccc(N3C(=O)c4ccc(Oc5ccc(Sc6ccc(Oc7ccc8c(c7)C(=O)N(*)C8=O)cc6)cc5)cc4C3=O)c2)c1,"{<c1cccc(c1)C(=O)c2cccc(c2)<,>N3C(=O)c4ccc(cc4C3=O)Oc5ccc(cc5)Sc6ccc(cc6)Oc7ccc8c(c7)C(=O)N(C8=O)>}",473,K,experimental
+homopolymer_bigsmiles_00255,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(¥á,¥â,¥â-trifluoro styrene)",*C(F)(F)C(*)(F)c1ccccc1,{$C(F)(F)C(c1ccccc1)(F)$},475,K,experimental
+homopolymer_bigsmiles_00256,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(bisphenol-A terephthalate),*Oc1ccc(C(C)(C)c2ccc(OC(=O)c3ccc(C(*)=O)cc3)cc2)cc1,"{<C(=O)c1ccc(cc1)C(=O)<,>Oc2ccc(cc2)C(C)(C)c3ccc(cc3)O>}",478,K,experimental
+homopolymer_bigsmiles_00257,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[oxy(2,6-dimethyl-1,4-phenylene)]",*Oc1c(C)cc(*)cc1C,{<Oc1c(C)cc(cc1C)>},482,K,experimental
+homopolymer_bigsmiles_00258,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1cccc(N2C(=O)c3ccc(Oc4ccc(Sc5ccc(Oc6ccc7c(c6)C(=O)N(*)C7=O)cc5)cc4)cc3C2=O)c1,"{<c3cccc(c3)<,>N5C(=O)c6ccc(cc6C5=O)Oc1ccc(cc1)Sc2ccc(cc2)Oc3ccc4c(c3)C(=O)N(C4=O)>}",482,K,experimental
+homopolymer_bigsmiles_00259,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1ccc(C(=O)c2ccccc2N2C(=O)c3ccc(Oc4ccc(Sc5ccc(Oc6ccc7c(c6)C(=O)N(*)C7=O)cc5)cc4)cc3C2=O)cc1,"{<c1ccc(cc1)C(=O)c2ccccc2<,>N2C(=O)c3ccc(cc3C2=O)Oc4ccc(cc4)Sc5ccc(cc5)Oc6ccc7c(c6)C(=O)N(C7=O)>}",485,K,experimental
+homopolymer_bigsmiles_00260,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1ccc(C(=O)c2cccc(N3C(=O)c4ccc(Oc5ccc(Sc6ccc(Oc7ccc8c(c7)C(=O)N(*)C8=O)cc6)cc5)cc4C3=O)c2)cc1,"{<c1ccc(cc1)C(=O)c2cccc(c2)<,>N3C(=O)c4ccc(cc4C3=O)Oc5ccc(cc5)Sc6ccc(cc6)Oc7ccc8c(c7)C(=O)N(C8=O)>}",486,K,experimental
+homopolymer_bigsmiles_00261,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[oxy(2,6-diphenyl-1,4-phenylene)]",*Oc1c(-c2ccccc2)cc(*)cc1-c1ccccc1,{<Oc1c(c2ccccc2)cc(cc1c1ccccc1)>},493,K,experimental
+homopolymer_bigsmiles_00262,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[4,4'-diphenoxy di(4- phenylene)sulfone]",*Oc1ccc(-c2ccc(Oc3ccc(S(=O)(=O)c4ccc(*)cc4)cc3)cc2)cc1,"{<Oc2ccc(cc2)S(=O)(=O)c3ccc(cc3)O<,>c1ccc(cc1)>}",493,K,experimental
+homopolymer_bigsmiles_00263,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[4,4'-sulfone diphenoxy di(4- phenylene)sulfone]",*Oc1ccc(S(=O)(=O)c2ccc(Oc3ccc(S(=O)(=O)c4ccc(*)cc4)cc3)cc2)cc1,"{<Oc1ccc(cc1)S(=O)(=O)c2ccc(cc2)O<,>c3ccc(cc3)S(=O)(=O)c4ccc(cc4)>}",493,K,experimental
+homopolymer_bigsmiles_00264,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Ultem,*c1cccc(N2C(=O)c3ccc(Oc4ccc(C(C)(C)c5ccc(Oc6ccc7c(c6)C(=O)N(*)C7=O)cc5)cc4)cc3C2=O)c1,"{<c3cccc(c3)<,>N5C(=O)c6ccc(cc6C5=O)Oc1ccc(cc1)C(C)(C)c2ccc(cc2)Oc3ccc4c(c3)C(=O)N(C4=O)>}",493,K,experimental
+homopolymer_bigsmiles_00265,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1ccc(C(=O)c2ccc(N3C(=O)c4ccc(Oc5ccc(Sc6ccc(Oc7ccc8c(c7)C(=O)N(*)C8=O)cc6)cc5)cc4C3=O)cc2)cc1,"{<c1ccc(cc1)C(=O)c2ccc(cc2)<,>N3C(=O)c4ccc(cc4C3=O)Oc5ccc(cc5)Sc6ccc(cc6)Oc7ccc8c(c7)C(=O)N(C8=O)>}",494,K,experimental
+homopolymer_bigsmiles_00266,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[N,N'-(m,m'-oxydiphenylene-oxy-m-phenylene) pyromellitimide]",*Oc1cccc(Oc2cccc(-n3c(=O)c4cc5c(=O)n(-c6cccc(*)c6)c(=O)c5cc4c3=O)c2)c1,{<Oc1cccc(c1)Oc2cccc(c2)n3c(=O)c4cc5c(=O)n(c(=O)c5cc4c3=O)c6cccc(c6)>},494,K,experimental
+homopolymer_bigsmiles_00267,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(oxyterephthaloyloxy-2,6- dimethyl-1,4-phenyleneisopropylidene-3,5-dimethyl-1,4- phenylene)",*Oc1c(C)cc(C(C)(C)c2cc(C)c(OC(=O)c3ccc(C(*)=O)cc3)c(C)c2)cc1C,"{<C(=O)c3ccc(cc3)C(=O)<,>Oc1c(C)cc(cc1C)C(C)(C)c2cc(C)c(c(C)c2)O>}",498,K,experimental
+homopolymer_bigsmiles_00268,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1cccc(N2C(=O)c3ccc(Oc4ccc(Oc5ccc(Oc6ccc7c(c6)C(=O)N(*)C7=O)cc5)cc4)cc3C2=O)c1,"{<c3cccc(c3)<,>N5C(=O)c6ccc(cc6C5=O)Oc1ccc(cc1)Oc2ccc(cc2)Oc3ccc4c(c3)C(=O)N(C4=O)>}",500,K,experimental
+homopolymer_bigsmiles_00269,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-propane bis{4-(2,6- dichlorophenyl)} carbonate]",*Oc1c(Cl)cc(C(C)(C)c2cc(Cl)c(OC(*)=O)c(Cl)c2)cc1Cl,"{<Oc1c(Cl)cc(cc1Cl)C(C)(C)c2cc(Cl)c(c(Cl)c2)O<,>C(=O)>}",503,K,experimental
+homopolymer_bigsmiles_00270,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polycarbonate,*Oc1ccc(C2(c3ccc(OC(*)=O)cc3)CC3CCC2C3)cc1,"{<Oc1ccc(cc1)C2(CC3CCC2C3)c3ccc(cc3)O<,>C(=O)>}",505,K,experimental
+homopolymer_bigsmiles_00271,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*Oc1ccc(C(=O)c2ccc(Oc3ccc4c(c3)C(=O)N(c3cccc(N5C(=O)c6ccc(*)cc6C5=O)c3)C4=O)cc2)cc1,{<Oc1ccc(cc1)C(=O)c2ccc(cc2)Oc3ccc4c(c3)C(=O)N(C4=O)c3cccc(c3)N5C(=O)c6ccc(cc6C5=O)>},512,K,experimental
+homopolymer_bigsmiles_00272,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyimide,*c1cccc(C(=O)c2cccc(N3C(=O)c4ccc(C(=O)c5ccc6c(c5)C(=O)N(*)C6=O)cc4C3=O)c2)c1,{<c1cccc(c1)C(=O)c2cccc(c2)N3C(=O)c4ccc(cc4C3=O)C(=O)c5ccc6c(c5)C(=O)N(C6=O)>},513,K,experimental
+homopolymer_bigsmiles_00273,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polycarbonate,*Oc1ccc(C2(c3ccc(OC(*)=O)cc3)CC3CC2C2CCCC32)cc1,"{<Oc1ccc(cc1)C2(CC3CC2C2CCCC32)c3ccc(cc3)O<,>C(=O)>}",520,K,experimental
+homopolymer_bigsmiles_00274,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1cccc(N2C(=O)c3ccc(Oc4ccc(-c5ccc(Oc6ccc7c(c6)C(=O)N(*)C7=O)cc5)cc4)cc3C2=O)c1,"{<c3cccc(c3)<,>N5C(=O)c6ccc(cc6C5=O)Oc1ccc(cc1)c2ccc(cc2)Oc3ccc4c(c3)C(=O)N(C4=O)>}",520,K,experimental
+homopolymer_bigsmiles_00275,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[2,2-propane bis{4-(2,6- dibromophenyl)} carbonate]",*Oc1c(Br)cc(C(C)(C)c2cc(Br)c(OC(*)=O)c(Br)c2)cc1Br,"{<Oc1c(Br)cc(cc1Br)C(C)(C)c2cc(Br)c(c(Br)c2)O<,>C(=O)>}",523,K,experimental
+homopolymer_bigsmiles_00276,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyimide,*c1cccc(C(=O)c2cccc(N3C(=O)c4ccc(C(c5ccc6c(c5)C(=O)N(*)C6=O)(C(F)(F)F)C(F)(F)F)cc4C3=O)c2)c1,"{<c1cccc(c1)C(=O)c2cccc(c2)<,>N3C(=O)c4ccc(cc4C3=O)C(C(F)(F)F)(C(F)(F)F)c5ccc6c(c5)C(=O)N(C6=O)>}",533,K,experimental
+homopolymer_bigsmiles_00277,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(Oc2ccc(-c3cc(-c4ccccc4)c4cc(Oc5ccc6nc(*)cc(-c7ccccc7)c6c5)ccc4n3)cc2)cc1,{<c1ccc(cc1)Oc2ccc(cc2)c3cc(c4ccccc4)c4cc(ccc4n3)Oc5ccc6nc(cc(c7ccccc7)c6c5)>},539,K,experimental
+homopolymer_bigsmiles_00278,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1cccc(-c2cc(-c3ccc(Oc4ccc(-c5cc(*)nc6ccccc56)cc4)cc3)c3ccccc3n2)c1,"{<c1cccc(c1)<,>c2cc(c3ccccc3n2)c3ccc(cc3)Oc4ccc(cc4)c5cc(nc6ccccc56)>}",541,K,experimental
+homopolymer_bigsmiles_00279,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1cccc(-c2nc3ccccc3c(-c3ccc(Oc4ccc(-c5c(-c6ccccc6)c(*)nc6ccccc56)cc4)cc3)c2-c2ccccc2)c1,"{<c1cccc(c1)<,>c2nc3ccccc3c(c2c2ccccc2)c3ccc(cc3)Oc4ccc(cc4)c5c(c6ccccc6)c(nc6ccccc56)>}",546,K,experimental
+homopolymer_bigsmiles_00280,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly[o-biphenylenemethane bis(4- phenyl)carbonate],*Oc1ccc(-c2ccccc2Cc2ccccc2-c2ccc(OC(*)=O)cc2)cc1,"{<Oc1ccc(cc1)c2ccccc2Cc2ccccc2c2ccc(cc2)O<,>C(=O)>}",548,K,experimental
+homopolymer_bigsmiles_00281,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyimide,*c1ccc(C(=O)c2cccc(N3C(=O)c4ccc(C(c5ccc6c(c5)C(=O)N(*)C6=O)(C(F)(F)F)C(F)(F)F)cc4C3=O)c2)cc1,"{<c1ccc(cc1)C(=O)c2cccc(c2)<,>N3C(=O)c4ccc(cc4C3=O)C(C(F)(F)F)(C(F)(F)F)c5ccc6c(c5)C(=O)N(C6=O)>}",561,K,experimental
+homopolymer_bigsmiles_00282,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyimide,*c1ccc(C(=O)c2ccccc2N2C(=O)c3ccc(C(c4ccc5c(c4)C(=O)N(*)C5=O)(C(F)(F)F)C(F)(F)F)cc3C2=O)cc1,"{<c1ccc(cc1)C(=O)c2ccccc2<,>N2C(=O)c3ccc(cc3C2=O)C(C(F)(F)F)(C(F)(F)F)c4ccc5c(c4)C(=O)N(C5=O)>}",562,K,experimental
+homopolymer_bigsmiles_00283,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(-c2cc(-c3ccccc3)c3cc(Oc4ccc5nc(*)cc(-c6ccccc6)c5c4)ccc3n2)cc1,{<c1ccc(cc1)c2cc(c3ccccc3)c3cc(ccc3n2)Oc4ccc5nc(cc(c6ccccc6)c5c4)>},573,K,experimental
+homopolymer_bigsmiles_00284,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(quinoxaline-2,7-diylquinoxaline-7,2-diyl-p-terphenyl-4,4'-ylene)",*c1ccc(-c2ccc(-c3ccc(-c4cnc5ccc(-c6ccc7ncc(*)nc7c6)cc5n4)cc3)cc2)cc1,{<c1ccc(cc1)c2ccc(cc2)c3ccc(cc3)c4cnc5ccc(cc5n4)c6ccc7ncc(nc7c6)>},578,K,experimental
+homopolymer_bigsmiles_00285,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(quinoxaline-2, 7- diyloxyquinoxaline-7,2-diyl-1,4- phenylene)",*c1ccc(-c2cnc3ccc(-c4ccc5ncc(*)nc5c4)cc3n2)cc1,{<c1ccc(cc1)c2cnc3ccc(cc3n2)Oc4ccc5ncc(nc5c4)>},578,K,experimental
+homopolymer_bigsmiles_00286,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyphenolphthalein,*Oc1ccc(-c2ccc(OC(=O)c3ccc(C4(c5ccc(C(*)=O)cc5)OC(=O)c5ccccc54)cc3)cc2)cc1,"{<C(=O)c3ccc(cc3)C4(OC(=O)c5ccccc54)c5ccc(cc5)C(=O)<,>Oc1ccc(cc1)c2ccc(cc2)O>}",580,K,experimental
+homopolymer_bigsmiles_00287,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(-c2ccc(-c3cc(-c4ccccc4)c4cc(Oc5ccc6nc(*)cc(-c7ccccc7)c6c5)ccc4n3)cc2)cc1,{<c1ccc(cc1)c2ccc(cc2)c3cc(c4ccccc4)c4cc(ccc4n3)Oc5ccc6nc(cc(c7ccccc7)c6c5)>},581,K,experimental
+homopolymer_bigsmiles_00288,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyphenolphthalein,*Oc1ccc(C2(c3ccc(OC(=O)c4ccc(C5(c6ccc(C(*)=O)cc6)OC(=O)c6ccccc65)cc4)cc3)OC(=O)c3ccccc32)cc1,"{<C(=O)c4ccc(cc4)C5(OC(=O)c6ccccc65)c6ccc(cc6)C(=O)<,>Oc1ccc(cc1)C2(OC(=O)c3ccccc32)c3ccc(cc3)O>}",583,K,experimental
+homopolymer_bigsmiles_00289,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyimide,*c1ccc(C(=O)c2ccc(N3C(=O)c4ccc(C(c5ccc6c(c5)C(=O)N(*)C6=O)(C(F)(F)F)C(F)(F)F)cc4C3=O)cc2)cc1,"{<c1ccc(cc1)C(=O)c2ccc(cc2)<,>N3C(=O)c4ccc(cc4C3=O)C(C(F)(F)F)(C(F)(F)F)c5ccc6c(c5)C(=O)N(C6=O)>}",584,K,experimental
+homopolymer_bigsmiles_00290,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(quinoxaiine-2, 7- diylcarbonylquinoxaline- 7,2-diyl- l ,4- phenylene)",*c1ccc(-c2cnc3ccc(C(=O)c4ccc5ncc(*)nc5c4)cc3n2)cc1,{<c1ccc(cc1)c2cnc3ccc(cc3n2)C(=O)c4ccc5ncc(nc5c4)>},591,K,experimental
+homopolymer_bigsmiles_00291,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyphenolphthalein,*Nc1ccc(Oc2ccc(NC(=O)c3ccc(C4(c5ccc(C(*)=O)cc5)OC(=O)c5ccccc54)cc3)cc2)cc1,"{<C(=O)c3ccc(cc3)C4(OC(=O)c5ccccc54)c5ccc(cc5)C(=O)<,>Nc1ccc(cc1)Oc2ccc(cc2)N>}",593,K,experimental
+homopolymer_bigsmiles_00292,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(Oc2ccc(-c3cc(-c4ccc(Oc5ccc(-c6cc(*)nc7ccccc67)cc5)cc4)c4ccccc4n3)cc2)cc1,"{<c1ccc(cc1)Oc2ccc(cc2)<,>c3cc(c4ccccc4n3)c4ccc(cc4)Oc5ccc(cc5)c6cc(nc7ccccc67)>}",599,K,experimental
+homopolymer_bigsmiles_00293,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Poly(p-phenylene terephthalamide),*Nc1ccc(NC(=O)c2ccc(C(*)=O)cc2)cc1,"{<C(=O)c2ccc(cc2)C(=O)<,>Nc1ccc(cc1)N>}",600,K,experimental
+homopolymer_bigsmiles_00294,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyimide,*c1ccc(N2C(=O)c3ccc(C(=O)c4ccc5c(c4)C(=O)N(*)C5=O)cc3C2=O)cc1,{<c1ccc(cc1)N2C(=O)c3ccc(cc3C2=O)C(=O)c4ccc5c(c4)C(=O)N(C5=O)>},606,K,experimental
+homopolymer_bigsmiles_00295,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(quinoxaline-2,7- diylsulfonylquinoxaline-7,2-diyl-1,4- phenylene)",*c1ccc(-c2cnc3ccc(Oc4ccc5ncc(*)nc5c4)cc3n2)cc1,{<c1ccc(cc1)c2cnc3ccc(cc3n2)S(=O)(=O)c4ccc5ncc(nc5c4)>},615,K,experimental
+homopolymer_bigsmiles_00296,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyetherimide,*c1ccc(N2C(=O)c3ccc(Oc4ccc5c(c4)C(=O)N(*)C5=O)cc3C2=O)cc1,"{<c1ccc(cc1)<,>N2C(=O)c3ccc(cc3C2=O)Oc4ccc5c(c4)C(=O)N(C5=O)>}",615,K,experimental
+homopolymer_bigsmiles_00297,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(-c2nc3ccc(Oc4ccc5nc(*)c(-c6ccccc6)c(-c6ccccc6)c5c4)cc3c(-c3ccccc3)c2-c2ccccc2)cc1,"{<c1ccc(cc1)Oc2ccc(cc2)<,>c3cc(c4ccccc4n3)c4ccc(cc4)Oc5ccc(cc5)c6cc(nc7ccccc67)>}",618,K,experimental
+homopolymer_bigsmiles_00298,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(Oc2ccc(-c3nc4ccccc4c(-c4ccc(Oc5ccc(-c6c(-c7ccccc7)c(*)nc7ccccc67)cc5)cc4)c3-c3ccccc3)cc2)cc1,"{<c1ccc(cc1)<,>c2nc3ccc(cc3c(c3ccccc3)c2c2ccccc2)Oc4ccc5nc(c(c6ccccc6)c(c6ccccc6)c5c4)>}",618,K,experimental
+homopolymer_bigsmiles_00299,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyquinoline,*c1ccc(-c2ccc(-c3nc4ccc(Oc5ccc6nc(*)c(-c7ccccc7)c(-c7ccccc7)c6c5)cc4c(-c4ccccc4)c3-c3ccccc3)cc2)cc1,"{<c1ccc(cc1)<,>c2ccc(cc2)c3nc4ccc(cc4c(c4ccccc4)c3c3ccccc3)Oc5ccc6nc(c(c7ccccc7)c(c7ccccc7)c6c5)>}",624,K,experimental
+homopolymer_bigsmiles_00300,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(quinoxaline-2,7-diylquinoxaline-7,2-diyl-1,4-phenylene)",*c1ccc(-c2cnc3ccc(-c4ccc5ncc(*)nc5c4)cc3n2)cc1,{<c1ccc(cc1)c2cnc3ccc(cc3n2)c4ccc5ncc(nc5c4)>},645,K,experimental
+homopolymer_bigsmiles_00301,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyphenoiphthalein,*Nc1ccc(C2(c3ccc(NC(=O)c4ccc(C5(c6ccc(C(*)=O)cc6)OC(=O)c6ccccc65)cc4)cc3)OC(=O)c3ccccc32)cc1,"{<C(=O)c4ccc(cc4)C5(OC(=O)c6ccccc65)c6ccc(cc6)C(=O)<,>Nc1ccc(cc1)C2(OC(=O)c3ccccc32)c3ccc(cc3)N>}",658,K,experimental
+homopolymer_bigsmiles_00302,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly[N,N'-(p,p'- oxydiphenylene)pyromellitimide]",*Oc1ccc(-n2c(=O)c3cc4c(=O)n(-c5ccc(*)cc5)c(=O)c4cc3c2=O)cc1,{<Oc1ccc(cc1)n2c(=O)c3cc4c(=O)n(c(=O)c4cc3c2=O)c5ccc(cc5)>},672,K,experimental
+homopolymer_bigsmiles_00303,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,Polyphenolphthalein,*C(=O)Nc1ccc(C2(c3ccc(NC(=O)c4ccc(C5(c6ccc(*)cc6)OC(=O)c6ccccc65)cc4)cc3)NC(=O)c3ccccc32)cc1,{<NC(=O)Nc1ccc(cc1)C2(NC(=O)c3ccccc32)c3ccc(cc3)NC(=O)>},673,K,experimental
+homopolymer_bigsmiles_00304,Bicerano_bigsmiles.csv,Bicerano_bigsmiles,"Poly(N,N'-(p,p'-carbonyldiphenylene) pyrornellitimide]",*C(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(-c5ccc(*)cc5)c(=O)c4cc3c2=O)cc1,{<C(=O)c1ccc(cc1)n2c(=O)c3cc4c(=O)n(c(=O)c4cc3c2=O)c5ccc(cc5)>},685,K,experimental
+homopolymer_bigsmiles_00305,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1COC2C1OCC2Oc1ccc(cc1)CNC(=O)CCCCCCC(=O)NCc1ccc(cc1)O*,{<Oc1ccc(cc1)CNC(=O)CCCCCCC(=O)NCc2ccc(cc2)OC3COC4C(COC34)>},21.58173134,C,machine_derived
+homopolymer_bigsmiles_00306,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(CCC(OC(=O)Nc1ccc(cc1)Cc1ccc(cc1)NC(=O)*)C)C,{<OC(C)CCC(C)OC(=O)Nc1ccc(cc1)Cc2ccc(cc2)NC(=O)>},63.5893379,C,machine_derived
+homopolymer_bigsmiles_00307,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCCCC(=O)NCc1ccc(cc1)CNC(=O)CCC*,{<CCCC(=O)NCc1ccc(cc1)CNC(=O)CCCOC(=O)c2ccc(cc2)C(=O)O>},53.55726117,C,machine_derived
+homopolymer_bigsmiles_00308,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCNC(=O)OCC*,{<CCOC(=O)NCCNC(=O)O>},5.896093021,C,machine_derived
+homopolymer_bigsmiles_00309,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SCCCCC*,{<CCCCCS>},-55.37860961,C,machine_derived
+homopolymer_bigsmiles_00310,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)OC(=O)c1ccc(cc1)OCCCCCC*,{<CCCCCCOc1ccc(cc1)C(=O)OC(=O)c2ccc(cc2)O>},64.73496741,C,machine_derived
+homopolymer_bigsmiles_00311,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1[nH]c(cc1CC(=O)OCCCCCCCC)*,{<c1cc(CC(=O)OCCCCCCCC)c([nH]1)>},-4.076963699,C,machine_derived
+homopolymer_bigsmiles_00312,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(CC(=O)OCCCCCCCCCC)C(=O)OCCCCCCCCCC,{$CC(C(=O)OCCCCCCCCCC)(CC(=O)OCCCCCCCCCC)$},75.04044311,C,machine_derived
+homopolymer_bigsmiles_00313,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OCC1C(C1)C*,{<CC1CC1CO>},-28.98581149,C,machine_derived
+homopolymer_bigsmiles_00314,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)CCCCCCCCCCCCCCCCC(=O)N(CCCCCC*)C)C,{<CCCCCCN(C)C(=O)CCCCCCCCCCCCCCCCC(=O)N(C)>},49.34222836,C,machine_derived
+homopolymer_bigsmiles_00315,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*O[Si](*)(CCC(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C,{<O[Si](CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)(C)>},-68.87734458,C,machine_derived
+homopolymer_bigsmiles_00316,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)c1ccc(cc1)C(=O)CNc1ccc(cc1)NCC(=O)c1ccc(cc1)*,{<c1ccc(cc1)C(=O)CNc2ccc(cc2)NCC(=O)c3ccc(cc3)S(=O)(=O)>},198.9026743,C,machine_derived
+homopolymer_bigsmiles_00317,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)c1ccc(cc1)C(=O)NCCNC(=O)c1ccc(cc1)*,{<c1ccc(cc1)C(=O)NCCNC(=O)c2ccc(cc2)S(=O)(=O)>},205.0712987,C,machine_derived
+homopolymer_bigsmiles_00318,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)C(c2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)*)CCCCC)cc1,{<C(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)C(CCCCC)c3ccc(cc3)N4C(=O)c5ccc(cc5C4=O)>},204.7640603,C,machine_derived
+homopolymer_bigsmiles_00319,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)C(=O)NCCCCCCCCCCNC(=O)CCCCCCCCC(=O)NCCCCCCCCCC*,{<CCCCCCCCCCNC(=O)CCCCCCCCC(=O)NCCCCCCCCCCNC(=O)C(=O)N>},82.2677155,C,machine_derived
+homopolymer_bigsmiles_00320,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCCCCCCCCCCCCCCCCCCCC*,{<CCCCCCCCCCCCCCCCCCCCOC(=O)c1ccc(cc1)C(=O)O>},17.27783213,C,machine_derived
+homopolymer_bigsmiles_00321,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)Oc1ccc(cc1)Cc1ccc(cc1)OC(=O)c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)*,{<Oc1ccc(cc1)C(=O)Oc2ccc(cc2)Cc3ccc(cc3)OC(=O)c4ccc(cc4)OC(=O)c5ccc(cc5)C(=O)>},88.16409459,C,machine_derived
+homopolymer_bigsmiles_00322,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)SSCCCCSSc1ccc(cc1)*,{<Oc1ccc(cc1)SSCCCCSSc2ccc(cc2)>},102.260186,C,machine_derived
+homopolymer_bigsmiles_00323,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)Nc1c(cc(cc1)c1cc(c(cc1)NC(=O)c1ccc(cc1)OCCCCCC*)Cl)Cl,{<CCCCCCOc1ccc(cc1)C(=O)Nc2ccc(cc2Cl)c3ccc(c(Cl)c3)NC(=O)c4ccc(cc4)O>},133.9866306,C,machine_derived
+homopolymer_bigsmiles_00324,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)C=Cc1ccc(cc1)OCCC(CCCC(C)C)C)C=C*)C=Cc1ccc(cc1)OCCC(CCCC(C)C)C,{$C=Cc1cc(C=Cc2ccc(OCCC(C)CCCC(C)C)cc2)c(cc1C=Cc1ccc(OCCC(C)CCCC(C)C)cc1)$},2.868925186,C,machine_derived
+homopolymer_bigsmiles_00325,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)C=C1C(=O)C(=Cc2ccc(cc2)C(=O)CCCCC(=O)*)CC1,{<C(=O)CCCCC(=O)c1ccc(cc1)C=C2CCC(C2=O)=Cc3ccc(cc3)>},197.4539358,C,machine_derived
+homopolymer_bigsmiles_00326,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)CCCCC(=O)SCc1ccc(cc1)c1ccc(cc1)C*,{<Cc1ccc(cc1)c2ccc(cc2)CSC(=O)CCCCC(=O)S>},-14.32353196,C,machine_derived
+homopolymer_bigsmiles_00327,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCNC(=O)N(CC(C(C(OC1OC(C(C(C1O)O)O)CO)C(CO)O)O)O)CCCCCC)C,{$CC(C(=O)OCCNC(=O)N(CCCCCC)CC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO)(C)$},23.2402228,C,machine_derived
+homopolymer_bigsmiles_00328,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1cc(cc(c1)NC(=O)c1ccc(cc1)NC(=O)C(N1C(=O)c2c(C1=O)cccc2)C)C(=O)*,{<Oc1ccc(cc1)OC(=O)c2cc(NC(=O)c3ccc(NC(=O)C(C)N4C(=O)c5ccccc5C4=O)cc3)cc(c2)C(=O)>},58.7319127,C,machine_derived
+homopolymer_bigsmiles_00329,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Nc1ccc(cc1)C(=O)OCC1CCC(CC1)C*,{<CC1CCC(CC1)COC(=O)c2ccc(cc2)NC(=O)O>},148.8519878,C,machine_derived
+homopolymer_bigsmiles_00330,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cccc1)NC(=O)c1ccc(cc1)C(=O)*,{<Nc1ccccc1NC(=O)c1ccc(cc1)C(=O)>},231.8080905,C,machine_derived
+homopolymer_bigsmiles_00331,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCCCCCOc1ccc(cc1)C(=O)Oc1ccc(cc1)OCCCCCC)C,{$CC(C(=O)OCCCCCCOc1ccc(C(=O)Oc2ccc(OCCCCCC)cc2)cc1)(C)$},14.67015775,C,machine_derived
+homopolymer_bigsmiles_00332,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)S(=O)(=O)c1c2c(ccc1)c(ccc2)S(=O)(=O)c1ccc(cc1)Oc1c(cc(c(c1C)C)c1c(c(c(c(c1)C)*)C)C)C,{<Oc1ccc(cc1)S(=O)(=O)c2cccc3c(cccc23)S(=O)(=O)c4ccc(cc4)Oc5c(C)cc(c(C)c5C)c6cc(C)c(c(C)c6C)>},300.6954413,C,machine_derived
+homopolymer_bigsmiles_00333,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NC1CCC(CC1)CC1CCC(CC1)NC(=O)OCC(C*)(C)C,{<CC(C)(C)COC(=O)NC1CCC(CC1)CC2CCC(CC2)NC(=O)O>},15.9792949,C,machine_derived
+homopolymer_bigsmiles_00334,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCCCCC(=O)OCCCC*,{<CCCCOC(=O)CCCCCNC(=O)O>},47.28425166,C,machine_derived
+homopolymer_bigsmiles_00335,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1c(cc(cc1)Cc1cc(c(cc1)N(C(=O)c1ccc(cc1)C(=O)*)CCC)C)C)CCC,{<C(=O)c1ccc(cc1)C(=O)N(CCC)c2ccc(cc2C)Cc3ccc(c(C)c3)N(CCC)>},179.9023847,C,machine_derived
+homopolymer_bigsmiles_00336,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)c1cc(cc(c1)NC(=O)C(CCSC)N1C(=O)c2c(C1=O)cccc2)C(=O)*,{<Nc1ccc(cc1)NC(=O)c2cc(NC(=O)C(CCSC)N3C(=O)c4ccccc4C3=O)cc(c2)C(=O)>},230.3191562,C,machine_derived
+homopolymer_bigsmiles_00337,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1c(cc(cc1)Cc1cc(c(cc1)N(C(=O)c1ccc(cc1)C(=O)*)C)C)C)C,{<C(=O)c1ccc(cc1)C(=O)N(C)c2ccc(cc2C)Cc3ccc(c(C)c3)N(C)>},167.9642319,C,machine_derived
+homopolymer_bigsmiles_00338,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCCCC(=O)OCCc1ccc(cc1)N1ON1c1ccc(cc1)CC*,{<CCc1ccc(cc1)n2on2c2ccc(cc2)CCOC(=O)CCCCCCC(=O)O>},17.91289325,C,machine_derived
+homopolymer_bigsmiles_00339,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)*)(C(F)(F)F)C(F)(F)F,"{<Oc1ccc(cc1)C(C(F)(F)F)(C(F)(F)F)c2ccc(cc2)O<,>C(=O)c3ccc(cc3)C(=O)>}",150.9011854,C,machine_derived
+homopolymer_bigsmiles_00340,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2[nH]c3c(c2c1)cc(cc3)*,{<c1ccc2[nH]c3ccc(cc3c2c1)>},246.5898577,C,machine_derived
+homopolymer_bigsmiles_00341,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)NCCCC,{$CC(C(=O)NCCCC)$},-84.72234668,C,machine_derived
+homopolymer_bigsmiles_00342,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)CCCCCCCCCCOc1ccc(cc1)c1ccc(cc1)OCC(CCCCCC)F,{$C=C(CCCCCCCCCCOc1ccc(c2ccc(OCC(F)CCCCCC)cc2)cc1)$},27.34580481,C,machine_derived
+homopolymer_bigsmiles_00343,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)NCCCCNC(=O)NCCCCCC*,{<CCCCCCNC(=O)NCCCCNC(=O)N>},60.10434296,C,machine_derived
+homopolymer_bigsmiles_00344,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=Cc1ccc(cc1)OC(=O)OCCCCCOC(=O)*)C,{<Oc1ccc(cc1)C(C)=Cc2ccc(cc2)OC(=O)OCCCCCOC(=O)>},39.38257392,C,machine_derived
+homopolymer_bigsmiles_00345,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1CCN(CC1)C(=O)CCN1CCN(CC1)CCC(=O)*,{<C(=O)CCN1CCN(CC1)CCC(=O)N2CCN(CC2)>},40.58060093,C,machine_derived
+homopolymer_bigsmiles_00346,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(cc1)C#C*)SCCCCCCCCCCCC,{$C#Cc1ccc(c(SCCCCCCCCCCCC)c1)$},53.41644401,C,machine_derived
+homopolymer_bigsmiles_00347,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Nc1cc(ccc1)C(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)c1cccc(c1)NC(=O)O>},45.09440244,C,machine_derived
+homopolymer_bigsmiles_00348,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C(=O)*)CCCCCC,{<Oc1ccc(cc1CCCCCC)C(=O)>},85.05865655,C,machine_derived
+homopolymer_bigsmiles_00349,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)C=CC(=O)*,{<Nc1ccc(cc1)NC(=O)C=CC(=O)>},115.1255691,C,machine_derived
+homopolymer_bigsmiles_00350,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OC(Oc1ccccc1)C)C,{$CC(C(=O)OC(C)Oc1ccccc1)(C)$},31.196908,C,machine_derived
+homopolymer_bigsmiles_00351,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(*)C,{$C(C)$},122.3867673,C,machine_derived
+homopolymer_bigsmiles_00352,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(=O)N(C2=O)c2c(c3c(C(CC3)(C)C)c(c2C)*)C)cc1,{<c1c(C)c(c(C)c2c1C(C)(C)CC2)N2C(=O)c3ccc(cc3C2=O)Oc4ccc5c(c4)C(=O)N(C5=O)>},325.2939228,C,machine_derived
+homopolymer_bigsmiles_00353,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)C(=O)*,{<Nc1ccc(cc1)C(=O)>},92.05287264,C,machine_derived
+homopolymer_bigsmiles_00354,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)C,{$C=C(C)$},4.023221393,C,machine_derived
+homopolymer_bigsmiles_00355,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)Oc1c2c(ccc1C(=O)Oc1ccc(cc1)OC(=O)c1c(c3c(cc1)cccc3)O*)cccc2)N1CCCCC1,{<Oc1c(ccc2ccccc12)C(=O)Oc2ccc(cc2)OC(=O)c3ccc4ccccc4c3Oc3nc(nc(N4CCCCC4)n3)>},288.7077709,C,machine_derived
+homopolymer_bigsmiles_00356,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1ccc(cc1)Sc1ccc(cc1)S(=O)(=O)Oc1ccc(cc1)C1(CCCCC1)c1ccc(cc1)*,{<OS(=O)(=O)c1ccc(cc1)Sc2ccc(cc2)S(=O)(=O)Oc3ccc(cc3)C4(CCCCC4)c5ccc(cc5)>},157.8104834,C,machine_derived
+homopolymer_bigsmiles_00357,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(c(c(c(c1Cl)Cl)CC*)Cl)Cl,{$CCc1c(Cl)c(Cl)c(c(Cl)c1Cl)$},56.1987128,C,machine_derived
+homopolymer_bigsmiles_00358,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCCCC(=O)NCCCCCCNC(=O)CCC*,{<CCCC(=O)NCCCCCCNC(=O)CCCOC(=O)c1ccc(cc1)C(=O)O>},60.02078862,C,machine_derived
+homopolymer_bigsmiles_00359,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(c(cc(c1)*)C=Nc1ccc(cc1)F)O,{$c1cc(c(O)c(C=Nc2ccc(F)cc2)c1)$},-121.5212841,C,machine_derived
+homopolymer_bigsmiles_00360,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=C1C=CC(=NC2=CC(=O)C(=CC2=O)*)C=C1,{<N=C1C=CC(C=C1)=NC2=CC(=O)C(=CC2=O)>},212.9967182,C,machine_derived
+homopolymer_bigsmiles_00361,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCSCCCCCSCCNC(=O)OCC1CCC(CC1)C*,{<CC1CCC(CC1)COC(=O)NCCSCCCCCSCCNC(=O)O>},77.84678315,C,machine_derived
+homopolymer_bigsmiles_00362,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1ccc(cc1)Oc1ccc(cc1)S(=O)(=O)Oc1ccc(cc1)C1(CCCCC1)c1ccc(cc1)*,{<OS(=O)(=O)c1ccc(cc1)Oc2ccc(cc2)S(=O)(=O)Oc3ccc(cc3)C4(CCCCC4)c5ccc(cc5)>},149.9071313,C,machine_derived
+homopolymer_bigsmiles_00363,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)Oc1cc2c(cc1)cc(cc2)C(=O)Oc1c(cccc1)OC(=O)c1cc2c(cc1)cc(cc2)O*)N1CCN(CC1)C,{<Oc1ccc2cc(ccc2c1)C(=O)Oc3ccccc3OC(=O)c3ccc4cc(ccc4c3)Oc5nc(nc(N6CCN(C)CC6)n5)>},54.90728348,C,machine_derived
+homopolymer_bigsmiles_00364,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CC(=O)OCC*,{<CCOC(=O)CC(=O)O>},-90.52916041,C,machine_derived
+homopolymer_bigsmiles_00365,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCCCCC(=O)OCC(C*)(C)C,{<CC(C)(C)COC(=O)CCCCCCCC(=O)O>},17.01342593,C,machine_derived
+homopolymer_bigsmiles_00366,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Nc1ccc(cc1)Cc1ccc(cc1)NC(=O)OCCN(CC*)CCCC(=O)Nc1ccc(cc1)N=Nc1ccccc1,{<CCN(CCCC(=O)Nc1ccc(N=Nc2ccccc2)cc1)CCOC(=O)Nc1ccc(cc1)Cc2ccc(cc2)NC(=O)O>},-32.25789051,C,machine_derived
+homopolymer_bigsmiles_00367,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*[Si](*)(CCCCCC)CCCCCC,{$[Si](CCCCCC)(CCCCCC)$},-11.37918107,C,machine_derived
+homopolymer_bigsmiles_00368,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(cc1)C=C*)CCCCCC,{<C=Cc1ccc(n1CCCCCC)>},-15.03969582,C,machine_derived
+homopolymer_bigsmiles_00369,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC1CC(CC(C1)(CNC(=O)c1cc(cc(c1)NC(=O)c1ccc(cc1)NC(=O)C(CC(C)C)N1C(=O)c2c(C1=O)cccc2)C(=O)*)C)(C)C,{<NC1CC(C)(C)CC(C)(C1)CNC(=O)c2cc(NC(=O)c3ccc(NC(=O)C(CC(C)C)N4C(=O)c5ccccc5C4=O)cc3)cc(c2)C(=O)>},195.2683571,C,machine_derived
+homopolymer_bigsmiles_00370,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1cc(cc(c1)C(=O)Nc1ccccc1)NC(=O)c1cc(ccc1)C(=O)*,{<Nc1cc(cc(C(=O)Nc2ccccc2)c1)NC(=O)c2cccc(c2)C(=O)>},233.599405,C,machine_derived
+homopolymer_bigsmiles_00371,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)Oc2ccc(cc2)OC(=O)*)cc1,{<C(=O)Oc1ccc(cc1)OC(=O)c2ccc3c(c2)C(=O)N(C3=O)c2ccc(cc2)N4C(=O)c5ccc(cc5C4=O)>},-71.68107141,C,machine_derived
+homopolymer_bigsmiles_00372,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCCC(=O)OCCC*,{<CCCOC(=O)CCCCCC(=O)O>},-71.28231613,C,machine_derived
+homopolymer_bigsmiles_00373,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)C(CC1=O)SCCOCCSC1C(=O)N(C(=O)C1)c1ccc(cc1)C(=O)OCCCCCCOC(=O)c1ccc(cc1)*,{<c1ccc(cc1)C(=O)OCCCCCCOC(=O)c2ccc(cc2)N3C(=O)CC(C3=O)SCCOCCSC4CC(=O)N(C4=O)>},19.42674542,C,machine_derived
+homopolymer_bigsmiles_00374,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCCCCC(=O)NCCCP(CCC*)c1ccccc1,{<CCCP(c1ccccc1)CCCNC(=O)CCCCCCCCC(=O)N>},56.20366062,C,machine_derived
+homopolymer_bigsmiles_00375,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)cc(cc2)S(=O)(=O)c1cc2c(nc([nH]2)c2ccc(cc2)Oc2ccc(cc2)*)cc1,{<c1ccc(cc1)Oc2ccc(cc2)c3nc4ccc(cc4[nH]3)S(=O)(=O)c5ccc6nc([nH]c6c5)>},315.1120806,C,machine_derived
+homopolymer_bigsmiles_00376,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCCCCCOc1ccc(cc1)C=Nc1ccc(cc1)CCCC)C,{$CC(C(=O)OCCCCCCOc1ccc(C=Nc2ccc(CCCC)cc2)cc1)(C)$},12.41121342,C,machine_derived
+homopolymer_bigsmiles_00377,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)NC(=O)c1cc(cc(c1)N1C(=O)c2c(C1=O)c(c(c(c2Cl)Cl)Cl)Cl)C(=O)Nc1ccc(cc1)*,{<Oc1ccc(cc1)Oc2ccc(cc2)NC(=O)c3cc(cc(N4C(=O)c5c(Cl)c(Cl)c(Cl)c(Cl)c5C4=O)c3)C(=O)Nc4ccc(cc4)>},315.5911196,C,machine_derived
+homopolymer_bigsmiles_00378,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)/C=C/c1c(cc(c(c1)CCCCCC)/C=C/*)CCCCCC,{</C=C/c1cc(CCCCCC)c(cc1CCCCCC)/C=C/c2ccc(cc2)>},51.04706134,C,machine_derived
+homopolymer_bigsmiles_00379,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)*,"{<Oc1ccc(cc1)O<,>C(=O)>}",105.0499992,C,machine_derived
+homopolymer_bigsmiles_00380,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(c2c(C(=O)O1)cccc2)c1ccc(cc1)NC(=O)c1ccc(cc1)C(=O)Nc1ccc(cc1)*,{<c1ccc(cc1)NC(=O)c2ccc(cc2)C(=O)Nc3ccc(cc3)C4(OC(=O)c5ccccc54)>},292.5925873,C,machine_derived
+homopolymer_bigsmiles_00381,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)OCCOCCOCCOCCC(=O)O[Na])C#Cc1c(cc(c(c1)OC(COCCOCCOCCOC)COCCOCCOCCOC)C#C*)OC(COCCOCCOCCOC)COCCOCCOCCOC)OCCOCCOCCOCCC(=O)O[Na],{<C#Cc1cc(OC(COCCOCCOCCOC)COCCOCCOCCOC)c(cc1OC(COCCOCCOCCOC)COCCOCCOCCOC)C#Cc2cc(OCCOCCOCCOCCC(=O)O[Na])c(cc2OCCOCCOCCOCCC(=O)O[Na])>},-43.36051195,C,machine_derived
+homopolymer_bigsmiles_00382,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(CC*)C(=O)CCCCCCCC,{<CCN(C(=O)CCCCCCCC)>},-49.55374382,C,machine_derived
+homopolymer_bigsmiles_00383,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)c2ccc(cc2)c2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)*)cc1,{<C(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)c3ccc(cc3)c4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)>},232.2309602,C,machine_derived
+homopolymer_bigsmiles_00384,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)CCCCCC(=O)Oc1cc2c(cc1)cc(cc2)OC(=O)CCCCC*,{<CCCCCC(=O)Oc1ccc2cc(ccc2c1)OC(=O)CCCCCn3c(=O)c4cc5c(=O)n(c(=O)c5cc4c3=O)>},-10.30414379,C,machine_derived
+homopolymer_bigsmiles_00385,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCP(CCC(=O)NCCCCCC*)c1ccccc1,{<CCCCCCNC(=O)CCP(c1ccccc1)CCC(=O)N>},9.575432391,C,machine_derived
+homopolymer_bigsmiles_00386,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2C(c3c(c2cc1)ccc(c3)c1cc2C(c3c(c2cc1)ccc(c3)*)(CCCCCCCCCCCC)CCCCCCCCCCCC)(CCCCCCCC)CCCCCCCC,{<c1ccc2c(c1)C(CCCCCCCC)(CCCCCCCC)c1cc(ccc12)c3ccc4c(c3)C(CCCCCCCCCCCC)(CCCCCCCCCCCC)c3cc(ccc34)>},37.51200969,C,machine_derived
+homopolymer_bigsmiles_00387,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1OC(=O)C(C1)CCC1C(=O)OC(C1)CCCCCCCCCC*,{<CCCCCCCCCCC1CC(C(=O)O1)CCC2CC(OC2=O)>},84.1573412,C,machine_derived
+homopolymer_bigsmiles_00388,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)OC(CC(C)C)C,{$CC(C(=O)OC(C)CC(C)C)$},11.47675289,C,machine_derived
+homopolymer_bigsmiles_00389,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(C*)COc1ccc(cc1)C,{<CC(COc1ccc(C)cc1)O>},-55.31696784,C,machine_derived
+homopolymer_bigsmiles_00390,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)CCCCCCCCCCCCCCC(=O)N(Cc1ccc(cc1)C*)C)C,{<Cc1ccc(cc1)CN(C)C(=O)CCCCCCCCCCCCCCC(=O)N(C)>},-14.32362541,C,machine_derived
+homopolymer_bigsmiles_00391,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1OC(OC(C1)*)O,{<C1CC(OC(O)O1)>},136.0523749,C,machine_derived
+homopolymer_bigsmiles_00392,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)OCCCCCCCCCC)c1ccc(cc1)*)OCCCCCCCCCC,{<c1ccc(cc1)c2cc(OCCCCCCCCCC)c(cc2OCCCCCCCCCC)>},61.07976291,C,machine_derived
+homopolymer_bigsmiles_00393,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(nccc2)c(cc1)OCCOc1c2ncccc2c(cc1)C*,{<Cc1ccc(c2ncccc12)OCCOc2ccc(c3cccnc23)>},74.04018308,C,machine_derived
+homopolymer_bigsmiles_00394,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(CC(=O)*)C(=O)OCCCCCC,{<NC(C(=O)OCCCCCC)CC(=O)>},0.713924343,C,machine_derived
+homopolymer_bigsmiles_00395,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)OC(=O)c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)Oc1ccc(cc1)C(=O)*)C,{<Oc1ccc(cc1C)OC(=O)c2ccc(cc2)OC(=O)c3ccc(cc3)C(=O)Oc4ccc(cc4)C(=O)>},81.15934241,C,machine_derived
+homopolymer_bigsmiles_00396,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2ccc3c(=O)n(c(=O)c4ccc(c1=O)c2c34)CCCCCCCCCCCC*,{<CCCCCCCCCCCCN1C(=O)c2ccc3c4c(ccc(c24)C1=O)C(=O)N(C3=O)>},101.4116865,C,machine_derived
+homopolymer_bigsmiles_00397,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C=C1C(=O)C(=Cc2cc(c(cc2)OC(=O)c2ccc(cc2)C(=O)*)OC)CCC1)OC,{<Oc1ccc(cc1OC)C=C2CCCC(C2=O)=Cc3ccc(c(OC)c3)OC(=O)c4ccc(cc4)C(=O)>},105.2246285,C,machine_derived
+homopolymer_bigsmiles_00398,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)C1C(C(=CC(C1)C(C(=O)*)CC(=O)O)C)C(=O)O,{<Nc1ccc(cc1)NC(=O)C2CC(C=C(C)C2C(=O)O)C(CC(=O)O)C(=O)>},149.7687276,C,machine_derived
+homopolymer_bigsmiles_00399,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1c(cccc1)C=Cc1ccc(cc1)C=Cc1c(cccc1)C(=O)*,{<Oc1ccc(cc1)OC(=O)c2ccccc2C=Cc2ccc(cc2)C=Cc3ccccc3C(=O)>},86.85824281,C,machine_derived
+homopolymer_bigsmiles_00400,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)NC(=O)CCCCCCCCCCC(=O)Nc1ccc(cc1)C(=O)OCC*,{<CCOC(=O)c1ccc(cc1)NC(=O)CCCCCCCCCCC(=O)Nc2ccc(cc2)C(=O)O>},14.08686284,C,machine_derived
+homopolymer_bigsmiles_00401,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)N(c1ccc(cc1)N(C(=O)OCC(C*)CCCCCCOc1ccc(cc1)c1ccc(cc1)C#N)C)C,{<CC(CCCCCCOc1ccc(c2ccc(C#N)cc2)cc1)COC(=O)N(C)c1ccc(cc1)N(C)C(=O)O>},78.11061669,C,machine_derived
+homopolymer_bigsmiles_00402,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(C(C(C1)C=C*)C(=O)OCCCCCOc1ccc(cc1)c1ccc(cc1)C#N)C(=O)OCCCCCOc1ccc(cc1)c1ccc(cc1)C#N,{<C=CC1CC(C(C(=O)OCCCCCOc2ccc(c3ccc(C#N)cc3)cc2)C1C(=O)OCCCCCOc1ccc(c2ccc(C#N)cc2)cc1)>},27.68661296,C,machine_derived
+homopolymer_bigsmiles_00403,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C#CC(=C(*)CCCCOC(=O)NCCCCCC)CCCCOC(=O)NCCCCCC,{$C#CC(CCCCOC(=O)NCCCCCC)=C(CCCCOC(=O)NCCCCCC)$},5.219913288,C,machine_derived
+homopolymer_bigsmiles_00404,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)/C=C/*,{</C=C/c1ccc(cc1)>},43.3930774,C,machine_derived
+homopolymer_bigsmiles_00405,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)ccc(c2)c1ccc2c(nc([nH]2)c2ccc3S(=O)(=O)c4c(c3c2)cc(cc4)*)c1,{<c1ccc2c(c1)c1cc(ccc1S2(=O)=O)c3nc4cc(ccc4[nH]3)c5ccc6[nH]c(nc6c5)>},355.5073659,C,machine_derived
+homopolymer_bigsmiles_00406,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)c1ccc(cc1)C(c1ccc(cc1)*)C,{<c1ccc(cc1)C(C)c2ccc(cc2)n3c(=O)c4cc5c(=O)n(c(=O)c5cc4c3=O)>},307.2645731,C,machine_derived
+homopolymer_bigsmiles_00407,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(c(c1)OC(=O)c1ccc(cc1)C=Nc1cc(c(cc1)OCCCCCCOc1c(cc(cc1)N=Cc1ccc(cc1)C(=O)*)Cl)Cl)Cl)Cl,{<Oc1cc(c(Cl)cc1Cl)OC(=O)c2ccc(cc2)C=Nc3ccc(c(Cl)c3)OCCCCCCOc4ccc(cc4Cl)N=Cc5ccc(cc5)C(=O)>},82.06188226,C,machine_derived
+homopolymer_bigsmiles_00408,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)/C=C/c1ccc(cc1)Oc1c(cc(cc1)c1ccc(cc1)c1ccc(cc1)c1cc(c(cc1)Oc1ccc(cc1)/C=C/*)C(F)(F)F)C(F)(F)F)CC(CCCC)CC,{</C=C/c1ccc(cc1)Oc2ccc(cc2C(F)(F)F)c3ccc(cc3)c4ccc(cc4)c5ccc(c(C(F)(F)F)c5)Oc6ccc(cc6)/C=C/c7ccc8c(c7)c7cc(ccc7n8CC(CC)CCCC)>},187.4626146,C,machine_derived
+homopolymer_bigsmiles_00409,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)C(=Nc1ccc(cc1)Oc1ccc(cc1)N=C(c1ccc(cc1)*)C)C,{<Oc1ccc(cc1)Oc2ccc(cc2)C(C)=Nc3ccc(cc3)Oc4ccc(cc4)N=C(C)c5ccc(cc5)>},117.5082044,C,machine_derived
+homopolymer_bigsmiles_00410,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)NC(=O)NCCCCCCNC(=O)*,{<Oc1ccc(cc1)NC(=O)NCCCCCCNC(=O)>},122.4088725,C,machine_derived
+homopolymer_bigsmiles_00411,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)OC(=O)CC(=O)C,{$CC(OC(=O)CC(C)=O)$},9.819405608,C,machine_derived
+homopolymer_bigsmiles_00412,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)OC(=O)c1ccc(cc1)OCCOc1ccc(cc1)C(=O)*)C,{<Oc1ccc(cc1C)OC(=O)c2ccc(cc2)OCCOc3ccc(cc3)C(=O)>},68.01369706,C,machine_derived
+homopolymer_bigsmiles_00413,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1ccc(cc1)NC(=O)c1ccc(cc1)C(=O)*,{<Oc1ccc(cc1)OC(=O)c2ccc(cc2)NC(=O)c3ccc(cc3)C(=O)>},176.5386789,C,machine_derived
+homopolymer_bigsmiles_00414,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=S)SC(=CC=C2SC(=S)N(C2=O)CC*)C1=O,{<CCN1C(=O)C(SC1=S)=CC=C2SC(=S)N(C2=O)>},164.0140939,C,machine_derived
+homopolymer_bigsmiles_00415,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1NC(=O)C(NC1=O)CCC(=O)OCCCC=CCCCOC(=O)CC*,{<CCC(=O)OCCCC=CCCCOC(=O)CCC1NC(=O)C(NC1=O)>},25.37727633,C,machine_derived
+homopolymer_bigsmiles_00416,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)N=Cc1cc(c(cc1)OC(=O)CCCCC(=O)Oc1c(cc(cc1)C=Nc1ccc(cc1)*)OC)OC,{<Oc1ccc(cc1)N=Cc2ccc(c(OC)c2)OC(=O)CCCCC(=O)Oc3ccc(cc3OC)C=Nc4ccc(cc4)>},47.38250675,C,machine_derived
+homopolymer_bigsmiles_00417,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(nn1)c1ccc(cc1)c1ccc(cc1)c1n(c(nn1)COc1ccc(cc1)C=C1C(=O)C(=Cc2ccc(cc2)OC*)CC1)c1ccccc1)c1ccccc1,{<COc1ccc(cc1)C=C2CCC(C2=O)=Cc3ccc(cc3)OCc4nnc(n4c4ccccc4)c5ccc(cc5)c6ccc(cc6)c7nnc(n7c7ccccc7)>},140.326419,C,machine_derived
+homopolymer_bigsmiles_00418,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1CCN(CC1)C(=O)C1C(C1)C(=O)*,{<C(=O)C1CC1C(=O)N1CCN(CC1)>},100.5840527,C,machine_derived
+homopolymer_bigsmiles_00419,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1c(sc(c1)C(F)(F)F)C(F)(F)F,{$C=C(c1cc(C(F)(F)F)sc1C(F)(F)F)$},54.57900551,C,machine_derived
+homopolymer_bigsmiles_00420,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)c1cc2c(C(=O)N(C2=O)c2ccc(cc2)c2ccc(cc2)*)cc1,{<c1ccc(cc1)c2ccc(cc2)N3C(=O)c4ccc(cc4C3=O)c5ccc6c(c5)C(=O)N(C6=O)>},421.9822435,C,machine_derived
+homopolymer_bigsmiles_00421,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2c(c(c(c(c2F)F)N2C(=O)c3c(C2=O)cc(cc3)C(*)(C(F)(F)F)C(F)(F)F)F)F)cc1,{<c1ccc2c(c1)C(=O)N(C2=O)c1c(F)c(F)c(c(F)c1F)N3C(=O)c4ccc(cc4C3=O)C(C(F)(F)F)(C(F)(F)F)>},388.0137456,C,machine_derived
+homopolymer_bigsmiles_00422,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C#CC(=C(*)OS(=O)(=O)c1ccc(cc1)C)OS(=O)(=O)c1ccc(cc1)C,{$C#CC(OS(=O)(=O)c1ccc(C)cc1)=C(OS(=O)(=O)c1ccc(C)cc1)$},164.1018919,C,machine_derived
+homopolymer_bigsmiles_00423,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCC(=O)OCCOCCOCC*,{<CCOCCOCCOC(=O)CCC(=O)O>},14.21396213,C,machine_derived
+homopolymer_bigsmiles_00424,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)OC(=O)c1cc(ccc1)C(=O)*)(CC)C,"{<Oc1ccc(cc1)C(C)(CC)c2ccc(cc2)O<,>C(=O)c3cccc(c3)C(=O)>}",194.1629808,C,machine_derived
+homopolymer_bigsmiles_00425,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2c(c3c(cc2c1=O)c(=O)n(c3=O)CCCCCCCCCC*)Br,{<CCCCCCCCCCn1c(=O)c2cc3c(=O)n(c(=O)c3c(Br)c2c1=O)>},137.1087261,C,machine_derived
+homopolymer_bigsmiles_00426,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCCCCCCCOC(=O)OC1CC2=CCC3C(CCC4(C(CCC34)C(CCCC(C)C)C)C)C2(CC1)C)C,{$CC(C(=O)OCCCCCCCCOC(=O)OC1CCC2(C)C(=CCC3C2CCC2(C)C(C(C)CCCC(C)C)CCC32)C1)(C)$},47.48888608,C,machine_derived
+homopolymer_bigsmiles_00427,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCCCCC(=O)OCCCCCCCCC*,{<CCCCCCCCCOC(=O)CCCCCCCC(=O)O>},3.667443154,C,machine_derived
+homopolymer_bigsmiles_00428,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1c(cc(c(c1)OCCCCCC)c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)*)OCCCCCC,{<Oc1ccc(cc1)c2cc(OCCCCCC)c(cc2OCCCCCC)c3ccc(cc3)OC(=O)c4ccc(cc4)C(=O)>},81.55306128,C,machine_derived
+homopolymer_bigsmiles_00429,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(nccc2)c(cc1)CC*,{<CCc1ccc(c2cccnc12)>},70.93028064,C,machine_derived
+homopolymer_bigsmiles_00430,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(cc1)CCC(=O)OC(=O)CC*)C,{<CCC(=O)OC(=O)CCc1ccc(n1C)>},78.11959859,C,machine_derived
+homopolymer_bigsmiles_00431,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)C2OC3C(C2C1=O)C(=O)N(C3=O)c1ccc(cc1)c1c(nc2c(n1)cc(cc2)S(=O)(=O)c1cc2c(nc(c(n2)c2ccc(cc2)*)c2ccccc2)cc1)c1ccccc1,{<c1ccc(cc1)c2nc3cc(ccc3nc2c2ccccc2)S(=O)(=O)c4ccc5nc(c6ccccc6)c(nc5c4)c6ccc(cc6)N7C(=O)C8OC9C(=O)N(C(=O)C9C8C7=O)>},373.476202,C,machine_derived
+homopolymer_bigsmiles_00432,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(cc1)Sc1oc(cc1)C=C1C(=O)C(=C*)CC1,{<C=C1CCC(C1=O)=Cc2ccc(o2)Sc3ccc(o3)>},102.2883172,C,machine_derived
+homopolymer_bigsmiles_00433,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(c(ccc1)Oc1ccc(cc1)Nc1ccc(cc1)Nc1ccc(cc1)Nc1ccc(cc1)Nc1ccc(cc1)*)C(=O)Nc1ccc(cc1)N=Nc1ccccc1,{<Oc1cccc(c1C(=O)Nc1ccc(N=Nc2ccccc2)cc1)Oc2ccc(cc2)Nc3ccc(cc3)Nc4ccc(cc4)Nc5ccc(cc5)Nc6ccc(cc6)>},238.4094841,C,machine_derived
+homopolymer_bigsmiles_00434,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C=C=C(C(=*)CO)CO,{$=C=C=C(CO)C(CO)=$},42.01413885,C,machine_derived
+homopolymer_bigsmiles_00435,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(cc1)Sc1oc(cc1)C=NCCN=C*,{<C=NCCN=Cc1ccc(o1)Sc2ccc(o2)>},95.6213855,C,machine_derived
+homopolymer_bigsmiles_00436,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)/C=C/CC/C=C/C(=O)NCCCCCC*,{<CCCCCCNC(=O)/C=C/CC/C=C/C(=O)N>},2.127453311,C,machine_derived
+homopolymer_bigsmiles_00437,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(c(c1)SCCC#N)NC(=O)c1ccc(cc1)C(=O)*)SCCC#N,{<Nc1cc(SCCC#N)c(cc1SCCC#N)NC(=O)c2ccc(cc2)C(=O)>},214.7483216,C,machine_derived
+homopolymer_bigsmiles_00438,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(cc1)CC*)C(=O)C,{$CCc1ccc(c(C(C)=O)c1)$},8.997925789,C,machine_derived
+homopolymer_bigsmiles_00439,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)c1ccc(cc1)Oc1ccc(cc1)C(=O)c1ccc(cc1)C(=O)c1ccc(cc1)*,{<Oc1ccc(cc1)C(=O)c2ccc(cc2)Oc3ccc(cc3)C(=O)c4ccc(cc4)C(=O)c5ccc(cc5)>},138.8344532,C,machine_derived
+homopolymer_bigsmiles_00440,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(nn1)c1cc(ccc1)OCCCCCCCCCCCOC(=O)CCCCC(=O)OCCCCCCCCCCCOc1cc(ccc1)*,{<c1cccc(c1)OCCCCCCCCCCCOC(=O)CCCCC(=O)OCCCCCCCCCCCOc2cccc(c2)c3nnc(s3)>},35.51374296,C,machine_derived
+homopolymer_bigsmiles_00441,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(c(c1)OC)*)OC,{<Nc1cc(OC)c(cc1OC)>},168.2573371,C,machine_derived
+homopolymer_bigsmiles_00442,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SCSCCCC*,{<CCCCSCS>},1.410869343,C,machine_derived
+homopolymer_bigsmiles_00443,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(sc1)NC(=O)NCCCCCCNC(=O)Nc1nc(cs1)c1ccc(cc1)C=C1C(=O)C(=Cc2ccc(cc2)*)CCC1,{<c1ccc(cc1)C=C2CCCC(C2=O)=Cc3ccc(cc3)c4csc(n4)NC(=O)NCCCCCCNC(=O)Nc5nc(cs5)>},47.02441211,C,machine_derived
+homopolymer_bigsmiles_00444,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(CC*)C(=O)c1ccc(cc1)C,{<CCN(C(=O)c1ccc(C)cc1)>},87.3045689,C,machine_derived
+homopolymer_bigsmiles_00445,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)CCCCCC(=O)Oc1ccc(cc1)c1ccc(cc1)OC(=O)CCCCC*,{<CCCCCC(=O)Oc1ccc(cc1)c2ccc(cc2)OC(=O)CCCCCn3c(=O)c4cc5c(=O)n(c(=O)c5cc4c3=O)>},60.41501019,C,machine_derived
+homopolymer_bigsmiles_00446,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(c(c(c(c1[2H])[2H])C(c1c(c(c(c(c1[2H])[2H])OC(=O)*)[2H])[2H])(C([2H])([2H])[2H])C([2H])([2H])[2H])[2H])[2H],{<Oc1c([2H])c([2H])c(c([2H])c1[2H])C(C([2H])([2H])[2H])(C([2H])([2H])[2H])c2c([2H])c([2H])c(c([2H])c2[2H])OC(=O)>},230.9913822,C,machine_derived
+homopolymer_bigsmiles_00447,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)Oc1ccc(cc1)c1ccc(cc1)Oc1ccc(cc1)Oc1ccc(cc1)Oc1c(cc(cc1)C(=O)c1cc(c(cc1)*)S(=O)(=O)O)S(=O)(=O)O,{<Oc1ccc(cc1)Oc2ccc(cc2)Oc3ccc(cc3)c4ccc(cc4)Oc5ccc(cc5)Oc6ccc(cc6)Oc7ccc(cc7S(=O)(=O)O)C(=O)c8ccc(c(S(=O)(=O)O)c8)>},151.7193386,C,machine_derived
+homopolymer_bigsmiles_00448,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(nsn2)c(cc1)c1sc(c(c1)CCCCCC)C=Cc1sc(c(c1CCCCCC)CCCCCC)C=Cc1sc(cc1CCCCCC)*,{<c1cc(CCCCCC)c(s1)C=Cc2sc(c(CCCCCC)c2CCCCCC)C=Cc3sc(cc3CCCCCC)c4ccc(c5nsnc45)>},17.9542177,C,machine_derived
+homopolymer_bigsmiles_00449,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)c(ccc2)c1cc2c(C(=O)N(C2=O)c2ccc(cc2)C(=O)Nc2ccc(cc2)Oc2ccc(cc2)Oc2ccc(cc2)NC(=O)c2ccc(cc2)*)cc1,{<c1ccc(cc1)C(=O)Nc2ccc(cc2)Oc3ccc(cc3)Oc4ccc(cc4)NC(=O)c5ccc(cc5)N6C(=O)c7ccc(cc7C6=O)c8cccc9c8C(=O)N(C9=O)>},178.6163373,C,machine_derived
+homopolymer_bigsmiles_00450,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2n(c3c(c2cc1CCCCCC)cc(c(c3)C=C*)CCCCCC)CCCCCCCC,{<C=Cc1cc2c(cc1CCCCCC)c1cc(CCCCCC)c(cc1n2CCCCCCCC)>},45.45691415,C,machine_derived
+homopolymer_bigsmiles_00451,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C#CC(=C(*)c1cncnc1)CCCCOC(=O)NCC(=O)OCCCC,{$C#CC(CCCCOC(=O)NCC(=O)OCCCC)=C(c1cncnc1)$},73.99227071,C,machine_derived
+homopolymer_bigsmiles_00452,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)NCCCNC(=O)c1ccc(cc1)C(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)c1ccc(cc1)C(=O)NCCCNC(=O)c2ccc(cc2)C(=O)O>},76.72929425,C,machine_derived
+homopolymer_bigsmiles_00453,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)Oc1c(cc(cc1)C(c1cc(c(cc1)*)[N-][N+]#N)(C)C)[N-][N+]#N,{<Oc1ccc(cc1)S(=O)(=O)c2ccc(cc2)Oc3ccc(cc3[N-][N+]#N)C(C)(C)c4ccc(c([N-][N+]#N)c4)>},181.1592195,C,machine_derived
+homopolymer_bigsmiles_00454,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1CCCCCCCC)c1sc(cc1CCCCCC(C(C(C(F)(F)F)(F)F)(F)F)(F)F)*,{<c1cc(CCCCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)F)c(s1)c2cc(CCCCCCCC)c(s2)>},6.476080227,C,machine_derived
+homopolymer_bigsmiles_00455,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2C(=O)N(C(=O)c2c(c2ccccc12)c1ccc(cc1)Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)Oc1ccc(cc1)*)c1c(cccc1)F,{<c1ccc(cc1)Oc2ccc(cc2)S(=O)(=O)c3ccc(cc3)Oc4ccc(cc4)c8c6c(C(=O)N(c5ccccc5F)C6=O)c(c7ccccc87)>},314.5599695,C,machine_derived
+homopolymer_bigsmiles_00456,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCCCCCCC(=O)NCC1CC(CCC1)C*,{<CC1CCCC(C1)CNC(=O)CCCCCCCCCCC(=O)N>},26.18556129,C,machine_derived
+homopolymer_bigsmiles_00457,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)c1cc(cc(c1)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)C(=O)*,{<Nc1ccc(cc1)NC(=O)c2cc(cc(C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)c2)C(=O)>},235.6895845,C,machine_derived
+homopolymer_bigsmiles_00458,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)O)O)*,{$c1cc(O)c(O)cc1$},158.9171015,C,machine_derived
+homopolymer_bigsmiles_00459,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=Cc1ccc(cc1)OCCCCCCC*)C,{<CCCCCCCOc1ccc(cc1)C=C(C)c2ccc(cc2)O>},36.76976951,C,machine_derived
+homopolymer_bigsmiles_00460,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C(*)C)[Si](CC)(C)C,{$C(C)=C([Si](C)(C)CC)$},157.1009863,C,machine_derived
+homopolymer_bigsmiles_00461,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCCCCC(=O)*,{<OC(=O)CCCCCCCC(=O)>},-68.69432556,C,machine_derived
+homopolymer_bigsmiles_00462,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)NC(=O)CCCCCCCCCCC(=O)Nc1ccc(cc1)C(=O)OCCCCCCCCCCCC*,{<CCCCCCCCCCCCOC(=O)c1ccc(cc1)NC(=O)CCCCCCCCCCC(=O)Nc2ccc(cc2)C(=O)O>},-26.12929226,C,machine_derived
+homopolymer_bigsmiles_00463,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)OCCCCCCCCCC)*)OCCCCCCCCCC,{<c1cc(OCCCCCCCCCC)c(cc1OCCCCCCCCCC)>},5.423112055,C,machine_derived
+homopolymer_bigsmiles_00464,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(=O)*)(C)C,{$C(=O)C(C)(C)$},105.8292511,C,machine_derived
+homopolymer_bigsmiles_00465,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C#CC(=C(*)Cn1c2ccc(cc2c2cc(ccc12)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCC)Cn1c2ccc(cc2c2cc(ccc12)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCC,{$C#CC(Cn1c2ccc(CCCCCCCCCCCCCCCC)cc2c2cc(CCCCCCCCCCCCCCCC)ccc21)=C(Cn1c2ccc(CCCCCCCCCCCCCCCC)cc2c2cc(CCCCCCCCCCCCCCCC)ccc21)$},-2.237818484,C,machine_derived
+homopolymer_bigsmiles_00466,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)CCCC(C)C,{$CC(CCCC(C)C)$},5.980301023,C,machine_derived
+homopolymer_bigsmiles_00467,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)C(CC1=O)Oc1ccc(cc1)N=Cc1ccc(cc1)OC1C(=O)N(C(=O)C1)c1ccc(cc1)Oc1ccc(cc1)*,{<c1ccc(cc1)Oc2ccc(cc2)N3C(=O)CC(C3=O)Oc4ccc(cc4)C=Nc5ccc(cc5)OC6CC(=O)N(C6=O)>},154.6342574,C,machine_derived
+homopolymer_bigsmiles_00468,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)Oc1c(cccc1)C(=O)Oc1ccc(cc1)OC(=O)c1c(cccc1)O*)N(CC)c1ccccc1,{<Oc1ccccc1C(=O)Oc1ccc(cc1)OC(=O)c2ccccc2Oc2nc(nc(N(CC)c3ccccc3)n2)>},146.7365026,C,machine_derived
+homopolymer_bigsmiles_00469,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c(n1CCCS(=O)(=O)O)ccc(c2)c1ccc2c(nc(n2CCCS(=O)(=O)O)c2cc(ccc2)*)c1,{<c1cccc(c1)c2nc3cc(ccc3n2CCCS(=O)(=O)O)c4ccc5c(c4)nc(n5CCCS(=O)(=O)O)>},208.6363648,C,machine_derived
+homopolymer_bigsmiles_00470,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)C1C(=O)CC(C(=O)C1)C(=O)OCCCCCC*,{<CCCCCCOC(=O)C1CC(=O)C(CC1=O)C(=O)O>},-36.66445232,C,machine_derived
+homopolymer_bigsmiles_00471,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)Oc1ccc(cc1)C(=O)c1ccc(cc1)*)c1c(cccc1)C(=O)O[Na],{<Oc1ccc(cc1)C(c2ccccc2C(=O)O[Na])c2ccc(cc2)Oc3ccc(cc3)C(=O)c4ccc(cc4)>},169.1341304,C,machine_derived
+homopolymer_bigsmiles_00472,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)CCCCCCCCCCCCCCCCC(=O)N(Cc1ccc(cc1)C*)CC)CC,{<Cc1ccc(cc1)CN(CC)C(=O)CCCCCCCCCCCCCCCCC(=O)N(CC)>},4.279694171,C,machine_derived
+homopolymer_bigsmiles_00473,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)Oc1ccc(cc1)C(c1ccc(cc1)O*)(C)C)OC,{<Oc1ccc(cc1)C(C)(C)c2ccc(cc2)Oc3nc(nc(OC)n3)>},121.2094568,C,machine_derived
+homopolymer_bigsmiles_00474,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCc1ccc(cc1)CNC(=O)OCCCCCCCC*,{<CCCCCCCCOC(=O)NCc1ccc(cc1)CNC(=O)O>},-25.31417235,C,machine_derived
+homopolymer_bigsmiles_00475,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCCCC(=O)NCCCCCCCCC*,{<CCCCCCCCCNC(=O)CCCCCCCC(=O)N>},9.904824538,C,machine_derived
+homopolymer_bigsmiles_00476,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(=O)N(C2=O)c2cc(ccc2)Oc2ccc(cc2)S(=O)(=O)c2ccc(cc2)Oc2cc(ccc2)*)cc1,{<c1cccc(c1)Oc2ccc(cc2)S(=O)(=O)c3ccc(cc3)Oc4cccc(c4)N5C(=O)c6ccc(cc6C5=O)Oc7ccc8c(c7)C(=O)N(C8=O)>},199.6619548,C,machine_derived
+homopolymer_bigsmiles_00477,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(cc1)*)CC,{<c1ccc(n1CC)>},112.6054346,C,machine_derived
+homopolymer_bigsmiles_00478,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCS(=O)(=O)CCCCC(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)CCCCS(=O)(=O)CCCCC(=O)O>},37.87494117,C,machine_derived
+homopolymer_bigsmiles_00479,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)N2C3(C(=O)N(C2=O)C(=O)*)CCCCC3)cc1,{<C(=O)N1C(=O)N(C2(CCCCC2)C1=O)C(=O)c2ccc3c(c2)C(=O)N(C3=O)c2ccc(cc2)Oc4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)>},277.0792131,C,machine_derived
+homopolymer_bigsmiles_00480,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1c(cccc1)C,{$C=C(c1ccccc1C)$},261.6623551,C,machine_derived
+homopolymer_bigsmiles_00481,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc2C(c3c(c2cc1)ccc(c3)Oc1ccc(cc1)c1c2cc(ccc2c(c2ccccc12)c1ccc(cc1)*)CCC)(c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(cc1)N(c1ccccc1)c1ccccc1,{<Oc1ccc2c(c1)C(c1ccc(N(c3ccccc3)c3ccccc3)cc1)(c1ccc(N(c3ccccc3)c3ccccc3)cc1)c1cc(ccc12)Oc3ccc(cc3)c4c5ccccc5c(c5ccc(CCC)cc45)c5ccc(cc5)>},187.3941077,C,machine_derived
+homopolymer_bigsmiles_00482,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)CCCCC(=O)SCC*,{<CCSC(=O)CCCCC(=O)S>},-21.91188888,C,machine_derived
+homopolymer_bigsmiles_00483,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(CC*)(C(F)(F)F)C(F)(F)F,{<CCC(C(F)(F)F)(C(F)(F)F)O>},-8.026293088,C,machine_derived
+homopolymer_bigsmiles_00484,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(*)c1ccccc1)[N+](=O)[O-],{$C(c1ccccc1)C([N+](=O)[O-])$},173.9913454,C,machine_derived
+homopolymer_bigsmiles_00485,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)C(c1cc2c(C(=O)N(C2=O)CC(=O)NNC(=O)c2ccc(cc2)C(=O)NNC(=O)C*)cc1)(C(F)(F)F)C(F)(F)F,{<CC(=O)NNC(=O)c1ccc(cc1)C(=O)NNC(=O)CN2C(=O)c3ccc(cc3C2=O)C(C(F)(F)F)(C(F)(F)F)c4ccc5c(c4)C(=O)N(C5=O)>},226.7602549,C,machine_derived
+homopolymer_bigsmiles_00486,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)CCCCCCCCCCCCCCCCCCCC,{$CC(CCCCCCCCCCCCCCCCCCCC)$},21.77937998,C,machine_derived
+homopolymer_bigsmiles_00487,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1ccc(cc1)Oc1ccc(cc1)S(=O)(=O)Oc1ccc(cc1)c1ccc(cc1)*,{<OS(=O)(=O)c1ccc(cc1)Oc2ccc(cc2)S(=O)(=O)Oc3ccc(cc3)c4ccc(cc4)>},190.021745,C,machine_derived
+homopolymer_bigsmiles_00488,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SCCCCCC(=O)NCCc1ccc(cc1)CCNC(=O)CCCCC*,{<CCCCCC(=O)NCCc1ccc(cc1)CCNC(=O)CCCCCS>},-18.01175462,C,machine_derived
+homopolymer_bigsmiles_00489,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1CCC(CC1)C(=O)c1c(cc(cc1)C(=O)N1CCC(CC1)CCC*)Oc1ccccc1,{<CCCC1CCN(CC1)C(=O)c2ccc(c(Oc3ccccc3)c2)C(=O)C3CCN(CC3)>},131.1821319,C,machine_derived
+homopolymer_bigsmiles_00490,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(CC*)(F)F)(Cl)F,{$CCC(F)(F)C(Cl)(F)$},-41.84388225,C,machine_derived
+homopolymer_bigsmiles_00491,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)CC(=O)OCCCCCCOC(=O)C*,{<CC(=O)OCCCCCCOC(=O)Cn1c(=O)c2cc3c(=O)n(c(=O)c3cc2c1=O)>},55.49864746,C,machine_derived
+homopolymer_bigsmiles_00492,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(cc1)Sc1oc(cc1)C=Nc1cc(ccc1)N=C*,{<C=Nc1cccc(c1)N=Cc2ccc(o2)Sc3ccc(o3)>},122.5813993,C,machine_derived
+homopolymer_bigsmiles_00493,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)S(=O)c1ccccc1,{$CC(S(=O)c1ccccc1)$},137.9705527,C,machine_derived
+homopolymer_bigsmiles_00494,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1cc(c(cc1)C(=O)Nc1ccc(cc1)C(c1ccc(cc1)C(c1ccc(cc1)NC(=O)c1c(ccc(c1)C(=O)OCCN(CC*)CCCCOc1ccc(cc1)N=Nc1ccc(cc1)CCCCCC)C(=O)O)(C)C)(C)C)C(=O)O,{<CCN(CCCCOc1ccc(N=Nc2ccc(CCCCCC)cc2)cc1)CCOC(=O)c1ccc(C(=O)O)c(c1)C(=O)Nc2ccc(cc2)C(C)(C)c3ccc(cc3)C(C)(C)c4ccc(cc4)NC(=O)c5ccc(cc5C(=O)O)C(=O)O>},82.18427933,C,machine_derived
+homopolymer_bigsmiles_00495,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C=C=C(C(=*)COC(=O)NCC)COC(=O)NCC,{$=C=C=C(COC(=O)NCC)C(COC(=O)NCC)=$},172.0633872,C,machine_derived
+homopolymer_bigsmiles_00496,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)OCCCCCCOC(=O)Nc1c(ccc(c1)NC(=O)OCCCCOC(=O)Nc1cc(c(cc1)C)NC(=O)OCCCCCC*)C,{<CCCCCCOC(=O)Nc1cc(ccc1C)NC(=O)OCCCCOC(=O)Nc2ccc(C)c(c2)NC(=O)OCCCCCCOc3ccc(cc3)c4ccc(cc4)O>},41.49405569,C,machine_derived
+homopolymer_bigsmiles_00497,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(c(c1C#N)C#N)N=Cc1ccc(cc1)C=N*,{<N=Cc1ccc(cc1)C=Nc2sc(c(C#N)c2C#N)>},204.4271705,C,machine_derived
+homopolymer_bigsmiles_00498,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)Oc2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)*)cc1,{<C(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)Oc3ccc(cc3)Oc4ccc(cc4)Oc5ccc(cc5)N6C(=O)c7ccc(cc7C6=O)>},126.2551791,C,machine_derived
+homopolymer_bigsmiles_00499,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2cc(ccc2)P(=O)(c2cc(ccc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)N2C(=O)N(C(=O)C2(C)C)C(=O)*)c2ccccc2)cc1,{<C(=O)N1C(=O)N(C(C)(C)C1=O)C(=O)c2ccc3c(c2)C(=O)N(C3=O)c2cccc(c2)P(=O)(c4ccccc4)c4cccc(c4)N5C(=O)c6ccc(cc6C5=O)>},138.7903633,C,machine_derived
+homopolymer_bigsmiles_00500,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OCOCCCCCC*,{<CCCCCCOCO>},-41.68464364,C,machine_derived
+homopolymer_bigsmiles_00501,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1c(cc(c(c1)OCCCCCCCCCCCCCCCC)C(=O)*)OCCCCCCCCCCCCCCCC,{<Oc1ccc(cc1)OC(=O)c2cc(OCCCCCCCCCCCCCCCC)c(cc2OCCCCCCCCCCCCCCCC)C(=O)>},77.98044592,C,machine_derived
+homopolymer_bigsmiles_00502,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1)/C=C/c1ccc(cc1)N(c1ccc(cc1)N(c1ccc(cc1)/C=C/c1sc(cc1)/C=C(/C(=O)Nc1cc(ccc1)NC(=O)/C(=C/*)/C#N)\C#N)c1ccccc1)c1ccccc1,{</C=C(\C#N)C(=O)Nc1cccc(c1)NC(=O)/C(C#N)=C/c2ccc(s2)/C=C/c3ccc(cc3)N(c4ccccc4)c4ccc(cc4)N(c5ccccc5)c5ccc(cc5)/C=C/c6ccc(s6)>},243.9892983,C,machine_derived
+homopolymer_bigsmiles_00503,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1ccc(cc1)Cc1ccc(cc1)N(C(=O)c1ccc(cc1)C(=O)*)CCC)CCC,{<C(=O)c1ccc(cc1)C(=O)N(CCC)c2ccc(cc2)Cc3ccc(cc3)N(CCC)>},173.7390032,C,machine_derived
+homopolymer_bigsmiles_00504,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)OCC#CC#CC*)(C)C,{<CC#CC#CCOc1ccc(cc1)C(C)(C)c2ccc(cc2)O>},48.046331,C,machine_derived
+homopolymer_bigsmiles_00505,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)C(C(C(=O)NCCCCCC*)O)O,{<CCCCCCNC(=O)C(O)C(O)C(=O)N>},149.1553302,C,machine_derived
+homopolymer_bigsmiles_00506,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCC(=O)NCc1ccc(cc1)C*,{<Cc1ccc(cc1)CNC(=O)CCCCCC(=O)N>},61.73836642,C,machine_derived
+homopolymer_bigsmiles_00507,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(c(c(cc1)*)Cl)Cl,{<Nc1ccc(c(Cl)c1Cl)>},115.5762842,C,machine_derived
+homopolymer_bigsmiles_00508,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)C(C(=O)NCCCCCCCCCC*)CCCCCCCCCCCC,{<CCCCCCCCCCNC(=O)C(CCCCCCCCCCCC)C(=O)N>},-0.868265132,C,machine_derived
+homopolymer_bigsmiles_00509,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)c(c(c(c2F)F)Oc1c(c(c(c(c1F)F)Oc1c(c2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)*)c(c1F)F)F)F)F)F,{<c1ccc(cc1)Oc2ccc(cc2)N3C(=O)c4c(F)c(F)c(c(F)c4C3=O)Oc5c(F)c(F)c(c(F)c5F)Oc6c(F)c(F)c7c(c6F)C(=O)N(C7=O)>},283.2696326,C,machine_derived
+homopolymer_bigsmiles_00510,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(c2c(C(=O)O1)cccc2)c1cc(c(c(c1)Br)OC(=O)c1cc(ccc1)C(=O)Oc1c(cc(cc1Br)*)Br)Br,{<c1cc(Br)c(c(Br)c1)OC(=O)c2cccc(c2)C(=O)Oc3c(Br)cc(cc3Br)C4(OC(=O)c5ccccc54)>},245.9668197,C,machine_derived
+homopolymer_bigsmiles_00511,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCSCCCCC(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)CCCCSCCCCC(=O)O>},-22.30064955,C,machine_derived
+homopolymer_bigsmiles_00512,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1c(cccc1)C(=O)OCc1ccc(cc1)C*,{<Cc1ccc(cc1)COC(=O)c2ccccc2C(=O)O>},95.33964688,C,machine_derived
+homopolymer_bigsmiles_00513,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C=CCC(CC*)(C(=O)OC)C,{$C=CCC(C)(C(=O)OC)CC$},-28.15217408,C,machine_derived
+homopolymer_bigsmiles_00514,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*O[Si](*)(CCCCCOc1ccc(cc1)OC(=O)c1ccc(cc1)OCCCC)C,{<O[Si](CCCCCOc1ccc(OC(=O)c2ccc(OCCCC)cc2)cc1)(C)>},-64.12566312,C,machine_derived
+homopolymer_bigsmiles_00515,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)CCc1ccc(cc1)NC(=O)c1ccc(cc1)C(=O)*,{<Nc1ccc(cc1)CCc2ccc(cc2)NC(=O)c3ccc(cc3)C(=O)>},245.2414672,C,machine_derived
+homopolymer_bigsmiles_00516,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=NN=CC#C[Si](C#CC=*)(c1ccccc1)c1ccccc1,{<=CC#C[Si](c1ccccc1)(c1ccccc1)C#CC=NN=>},131.2577432,C,machine_derived
+homopolymer_bigsmiles_00517,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)OCCOCCOCCOC(=O)c1ccc(cc1)OC(=O)Nc1c(ccc(c1)NC(=O)*)C,{<Oc1ccc(cc1)C(=O)OCCOCCOCCOC(=O)c2ccc(cc2)OC(=O)Nc3cc(ccc3C)NC(=O)>},100.4455143,C,machine_derived
+homopolymer_bigsmiles_00518,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)OC(=O)c1c(cc(cc1)C(=O)*)Oc1ccc(cc1)C(c1ccccc1)(C)C,"{<Oc1ccc(cc1)c2ccc(cc2)O<,>C(=O)c3ccc(cc3Oc3ccc(C(C)(C)c4ccccc4)cc3)C(=O)>}",135.0490958,C,machine_derived
+homopolymer_bigsmiles_00519,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCSCCCCCSCCNC(=O)OCCCC*,{<CCCCOC(=O)NCCSCCCCCSCCNC(=O)O>},3.000872148,C,machine_derived
+homopolymer_bigsmiles_00520,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)OC(=O)c1cc(c(c(c1)C(C)(C)C)OC(=O)c1ccc(cc1)C(=O)Oc1c(cc(cc1C(C)(C)C)C(=O)*)C(C)(C)C)C(C)(C)C,{<Oc1cccc(c1)OC(=O)c2cc(C(C)(C)C)c(c(C(C)(C)C)c2)OC(=O)c3ccc(cc3)C(=O)Oc4c(C(C)(C)C)cc(cc4C(C)(C)C)C(=O)>},135.2011857,C,machine_derived
+homopolymer_bigsmiles_00521,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)OC(=O)*)(CCCC)C,"{<Oc1ccc(cc1)C(C)(CCCC)c2ccc(cc2)O<,>C(=O)>}",118.8361345,C,machine_derived
+homopolymer_bigsmiles_00522,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2n3c(nc2cc1)c1ccc(cc1C3=O)Oc1cc2c3n(c4ccc(cc4n3)O*)C(=O)c2cc1,{<Oc1ccc2c(c1)nc1n2C(=O)c2ccc(cc21)Oc3ccc4c(c3)C(=O)n3c4nc4ccc(cc43)>},291.281809,C,machine_derived
+homopolymer_bigsmiles_00523,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)OC(=O)Oc1ccc(cc1)OC(=O)*)C,{<Oc1ccc(cc1C)OC(=O)Oc2ccc(cc2)OC(=O)>},120.5520321,C,machine_derived
+homopolymer_bigsmiles_00524,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)c(ccc2)c1cc2c(C(=O)N(C2=O)c2ccc(cc2)OCCCCCCCCCOc2ccc(cc2)*)cc1,{<c1ccc(cc1)OCCCCCCCCCOc2ccc(cc2)N3C(=O)c4ccc(cc4C3=O)c5cccc6c5C(=O)N(C6=O)>},47.98864595,C,machine_derived
+homopolymer_bigsmiles_00525,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1OC(CO1)COCC1OC(OC1)CCCCCCCC(=O)OCCOC(=O)CCCCCCC*,{<CCCCCCCC(=O)OCCOC(=O)CCCCCCCC1OCC(O1)COCC2COC(O2)>},-2.553202642,C,machine_derived
+homopolymer_bigsmiles_00526,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)Oc1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)*,{<Oc1ccc(cc1)Oc2ccc(cc2)Oc3ccc(cc3)OC(=O)c4ccc(cc4)C(=O)>},136.3718208,C,machine_derived
+homopolymer_bigsmiles_00527,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(=O)C*)c1ccc(cc1)C,{$CC(=O)C(c1ccc(C)cc1)$},67.57313464,C,machine_derived
+homopolymer_bigsmiles_00528,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)OCC1(COC(OC1)(C)C)C,{$CC(C(=O)OCC1(C)COC(C)(C)OC1)$},95.74104893,C,machine_derived
+homopolymer_bigsmiles_00529,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C=C1C(=O)C(=Cc2cc(c(cc2)OCCCC*)OC)CC1)OC,{<CCCCOc1ccc(cc1OC)C=C2CCC(C2=O)=Cc3ccc(c(OC)c3)O>},36.19808899,C,machine_derived
+homopolymer_bigsmiles_00530,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=C1c2ccccc2C(=Nc2ccc(cc2)*)c2ccccc12,{<N=C1c2ccccc2C(c2ccccc21)=Nc2ccc(cc2)>},158.2579262,C,machine_derived
+homopolymer_bigsmiles_00531,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCCCCCCCCCCCC*,{<CCCCCCCCCCCCCCCCC(=O)N>},15.38660594,C,machine_derived
+homopolymer_bigsmiles_00532,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1cc(ccc1)NC(=O)CCCCCC(=O)*,{<Nc1cccc(c1)NC(=O)CCCCCC(=O)>},-12.07623639,C,machine_derived
+homopolymer_bigsmiles_00533,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(cc1)cc(cc2)*,{<c1ccc2cc(ccc2c1)>},239.5402998,C,machine_derived
+homopolymer_bigsmiles_00534,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ncc(cc1)c1ccc(nc1)*,{<c1ccc(cn1)c2ccc(nc2)>},138.2497069,C,machine_derived
+homopolymer_bigsmiles_00535,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)n1c2ccc(cc2c2cc(ccc12)Br)Br,{$CC(n1c2ccc(Br)cc2c2cc(Br)ccc21)$},115.6170166,C,machine_derived
+homopolymer_bigsmiles_00536,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)c2ccc(cc2)c2ccc(cc2)*)cc1,{<c1ccc(cc1)c2ccc(cc2)c3ccc4c(c3)C(=O)N(C4=O)c3ccc(cc3)Oc5ccc(cc5)N6C(=O)c7ccc(cc7C6=O)>},357.2965065,C,machine_derived
+homopolymer_bigsmiles_00537,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)c2ccc(cc2)c2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(*)(C(F)(F)F)C(F)(F)F)cc1,{<c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)c3ccc(cc3)c4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)C(C(F)(F)F)(C(F)(F)F)>},302.652739,C,machine_derived
+homopolymer_bigsmiles_00538,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NC1C(C1)NC(=O)OCCCC*,{<CCCCOC(=O)NC1CC1NC(=O)O>},47.31586772,C,machine_derived
+homopolymer_bigsmiles_00539,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)Oc1c(cc(cc1C)C1C(CC(CC1)C(c1cc(c(c(c1)C)*)C)(C)C)C)C,{<Oc1ccc(cc1)S(=O)(=O)c2ccc(cc2)Oc3c(C)cc(cc3C)C4CCC(CC4C)C(C)(C)c5cc(C)c(c(C)c5)>},250.477212,C,machine_derived
+homopolymer_bigsmiles_00540,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1*)c1ccccc1,{<C1C(=O)N(c2ccccc2)C(=O)C1>},197.1821336,C,machine_derived
+homopolymer_bigsmiles_00541,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*[Si](c1ccc(cc1)*)(C)C,{<c1ccc(cc1)[Si](C)(C)>},126.7080905,C,machine_derived
+homopolymer_bigsmiles_00542,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(c(c(c(c1[2H])[2H])*)[2H])[2H],{<Nc1c([2H])c([2H])c(c([2H])c1[2H])>},235.370823,C,machine_derived
+homopolymer_bigsmiles_00543,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1c2c(C(C=C1)C=C*)cc(cc2)CCCCCC,{$C=CC1C=CC(c2ccc(CCCCCC)cc21)$},9.704073219,C,machine_derived
+homopolymer_bigsmiles_00544,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)/C=C/c1ccc(cc1)Oc1c(cc(cc1)c1ccc(cc1)c1ccc(cc1)c1cc(c(cc1)Oc1ccc(cc1)/C=C/*)C#N)C#N)CC(CCCC)CC,{</C=C/c1ccc(cc1)Oc2ccc(cc2C#N)c3ccc(cc3)c4ccc(cc4)c5ccc(c(C#N)c5)Oc6ccc(cc6)/C=C/c7ccc8c(c7)c7cc(ccc7n8CC(CC)CCCC)>},129.2206103,C,machine_derived
+homopolymer_bigsmiles_00545,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(c(c1OCCCCCCC)C)*,{<c1sc(c(OCCCCCCC)c1C)>},32.04437108,C,machine_derived
+homopolymer_bigsmiles_00546,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)C(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)C(=O)O>},-65.08541819,C,machine_derived
+homopolymer_bigsmiles_00547,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C=CC(C(*)C)C,{$C=CC(C)C(C)$},78.17880502,C,machine_derived
+homopolymer_bigsmiles_00548,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(CC2(C)C)(c2ccc(cc2)Oc2cc3c(C(=O)N(C3=O)c3cc(ccc3)N3C(=O)c4c(C3=O)cc(cc4)Oc3ccc(cc3)C3(CC(c4c3cc(cc4)Oc3cc4c(C(=O)N(C4=O)c4cc(ccc4)*)cc3)(C)C)C)cc2)C)cc1,{<c1cccc(c1)N2C(=O)c3ccc(cc3C2=O)Oc4ccc5c(c4)C(C)(CC5(C)C)c4ccc(cc4)Oc6ccc7c(c6)C(=O)N(C7=O)c6cccc(c6)N8C(=O)c9ccc(cc9C8=O)Oc%10ccc(cc%10)C%11(C)CC(C)(C)c%12cc(ccc%12%11)Oc%13ccc%14c(c%13)C(=O)N(C%14=O)>},231.956044,C,machine_derived
+homopolymer_bigsmiles_00549,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C1SC(=S)N(C1=O)c1ccc(cc1)N1C(=S)SC(=Cc2ccc(cc2)C=*)C1=O,{<=Cc1ccc(cc1)C=C2SC(=S)N(C2=O)c3ccc(cc3)N4C(=O)C(SC4=S)=>},187.1036635,C,machine_derived
+homopolymer_bigsmiles_00550,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(c(c1)C(=O)O)*)OC,{<Nc1cc(C(=O)O)c(cc1OC)>},93.18891585,C,machine_derived
+homopolymer_bigsmiles_00551,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NNC(=O)CCCCC(=O)NNC(=O)CCCCCCCC(=O)*,{<NNC(=O)CCCCC(=O)NNC(=O)CCCCCCCC(=O)>},101.0022623,C,machine_derived
+homopolymer_bigsmiles_00552,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2sc3c(sc2c1=O)c(=O)n(c3=O)c1ccc(cc1)C(=O)Nc1ccc(cc1)NC(=O)c1ccc(cc1)*,{<c1ccc(cc1)C(=O)Nc2ccc(cc2)NC(=O)c3ccc(cc3)n4c(=O)c5sc6c(=O)n(c(=O)c6sc5c4=O)>},327.2441987,C,machine_derived
+homopolymer_bigsmiles_00553,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1CC(CC1)C*,{<CC1CCC(C1)>},42.35931484,C,machine_derived
+homopolymer_bigsmiles_00554,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)c1c(cc(c(c1)C(=O)O)C(=O)*)C(=O)O,{<Nc1ccc(cc1)NC(=O)c2cc(C(=O)O)c(cc2C(=O)O)C(=O)>},240.3936293,C,machine_derived
+homopolymer_bigsmiles_00555,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NNC(=O)c1cc(ccc1)C(=O)*,{<NNC(=O)c1cccc(c1)C(=O)>},232.2266265,C,machine_derived
+homopolymer_bigsmiles_00556,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(c(c1CCCCCCCCCCCC)CCCCCCCCCCCC)c1sc(cc1)c1sc(cc1)*,{<c1ccc(s1)c2ccc(s2)c3sc(c(CCCCCCCCCCCC)c3CCCCCCCCCCCC)>},14.60597757,C,machine_derived
+homopolymer_bigsmiles_00557,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)NCC,{$CC(C(=O)NCC)$},55.10481694,C,machine_derived
+homopolymer_bigsmiles_00558,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1C(C)(C)C)C(=O)*)C(C)(C)C,{<Oc1c(C(C)(C)C)cc(cc1C(C)(C)C)C(=O)>},206.7951116,C,machine_derived
+homopolymer_bigsmiles_00559,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1ccc(cc1)c1ccc(cc1)S(=O)(=O)Oc1c(cc(cc1Br)C1(CCCCC1)c1cc(c(c(c1)Br)*)Br)Br,{<OS(=O)(=O)c1ccc(cc1)c2ccc(cc2)S(=O)(=O)Oc3c(Br)cc(cc3Br)C4(CCCCC4)c5cc(Br)c(c(Br)c5)>},268.4647521,C,machine_derived
+homopolymer_bigsmiles_00560,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)NCCCCCCCCCCCC,{$CC(C(=O)NCCCCCCCCCCCC)$},21.73577755,C,machine_derived
+homopolymer_bigsmiles_00561,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1ccc(cc1)*)CCCCCC,{<c1ccc(cc1)N(CCCCCC)>},-128.6299242,C,machine_derived
+homopolymer_bigsmiles_00562,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C(c1cc(c(cc1)OC(=O)c1cc(ccc1)C(=O)*)[N+](=O)[O-])(CCC(=O)O)C)[N+](=O)[O-],{<Oc1ccc(cc1[N+](=O)[O-])C(C)(CCC(=O)O)c2ccc(c([N+](=O)[O-])c2)OC(=O)c3cccc(c3)C(=O)>},127.0784722,C,machine_derived
+homopolymer_bigsmiles_00563,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ncc(cc1)C(=O)NNC(=O)*,{<C(=O)NNC(=O)c1ccc(nc1)>},135.1836518,C,machine_derived
+homopolymer_bigsmiles_00564,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(cc1)*)C(C(=O)NO)n1ccc2c1cccc2,{<c1ccc(n1C(C(=O)NO)n1ccc2ccccc21)>},180.3082327,C,machine_derived
+homopolymer_bigsmiles_00565,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=Nc1ccc(cc1)*,{<N=Nc1ccc(cc1)>},144.6951233,C,machine_derived
+homopolymer_bigsmiles_00566,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc2c(c1)sc(c2)c1sc(cc1CCCCCCCCCCBr)c1sc(c(c1)CCCCCCCCCCBr)*,{<c1cc2sc(cc2s1)c3sc(cc3CCCCCCCCCCBr)c4cc(CCCCCCCCCCBr)c(s4)>},24.95900908,C,machine_derived
+homopolymer_bigsmiles_00567,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(CC(C*)c1ccccc1)(C(=O)OC)C#N,{$CC(c1ccccc1)CC(C(=O)OC)(C#N)$},127.0156605,C,machine_derived
+homopolymer_bigsmiles_00568,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C=C=C(C(=*)COS(=O)(=O)c1ccc(cc1)OC)COS(=O)(=O)c1ccc(cc1)OC,{$=C=C=C(COS(=O)(=O)c1ccc(OC)cc1)C(COS(=O)(=O)c1ccc(OC)cc1)=$},55.30555285,C,machine_derived
+homopolymer_bigsmiles_00569,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)OCCCCCCCCCC)C#C*)OCCCCCCCCCC,{<C#Cc1cc(OCCCCCCCCCC)c(cc1OCCCCCCCCCC)>},61.85443636,C,machine_derived
+homopolymer_bigsmiles_00570,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OCCCC(=O)NCCCCCCNC(=O)CCCCCC*,{<CCCCCCC(=O)NCCCCCCNC(=O)CCCO>},1.467345964,C,machine_derived
+homopolymer_bigsmiles_00571,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cncc(c1)C(=O)NCCCCCCCCCCNC(=O)*,{<C(=O)NCCCCCCCCCCNC(=O)c1cncc(c1)>},85.60365033,C,machine_derived
+homopolymer_bigsmiles_00572,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(C(C(*)(F)F)(F)F)(F)F)(C(F)(F)F)F,{$C(F)(F)C(F)(F)C(F)(F)C(C(F)(F)F)(F)$},-86.88823628,C,machine_derived
+homopolymer_bigsmiles_00573,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)C(=O)NNC(=O)c1cc(ccc1)C(=O)NNC(=O)CC*,{<CCC(=O)NNC(=O)c1cccc(c1)C(=O)NNC(=O)c2cccc(c2)O>},234.2133464,C,machine_derived
+homopolymer_bigsmiles_00574,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)NC(=O)c1ccc(cc1)C(c1ccc(cc1)C(=O)Nc1ccc(cc1)*)(C(F)(F)F)C(F)(F)F,{<Oc1cccc(c1)NC(=O)c2ccc(cc2)C(C(F)(F)F)(C(F)(F)F)c3ccc(cc3)C(=O)Nc4ccc(cc4)>},157.6228264,C,machine_derived
+homopolymer_bigsmiles_00575,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(nn1)CCCCCCCC*)N,{<CCCCCCCCc1nnc(n1N)>},-41.92176029,C,machine_derived
+homopolymer_bigsmiles_00576,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)cc(cc2)c1cc2c(nc([nH]2)c2ccc(cc2)NC(=O)c2ccc(cc2)C(=O)Nc2ccc(cc2)*)cc1,{<c1ccc(cc1)NC(=O)c2ccc(cc2)C(=O)Nc3ccc(cc3)c4nc5ccc(cc5[nH]4)c6ccc7nc([nH]c7c6)>},358.667269,C,machine_derived
+homopolymer_bigsmiles_00577,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(cc1Cl)*)Cl,{<Nc1c(Cl)cc(cc1Cl)>},-0.214281278,C,machine_derived
+homopolymer_bigsmiles_00578,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)N=Cc1sc(cc1)c1sc(cc1)C=N*)CCCCCC,{<N=Cc1ccc(s1)c2ccc(s2)C=Nc3ccc4c(c3)c3cc(ccc3n4CCCCCC)>},95.07860424,C,machine_derived
+homopolymer_bigsmiles_00579,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C2(CCCC2)C(=O)N(C1=O)C(=O)c1ccc(cc1)N=Nc1ccc(cc1)C(=O)*,{<C(=O)c1ccc(cc1)N=Nc2ccc(cc2)C(=O)N3C(=O)N(C4(CCCC4)C3=O)>},17.25361376,C,machine_derived
+homopolymer_bigsmiles_00580,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*P(=Nc1ccc(cc1)N=P(CC*)(Cl)Cl)(Cl)Cl,{<CCP(Cl)(Cl)=Nc1ccc(cc1)N=P(Cl)(Cl)>},-27.34500252,C,machine_derived
+homopolymer_bigsmiles_00581,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(c(c1)SCCC#N)NC(=O)c1cc(ccc1)C(=O)*)SCCC#N,{<Nc1cc(SCCC#N)c(cc1SCCC#N)NC(=O)c2cccc(c2)C(=O)>},38.16065966,C,machine_derived
+homopolymer_bigsmiles_00582,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(c1ccc(cc1)OC(=O)CC)OC(=O)C,{$CC(c1ccc(OC(=O)CC)cc1)(OC(C)=O)$},2.162388076,C,machine_derived
+homopolymer_bigsmiles_00583,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1C(C*)c1ccccc1)CCCCCCCC,{<CC(c1ccccc1)C1C(=O)N(CCCCCCCC)C(=O)C1>},105.6965321,C,machine_derived
+homopolymer_bigsmiles_00584,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc2cc3c(cc2n1)sc(n3)CCCCC*,{<CCCCCc1nc2cc3sc(nc3cc2s1)>},87.36313445,C,machine_derived
+homopolymer_bigsmiles_00585,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(=O)*)CCC(=O)OCCCCCCCCCCCC,{<NC(CCC(=O)OCCCCCCCCCCCC)C(=O)>},30.09586697,C,machine_derived
+homopolymer_bigsmiles_00586,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(=O)*)CO,{<NC(CO)C(=O)>},84.57547927,C,machine_derived
+homopolymer_bigsmiles_00587,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cccc1)NC(=O)CCCCCCC(=O)*,{<Nc1ccccc1NC(=O)CCCCCCC(=O)>},71.92438381,C,machine_derived
+homopolymer_bigsmiles_00588,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C=Cc1ccc(cc1)C=Cc1cc(c(cc1)OC(=O)CCCCCCCCC(=O)*)C)C,{<Oc1ccc(cc1C)C=Cc2ccc(cc2)C=Cc3ccc(c(C)c3)OC(=O)CCCCCCCCC(=O)>},35.47523522,C,machine_derived
+homopolymer_bigsmiles_00589,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(nccn2)c(cc1)*,{<c1ccc(c2nccnc12)>},216.378732,C,machine_derived
+homopolymer_bigsmiles_00590,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)C(=O)Nc1ccc(cc1)Oc1ccc(cc1)c1ccc(cc1)Oc1ccc(cc1)NC(=O)c1ccc(cc1)*,{<Oc1ccc(cc1)Oc2ccc(cc2)C(=O)Nc3ccc(cc3)Oc4ccc(cc4)c5ccc(cc5)Oc6ccc(cc6)NC(=O)c7ccc(cc7)>},165.0428244,C,machine_derived
+homopolymer_bigsmiles_00591,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OP(=O)(OCCCCCCCCCCOc1ccc(cc1)C=Cc1ccc(cc1)OCCCCCCCCCC*)OCCCCCCCCCCOc1ccc(cc1)N=Nc1ccc(cc1)F,{<CCCCCCCCCCOc1ccc(cc1)C=Cc2ccc(cc2)OCCCCCCCCCCOP(=O)(OCCCCCCCCCCOc3ccc(N=Nc4ccc(F)cc4)cc3)O>},-7.2122695,C,machine_derived
+homopolymer_bigsmiles_00592,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)OCCCOc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)Nc2ccc(cc2)S(=O)(=O)c2ccc(cc2)NC(=O)*)cc1,{<C(=O)Nc1ccc(cc1)S(=O)(=O)c2ccc(cc2)NC(=O)c3ccc4c(c3)C(=O)N(C4=O)c3ccc(cc3)OCCCOc5ccc(cc5)N6C(=O)c7ccc(cc7C6=O)>},163.1829015,C,machine_derived
+homopolymer_bigsmiles_00593,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)NCCCCCCNC(=O)c1ccc(cc1)C(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)c1ccc(cc1)C(=O)NCCCCCCNC(=O)c2ccc(cc2)C(=O)O>},-20.66610996,C,machine_derived
+homopolymer_bigsmiles_00594,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NNC(=O)c1ccc(cc1)NC(=O)c1cc(cc(c1)N1C(=O)c2c(C1=O)c(c(c(c2Cl)Cl)Cl)Cl)C(=O)*,{<NNC(=O)c1ccc(cc1)NC(=O)c2cc(cc(N3C(=O)c4c(Cl)c(Cl)c(Cl)c(Cl)c4C3=O)c2)C(=O)>},133.1528291,C,machine_derived
+homopolymer_bigsmiles_00595,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=P(*)(OCCC(=O)C=C)OCCC(=O)C=C,{<N=P(OCCC(=O)C=C)(OCCC(=O)C=C)>},-42.12432011,C,machine_derived
+homopolymer_bigsmiles_00596,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)c1ccc(cc1)c1ccc(cc1)*,{<c1ccc(cc1)c2ccc(cc2)S(=O)(=O)>},229.0539301,C,machine_derived
+homopolymer_bigsmiles_00597,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)S(=O)(=O)c2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)N2C(=O)N(C(=O)C2(CC)C)C(=O)*)cc1,{<C(=O)N1C(=O)N(C(C)(CC)C1=O)C(=O)c2ccc3c(c2)C(=O)N(C3=O)c2ccc(cc2)S(=O)(=O)c4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)>},242.6534046,C,machine_derived
+homopolymer_bigsmiles_00598,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OP(=O)(OCCCCCCCCCCOc1ccc(cc1)C=Cc1ccc(cc1)OCCCCCCCCCC*)OCCCCCCCCCCOc1ccc(cc1)N=Nc1ccc(cc1)C,{<CCCCCCCCCCOc1ccc(cc1)C=Cc2ccc(cc2)OCCCCCCCCCCOP(=O)(OCCCCCCCCCCOc3ccc(N=Nc4ccc(C)cc4)cc3)O>},5.817024886,C,machine_derived
+homopolymer_bigsmiles_00599,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(CCCCNC(=O)NCCCCNC(=O)*)C(=O)OC,{<NC(C(=O)OC)CCCCNC(=O)NCCCCNC(=O)>},0.336556425,C,machine_derived
+homopolymer_bigsmiles_00600,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1nc2c(n1C)cccc2,{$C=C(c1nc2ccccc2n1C)$},-6.104199835,C,machine_derived
+homopolymer_bigsmiles_00601,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)N=Nc1ccc(cc1)*,{<Oc1ccc(cc1)N=Nc2ccc(cc2)>},116.9759489,C,machine_derived
+homopolymer_bigsmiles_00602,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)NC(=O)c1c(cc(c(c1)C(=O)N*)C(=O)O)C(=O)OC(=O)Nc1c(ccc(c1)NC(=O)OCCCCCCCC)C)c1ccccc1,{<NC(=O)c1cc(c(C(=O)OC(=O)Nc2cc(NC(=O)OCCCCCCCC)ccc2C)cc1C(=O)O)C(=O)Nc2nc(nc(c3ccccc3)n2)>},-1.691479041,C,machine_derived
+homopolymer_bigsmiles_00603,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1[nH]c2cc3c(cc2n1)nc([nH]3)c1ccc(cc1)*,{<c1ccc(cc1)c2nc3cc4nc([nH]c4cc3[nH]2)>},340.5865983,C,machine_derived
+homopolymer_bigsmiles_00604,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Cc1ccc(cc1)CC(=O)OCCCC*,{<CCCCOC(=O)Cc1ccc(cc1)CC(=O)O>},-34.10658315,C,machine_derived
+homopolymer_bigsmiles_00605,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)NCCCCCCNC(=O)SCCCC*,{<CCCCSC(=O)NCCCCCCNC(=O)S>},-33.13797704,C,machine_derived
+homopolymer_bigsmiles_00606,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)OC)*)OC,{<c1cc(OC)c(cc1OC)>},63.90036252,C,machine_derived
+homopolymer_bigsmiles_00607,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(CC*)C(=O)CCC(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F,{<CCN(C(=O)CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)>},-52.64825421,C,machine_derived
+homopolymer_bigsmiles_00608,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1c(cccc1)NC(=O)c1ccc(cc1)C(=O)Nc1c(cccc1)C(=O)OC(=O)c1cc(ccc1)C(=O)*,{<OC(=O)c1ccccc1NC(=O)c1ccc(cc1)C(=O)Nc2ccccc2C(=O)OC(=O)c2cccc(c2)C(=O)>},185.0999075,C,machine_derived
+homopolymer_bigsmiles_00609,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1CCCCCCCC)Nc1ccc(cc1)*,{<c1ccc(cc1)Nc2cc(CCCCCCCC)c(s2)>},49.50827798,C,machine_derived
+homopolymer_bigsmiles_00610,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)*,{<c1ccc(cc1)c2ccc(cc2)c3ccc(cc3)n4c(=O)c5cc6c(=O)n(c(=O)c6cc5c4=O)>},278.5221779,C,machine_derived
+homopolymer_bigsmiles_00611,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2c(c3c(c(c2c1=O)F)c(=O)n(c3=O)c1ccc(cc1)*)F,{<c1ccc(cc1)n2c(=O)c3c(F)c4c(=O)n(c(=O)c4c(F)c3c2=O)>},337.816724,C,machine_derived
+homopolymer_bigsmiles_00612,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)NCCNC(=O)c1ccc(cc1)C(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)c1ccc(cc1)C(=O)NCCNC(=O)c2ccc(cc2)C(=O)O>},4.250402609,C,machine_derived
+homopolymer_bigsmiles_00613,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)NC(=O)NCc1c(c(cc(c1)Cc1c(c(cc(c1)C*)C=O)O)C=O)O,{<Cc1cc(C=O)c(O)c(c1)Cc2cc(C=O)c(O)c(c2)CNC(=O)NC(=O)N>},190.6072154,C,machine_derived
+homopolymer_bigsmiles_00614,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)C(C*)(CCCC)CCCC,{<CC(CCCC)(CCCC)C(=O)O>},-17.98562642,C,machine_derived
+homopolymer_bigsmiles_00615,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(C(=O)C(CCC1)C*)CO,{<CC1CCCC(C1=O)(CO)>},71.70468573,C,machine_derived
+homopolymer_bigsmiles_00616,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1ccc(cc1)Oc1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)Oc2ccc(cc2)*)cc1,"{<c1ccc(cc1)Oc2ccc(cc2)Oc3ccc(cc3)<,>N4C(=O)c5ccc(cc5C4=O)Oc6ccc(cc6)Oc7ccc8c(c7)C(=O)N(C8=O)>}",191.2304459,C,machine_derived
+homopolymer_bigsmiles_00617,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1cc(c(c(c1)CO)OCc1ccc(cc1)CNC(COCCCCCCCC)C)CO,{$C=C(c1cc(CO)c(OCc2ccc(CNC(C)COCCCCCCCC)cc2)c(CO)c1)$},65.78481038,C,machine_derived
+homopolymer_bigsmiles_00618,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)CCCCCCCCCCCC*,{<CCCCCCCCCCCCn1c(=O)c2cc3c(=O)n(c(=O)c3cc2c1=O)>},73.37639604,C,machine_derived
+homopolymer_bigsmiles_00619,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc2cc3c(cc2n1)sc(n3)c1ccc(cc1)c1ccc(cc1)*,{<c1ccc(cc1)c2ccc(cc2)c3nc4cc5sc(nc5cc4s3)>},343.9030515,C,machine_derived
+homopolymer_bigsmiles_00620,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1COCCCCCCOc1ccc(cc1)c1ccc(cc1)C#N)*,{<c1cc(COCCCCCCOc2ccc(c3ccc(C#N)cc3)cc2)c(s1)>},59.88076613,C,machine_derived
+homopolymer_bigsmiles_00621,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)CC(=O)*,{<Nc1ccc(cc1)CC(=O)>},63.68828699,C,machine_derived
+homopolymer_bigsmiles_00622,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)N(c1ccccc1)O,{$CC(C(=O)N(O)c1ccccc1)$},141.1832818,C,machine_derived
+homopolymer_bigsmiles_00623,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)OC(=O)c1ccc(cc1)C(=O)*)c1ccccc1,"{<Oc1ccc(cc1c1ccccc1)O<,>C(=O)c2ccc(cc2)C(=O)>}",65.88587862,C,machine_derived
+homopolymer_bigsmiles_00624,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(CC(=O)*)C(C)C,{<OC(C(C)C)CC(=O)>},-24.82439314,C,machine_derived
+homopolymer_bigsmiles_00625,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(=O)*)CC(=O)OCc1ccccc1,{<NC(CC(=O)OCc1ccccc1)C(=O)>},70.10647363,C,machine_derived
+homopolymer_bigsmiles_00626,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(c(cc(c1)N=Nc1ccc(cc1)[N+](=O)[O-])*)O,{<c1cc(N=Nc2ccc([N+](=O)[O-])cc2)cc(c1O)>},165.6801535,C,machine_derived
+homopolymer_bigsmiles_00627,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OCCCCC(=O)NCCCCCCNC(=O)CCCC*,{<CCCCC(=O)NCCCCCCNC(=O)CCCCO>},-56.49395983,C,machine_derived
+homopolymer_bigsmiles_00628,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C=C=C(C(=*)CCCCOC(=O)NC(=O)OCCCC)CCCCOC(=O)NC(=O)OCCCC,{$=C=C=C(CCCCOC(=O)NC(=O)OCCCC)C(CCCCOC(=O)NC(=O)OCCCC)=$},27.51087357,C,machine_derived
+homopolymer_bigsmiles_00629,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(c(cc1)S(=O)(=O)c1ccc(cc1)Oc1ccc(cc1)C(c1ccc(cc1)*)(C)C)[N-][N+]#N,{<Oc1ccc(c([N-][N+]#N)c1)S(=O)(=O)c2ccc(cc2)Oc3ccc(cc3)C(C)(C)c4ccc(cc4)>},196.3053138,C,machine_derived
+homopolymer_bigsmiles_00630,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(nn1)SCC(=O)NN=Cc1ccc(cc1)OCCCCOc1ccc(cc1)C=NNC(=O)CS*,{<SCC(=O)NN=Cc1ccc(cc1)OCCCCOc2ccc(cc2)C=NNC(=O)CSc3nnc(s3)>},39.79677892,C,machine_derived
+homopolymer_bigsmiles_00631,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCSCCCCSCCNC(=O)OCC*,{<CCOC(=O)NCCSCCCCSCCNC(=O)O>},26.25521298,C,machine_derived
+homopolymer_bigsmiles_00632,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)N1CC[N+](CC1)(CCCCCCCCCCCC)C,{$CC(C(=O)N1CC[N+](C)(CCCCCCCCCCCC)CC1)$},-81.38297384,C,machine_derived
+homopolymer_bigsmiles_00633,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1cc(ccc1)c1cc(ccc1)C(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)c1cccc(c1)c2cccc(c2)C(=O)O>},8.531981028,C,machine_derived
+homopolymer_bigsmiles_00634,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(C(=O)OC(=O)C1)C*,{<CC1(CC(=O)OC1=O)>},143.854555,C,machine_derived
+homopolymer_bigsmiles_00635,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)OC(=O)c1ccc(cc1)C(=O)Oc1cc(ccc1)OCCCCCCCCCC*,{<CCCCCCCCCCOc1cccc(c1)OC(=O)c2ccc(cc2)C(=O)Oc3cccc(c3)O>},20.92794041,C,machine_derived
+homopolymer_bigsmiles_00636,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)Oc1ccc(cc1)C(=O)Oc1ccc(cc1)OC(=O)c1cc(ccc1)C(=O)*,{<Oc1ccc(cc1)OC(=O)c2ccc(cc2)OC(=O)c3ccc(cc3)C(=O)Oc4ccc(cc4)C(=O)Oc5ccc(cc5)OC(=O)c6cccc(c6)C(=O)>},119.4238893,C,machine_derived
+homopolymer_bigsmiles_00637,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C1CN(CC(=Cc2oc(cc2)C(=O)CCCCC(=O)c2oc(cc2)C=*)C1=O)C,{<=Cc1ccc(o1)C(=O)CCCCC(=O)c2ccc(o2)C=C3CN(C)CC(C3=O)=>},95.14114513,C,machine_derived
+homopolymer_bigsmiles_00638,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)NC(=O)c1c(c(c(c(c1F)F)C(=O)Nc1ccc(cc1)*)F)F,{<Oc1ccc(cc1)NC(=O)c2c(F)c(F)c(c(F)c2F)C(=O)Nc3ccc(cc3)>},168.6168885,C,machine_derived
+homopolymer_bigsmiles_00639,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C(CC*)C)C,{$CCC(C)=C(C)$},46.49641909,C,machine_derived
+homopolymer_bigsmiles_00640,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)NCCNS(=O)(=O)c1ccc(cc1)*,{<c1ccc(cc1)S(=O)(=O)NCCNS(=O)(=O)>},7.54081281,C,machine_derived
+homopolymer_bigsmiles_00641,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)*)c1ccccc1,{<C(=O)N(c1ccccc1)>},150.7130657,C,machine_derived
+homopolymer_bigsmiles_00642,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)C(C(=O)OCCCCCC*)CCCCCCOc1ccc(cc1)c1ccc(cc1)OCc1ccc(cc1)[N+](=O)[O-],{<CCCCCCOC(=O)C(CCCCCCOc1ccc(c2ccc(OCc3ccc([N+](=O)[O-])cc3)cc2)cc1)C(=O)O>},17.95743357,C,machine_derived
+homopolymer_bigsmiles_00643,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=S)SC(=Cc2ccc(cc2)C=C2SC(=S)N(C2=O)CCCCCC*)C1=O,{<CCCCCCN1C(=O)C(SC1=S)=Cc2ccc(cc2)C=C3SC(=S)N(C3=O)>},35.37444876,C,machine_derived
+homopolymer_bigsmiles_00644,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(cc1)Sc1oc(cc1)C=Nc1ccc(cc1)N=C*,{<C=Nc1ccc(cc1)N=Cc2ccc(o2)Sc3ccc(o3)>},95.64631957,C,machine_derived
+homopolymer_bigsmiles_00645,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)S(=O)(=O)CCCCCCS(=O)(=O)c1ccc(cc1)C(=O)OCCCCCC*,{<CCCCCCOC(=O)c1ccc(cc1)S(=O)(=O)CCCCCCS(=O)(=O)c2ccc(cc2)C(=O)O>},35.86441642,C,machine_derived
+homopolymer_bigsmiles_00646,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1cc(ccc1)S(=O)(=O)Oc1cc(ccc1)*,{<OS(=O)(=O)c1cccc(c1)S(=O)(=O)Oc2cccc(c2)>},29.19231194,C,machine_derived
+homopolymer_bigsmiles_00647,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SSC(=O)N(c1ccc(cc1)Cc1ccc(cc1)N(C(=O)SSCCCC*)C)C,{<CCCCSSC(=O)N(C)c1ccc(cc1)Cc2ccc(cc2)N(C)C(=O)SS>},20.68923822,C,machine_derived
+homopolymer_bigsmiles_00648,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(c1ccc(cc1)OC(=O)C)OC(=O)C,{$CC(c1ccc(OC(C)=O)cc1)(OC(C)=O)$},74.85696518,C,machine_derived
+homopolymer_bigsmiles_00649,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=Cc1ccc(cc1)OC(=O)CCCCCCCCCCC(=O)*)C,{<Oc1ccc(cc1)C(C)=Cc2ccc(cc2)OC(=O)CCCCCCCCCCC(=O)>},6.458707655,C,machine_derived
+homopolymer_bigsmiles_00650,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)CCCCC(=O)N(CC(C(C(C*)(F)F)(F)F)(F)F)CC)CC,{<CC(F)(F)C(F)(F)C(F)(F)CN(CC)C(=O)CCCCC(=O)N(CC)>},10.59395774,C,machine_derived
+homopolymer_bigsmiles_00651,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)C=C1C(=O)C(=Cc2ccc(cc2)C(=O)c2ccc(cc2)C(=O)*)CC1,{<C(=O)c1ccc(cc1)C(=O)c2ccc(cc2)C=C3CCC(C3=O)=Cc4ccc(cc4)>},192.2096838,C,machine_derived
+homopolymer_bigsmiles_00652,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(c(cc1)N1ON1c1c(cc(cc1)OC(=O)CCCCCCCCCCC(=O)*)C)C,{<Oc1ccc(c(C)c1)n2on2c2ccc(cc2C)OC(=O)CCCCCCCCCCC(=O)>},50.67469492,C,machine_derived
+homopolymer_bigsmiles_00653,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)Oc1ccc(cc1)S(=O)(=O)O[Na])c1ccc(cc1)*)Oc1ccc(cc1)S(=O)(=O)O[Na],{<c1ccc(cc1)c2cc(Oc3ccc(S(=O)(=O)O[Na])cc3)c(cc2Oc2ccc(S(=O)(=O)O[Na])cc2)>},172.5717242,C,machine_derived
+homopolymer_bigsmiles_00654,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCCCC*,{<CCCCCNC(=O)O>},-13.55087665,C,machine_derived
+homopolymer_bigsmiles_00655,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)C(CC1=O)Nc1ccc(cc1)NC1C(=O)N(C(=O)C1)c1ccc(cc1)Cc1ccc(cc1)*,{<c1ccc(cc1)Cc2ccc(cc2)N3C(=O)CC(C3=O)Nc4ccc(cc4)NC5CC(=O)N(C5=O)>},248.5034267,C,machine_derived
+homopolymer_bigsmiles_00656,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1ccc(cc1)OCCCCCC(=O)Oc1c(c(c(c(c1F)F)F)F)F,{$C=C(c1ccc(OCCCCCC(=O)Oc2c(F)c(F)c(F)c(F)c2F)cc1)$},73.83198457,C,machine_derived
+homopolymer_bigsmiles_00657,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)OC(=O)c1ccc(cc1)C=Nc1ccc(cc1)OCCCCCCOc1ccc(cc1)N=Cc1ccc(cc1)C(=O)*,{<Oc1cccc(c1)OC(=O)c2ccc(cc2)C=Nc3ccc(cc3)OCCCCCCOc4ccc(cc4)N=Cc5ccc(cc5)C(=O)>},83.83402436,C,machine_derived
+homopolymer_bigsmiles_00658,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1=NC2=CC(C=CC2=C1)*,{<C1=NC2=CC(C=CC2=C1)>},103.156476,C,machine_derived
+homopolymer_bigsmiles_00659,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C=CCCCCCCCC*,{$C=CCCCCCCCC$},-17.2820223,C,machine_derived
+homopolymer_bigsmiles_00660,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(CCC*)Cl,{$CCCC(Cl)$},-30.93658282,C,machine_derived
+homopolymer_bigsmiles_00661,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C#CC(=C(*)CCCCOC(=O)NCCC)CCCCOC(=O)NCCC,{$C#CC(CCCCOC(=O)NCCC)=C(CCCCOC(=O)NCCC)$},40.70123878,C,machine_derived
+homopolymer_bigsmiles_00662,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(CC(=O)*)c1ccccc1,{<NC(c1ccccc1)CC(=O)>},-30.79261317,C,machine_derived
+homopolymer_bigsmiles_00663,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)C(C=CC(*)C)C,{<C(C)C=CC(C)S(=O)(=O)>},33.82674704,C,machine_derived
+homopolymer_bigsmiles_00664,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(*)(C([2H])([2H])[2H])C([2H])([2H])[2H])([2H])[2H],{$C([2H])([2H])C(C([2H])([2H])[2H])(C([2H])([2H])[2H])$},85.2671101,C,machine_derived
+homopolymer_bigsmiles_00665,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1)C(=O)NCCCCCCNC(=O)*,{<C(=O)NCCCCCCNC(=O)c1ccc(s1)>},42.90894132,C,machine_derived
+homopolymer_bigsmiles_00666,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)c1ccc(cc1)C(=O)SCc1c(c(c(c(c1C)C)C*)C)C,{<Cc1c(C)c(C)c(c(C)c1C)CSC(=O)c2ccc(cc2)C(=O)S>},127.8963011,C,machine_derived
+homopolymer_bigsmiles_00667,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2c(c1)c(=O)oc(n2)c1cc(cc(c1)N1C(=O)c2c(C1=O)c(c(c(c2Cl)Cl)Cl)Cl)c1oc(=O)c2c(ccc(c2)C*)n1,{<Cc1ccc2nc(oc(=O)c2c1)c3cc(cc(N4C(=O)c5c(Cl)c(Cl)c(Cl)c(Cl)c5C4=O)c3)c4nc5ccc(cc5c(=O)o4)>},378.8956296,C,machine_derived
+homopolymer_bigsmiles_00668,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)c1c(cc(c(c1)SCCCCCCCC)C(=O)*)SCCCCCCCC,{<Nc1ccc(cc1)NC(=O)c2cc(SCCCCCCCC)c(cc2SCCCCCCCC)C(=O)>},69.67482713,C,machine_derived
+homopolymer_bigsmiles_00669,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C=Nc1ccc(cc1)N=Cc1cc(c(cc1)OC(=O)CCCCC(=O)*)OC)OC,{<Oc1ccc(cc1OC)C=Nc2ccc(cc2)N=Cc3ccc(c(OC)c3)OC(=O)CCCCC(=O)>},-41.85748469,C,machine_derived
+homopolymer_bigsmiles_00670,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1ccc(cc1)OC(=O)CCCCCCC(=O)*,"{<Oc1ccc(cc1)O<,>C(=O)c2ccc(cc2)OC(=O)CCCCCCC(=O)>}",72.32081554,C,machine_derived
+homopolymer_bigsmiles_00671,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(sc1)N=Cc1cc(c(cc1)OCCCCOc1c(cc(cc1)C=Nc1nc(cs1)c1ccc(cc1)Oc1ccc(cc1)*)OC)OC,{<c1ccc(cc1)Oc2ccc(cc2)c3csc(n3)N=Cc4ccc(c(OC)c4)OCCCCOc5ccc(cc5OC)C=Nc6nc(cs6)>},104.0626058,C,machine_derived
+homopolymer_bigsmiles_00672,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)Oc1ccc(cc1)C(=O)NNC(=O)c1cc(c(cc1)NC(=O)c1ccc(cc1)*)O,{<Oc1ccc(cc1)S(=O)(=O)c2ccc(cc2)Oc3ccc(cc3)C(=O)NNC(=O)c4ccc(c(O)c4)NC(=O)c5ccc(cc5)>},111.457133,C,machine_derived
+homopolymer_bigsmiles_00673,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)OC(=O)c1cc(ccc1)Oc1ccc(cc1)C(=O)*,"{<Oc1ccc(cc1)c2ccc(cc2)O<,>C(=O)c3cccc(c3)Oc4ccc(cc4)C(=O)>}",89.5930824,C,machine_derived
+homopolymer_bigsmiles_00674,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)OCCC,{$CC(OCCC)$},-17.16506937,C,machine_derived
+homopolymer_bigsmiles_00675,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCC(=O)OCC(C(C(C(C*)(F)F)(F)F)(F)F)(F)F,{<CC(F)(F)C(F)(F)C(F)(F)C(F)(F)COC(=O)CCCC(=O)O>},-64.11657159,C,machine_derived
+homopolymer_bigsmiles_00676,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC1CCC(CC1)OC(=O)CCCCCCC(=O)*,"{<OC1CCC(CC1)O<,>C(=O)CCCCCCC(=O)>}",-35.83964331,C,machine_derived
+homopolymer_bigsmiles_00677,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)N(C(=O)C1(C)C)C(=O)c1ccc(cc1)N=Nc1ccc(cc1)C(=O)*,{<C(=O)c1ccc(cc1)N=Nc2ccc(cc2)C(=O)N3C(=O)N(C(C)(C)C3=O)>},302.3547996,C,machine_derived
+homopolymer_bigsmiles_00678,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OCC(=O)OC(=O)c1ccc(cc1)C(=O)OC(=O)C*,{<CC(=O)OC(=O)c1ccc(cc1)C(=O)OC(=O)COc2ccc(cc2)O>},80.44433982,C,machine_derived
+homopolymer_bigsmiles_00679,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(c(cc1)*)cccc2,{<c1ccc(c2ccccc12)>},189.0821827,C,machine_derived
+homopolymer_bigsmiles_00680,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1C(C*)c1ccccc1)c1ccc(cc1)Cl,{<CC(c1ccccc1)C1C(=O)N(c2ccc(Cl)cc2)C(=O)C1>},168.825845,C,machine_derived
+homopolymer_bigsmiles_00681,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*[Si](c1ccc(cc1)*)(OCC)OCC,{<c1ccc(cc1)[Si](OCC)(OCC)>},7.02246836,C,machine_derived
+homopolymer_bigsmiles_00682,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(CNC(=O)NCCCCCCNC(=O)*)C,{<NC(C)CNC(=O)NCCCCCCNC(=O)>},55.35434565,C,machine_derived
+homopolymer_bigsmiles_00683,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(cs1)c1ccc(cc1)c1nc(sc1)CCCC*,{<CCCCc1nc(cs1)c2ccc(cc2)c3csc(n3)>},110.5188915,C,machine_derived
+homopolymer_bigsmiles_00684,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)CCCCCCCC(=O)*,"{<Oc1ccc(cc1)O<,>C(=O)CCCCCCCC(=O)>}",-6.058372606,C,machine_derived
+homopolymer_bigsmiles_00685,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)OC(=O)C(CC)(CC)CC,{$CC(OC(=O)C(CC)(CC)CC)$},20.41787387,C,machine_derived
+homopolymer_bigsmiles_00686,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCCCCCCCCCCC(=O)NCCc1ccc(cc1)CC*,{<CCc1ccc(cc1)CCNC(=O)CCCCCCCCCCCCCCC(=O)N>},65.25488595,C,machine_derived
+homopolymer_bigsmiles_00687,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1CCN(CC1)SC(=O)OCCCCOC(=O)SN1CCC(CC1)CCC*,{<CCCC1CCN(CC1)SC(=O)OCCCCOC(=O)SN2CCC(CC2)>},-6.032415023,C,machine_derived
+homopolymer_bigsmiles_00688,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc2c(C(CC2(C)C)(c2ccc(cc2)Oc2ccc(cc2)C2(CC(c3c2cc(cc3)*)(C)C)C)C)cc1,{<Oc1ccc2c(c1)C(C)(C)CC2(C)c1ccc(cc1)Oc2ccc(cc2)C3(C)CC(C)(C)c4ccc(cc43)>},308.5311609,C,machine_derived
+homopolymer_bigsmiles_00689,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)CCc1ccc(cc1)C(=O)OCC*,{<CCOC(=O)c1ccc(cc1)CCc2ccc(cc2)C(=O)O>},53.2795594,C,machine_derived
+homopolymer_bigsmiles_00690,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc2c(n1)cc(cc2)c1cc2c(oc(n2)CCCCCCCC*)cc1,{<CCCCCCCCc1nc2cc(ccc2o1)c3ccc4oc(nc4c3)>},61.93714913,C,machine_derived
+homopolymer_bigsmiles_00691,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)CNS(=O)(=O)CC,{$C=C(CNS(=O)(=O)CC)$},44.748248,C,machine_derived
+homopolymer_bigsmiles_00692,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(ccc1)Oc1ccc(cc1)Oc1ccc(cc1)O*,{<Oc1ccc(cc1)Oc2ccc(cc2)Oc3cccc(n3)>},-19.11943844,C,machine_derived
+homopolymer_bigsmiles_00693,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C(*)C)[Si](CCCC)(C)C,{$C(C)=C([Si](C)(C)CCCC)$},152.5242236,C,machine_derived
+homopolymer_bigsmiles_00694,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCSCCC(=O)*,{<OC(=O)CCSCCC(=O)>},6.950276755,C,machine_derived
+homopolymer_bigsmiles_00695,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)NC(=C(C#N)C#N)c1ccc(cc1)c1ccc(cc1)C(=C(C#N)C#N)Nc1ccc(cc1)*,{<Oc1ccc(cc1)Oc2ccc(cc2)NC(=C(C#N)C#N)c3ccc(cc3)c4ccc(cc4)C(=C(C#N)C#N)Nc5ccc(cc5)>},270.2905197,C,machine_derived
+homopolymer_bigsmiles_00696,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)OC(=O)Oc1ccc(cc1)OC(=O)*,{<Oc1cccc(c1)OC(=O)Oc2ccc(cc2)OC(=O)>},-104.3379932,C,machine_derived
+homopolymer_bigsmiles_00697,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)NC(=O)CCCCC(=O)Nc1ccc(cc1)C(=O)OCCC*,{<CCCOC(=O)c1ccc(cc1)NC(=O)CCCCC(=O)Nc2ccc(cc2)C(=O)O>},83.99780359,C,machine_derived
+homopolymer_bigsmiles_00698,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)cc(cc2)NC(=NO)C(=NO)Nc1ccc2c(nc([nH]2)CCCC*)c1,{<CCCCc1nc2cc(ccc2[nH]1)NC(=NO)C(=NO)Nc3ccc4nc([nH]c4c3)>},170.1130329,C,machine_derived
+homopolymer_bigsmiles_00699,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(c(c(c(c1C)C)NC(=O)c1ccc(cc1)C(=O)*)C)C,{<Nc1c(C)c(C)c(c(C)c1C)NC(=O)c2ccc(cc2)C(=O)>},205.6552433,C,machine_derived
+homopolymer_bigsmiles_00700,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Nc1ccc(cc1)NC(=O)OCC*,{<CCOC(=O)Nc1ccc(cc1)NC(=O)O>},134.2908917,C,machine_derived
+homopolymer_bigsmiles_00701,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)OC(=O)c1ccc(cc1)C(=O)*)Cl,{<Oc1ccc(cc1Cl)OC(=O)c2ccc(cc2)C(=O)>},119.6241841,C,machine_derived
+homopolymer_bigsmiles_00702,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)OC(=O)c1c(cc(c(c1)C(=O)OCCCCCC)C(=O)*)C(=O)OCCCCCC,{<Oc1ccc(cc1)c2ccc(cc2)OC(=O)c3cc(C(=O)OCCCCCC)c(cc3C(=O)OCCCCCC)C(=O)>},77.13970172,C,machine_derived
+homopolymer_bigsmiles_00703,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1CCN(CC1)CCC(=O)N(CCN(C(=O)CC*)C(C)C)C(C)C,{<CCC(=O)N(C(C)C)CCN(C(C)C)C(=O)CCN1CCN(CC1)>},-43.71593166,C,machine_derived
+homopolymer_bigsmiles_00704,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)C=NN(c1ccc(cc1)S(=O)(=O)c1ccc(cc1)N(N=C*)CCCC)CCCC)CC,{<C=NN(CCCC)c1ccc(cc1)S(=O)(=O)c2ccc(cc2)N(CCCC)N=Cc3ccc4c(c3)c3cc(ccc3n4CC)>},139.604302,C,machine_derived
+homopolymer_bigsmiles_00705,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Sc1ccc(cc1)c1ccc(cc1)SC(=O)CCCCC(=O)*,{<Sc1ccc(cc1)c2ccc(cc2)SC(=O)CCCCC(=O)>},13.2621556,C,machine_derived
+homopolymer_bigsmiles_00706,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1ccc(cc1)c1ccc(cc1)N(C(=O)c1ccc(cc1)C(=O)*)CC)CC,{<C(=O)c1ccc(cc1)C(=O)N(CC)c2ccc(cc2)c3ccc(cc3)N(CC)>},62.56896406,C,machine_derived
+homopolymer_bigsmiles_00707,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)CCCC*,{<CCCCS(=O)(=O)>},-14.41108992,C,machine_derived
+homopolymer_bigsmiles_00708,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)C=C1C(=O)C(=Cc2ccc(cc2)C(=O)c2ccc(cc2)C(=O)*)CCC1,{<C(=O)c1ccc(cc1)C(=O)c2ccc(cc2)C=C3CCCC(C3=O)=Cc4ccc(cc4)>},240.3798309,C,machine_derived
+homopolymer_bigsmiles_00709,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)*)CC,{<c1ccc2c(c1)c1cc(ccc1n2CC)>},206.6525359,C,machine_derived
+homopolymer_bigsmiles_00710,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(C(C(=O)*)(C)C)c1ccccc1,{<OC(c1ccccc1)C(C)(C)C(=O)>},65.42132156,C,machine_derived
+homopolymer_bigsmiles_00711,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)cc(cc2)c1ccc2c(nc([nH]2)c2ccc(cc2)C(=O)c2ccc(cc2)*)c1,{<c1ccc(cc1)C(=O)c2ccc(cc2)c3nc4cc(ccc4[nH]3)c5ccc6nc([nH]c6c5)>},300.9001313,C,machine_derived
+homopolymer_bigsmiles_00712,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=S)NC(=O)c1ccc(cc1)C(=O)NC(=S)*,{<Nc1ccc(cc1)NC(=S)NC(=O)c2ccc(cc2)C(=O)NC(=S)>},220.8197438,C,machine_derived
+homopolymer_bigsmiles_00713,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=c1c2cc3c(cc2c(=O)o1)c(=O)oc3=Nc1cc(ccc1)Oc1cc(ccc1)Oc1cc(ccc1)N=*,{<=Nc1cccc(c1)Oc2cccc(c2)Oc3cccc(c3)N=C4OC(=O)c5cc6c(cc54)C(OC6=O)=>},132.5253262,C,machine_derived
+homopolymer_bigsmiles_00714,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1ccc(cc1)S(=O)(=O)c1ccc(cc1)S(=O)(=O)Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)*,{<OS(=O)(=O)c1ccc(cc1)S(=O)(=O)c2ccc(cc2)S(=O)(=O)Oc3ccc(cc3)S(=O)(=O)c4ccc(cc4)>},194.2678014,C,machine_derived
+homopolymer_bigsmiles_00715,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(CCOC(=O)c1cc(ccc1)C(=O)*)C,"{<OC(C)CCO<,>C(=O)c1cccc(c1)C(=O)>}",-42.28619333,C,machine_derived
+homopolymer_bigsmiles_00716,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCCCCCC(=O)NC*,{<CNC(=O)CCCCCCCCC(=O)N>},66.76854223,C,machine_derived
+homopolymer_bigsmiles_00717,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCP(=O)(CCC(=O)NCC*)C,{<CCNC(=O)CCP(C)(=O)CCC(=O)N>},143.8466204,C,machine_derived
+homopolymer_bigsmiles_00718,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)c1c(cccc1)OC,{$CC(c1ccccc1OC)$},160.10962,C,machine_derived
+homopolymer_bigsmiles_00719,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OCCCCCOCCCCCCOCCCCCC*,{<CCCCCCOCCCCCCOCCCCCO>},-72.01996519,C,machine_derived
+homopolymer_bigsmiles_00720,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)C(=O)NCCNC(=O)CCCCCCCC(=O)NCC*,{<CCNC(=O)CCCCCCCC(=O)NCCNC(=O)C(=O)N>},112.5256843,C,machine_derived
+homopolymer_bigsmiles_00721,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCC(C*)(CCl)CCl,{<CC(CCl)(CCl)COC(=O)c1ccc(cc1)C(=O)O>},11.46555203,C,machine_derived
+homopolymer_bigsmiles_00722,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(COC(=O)CCCCC(=O)*)C,"{<OC(C)CO<,>C(=O)CCCCC(=O)>}",-15.95518318,C,machine_derived
+homopolymer_bigsmiles_00723,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)c1ccc(cc1)C(*)(C)C,{<c1ccc(cc1)c2ccc(cc2)C(C)(C)>},210.9469969,C,machine_derived
+homopolymer_bigsmiles_00724,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)NC(=O)c1ccc(cc1)C(=O)Nc1ccc(cc1)*,{<Oc1ccc(cc1)Oc2ccc(cc2)NC(=O)c3ccc(cc3)C(=O)Nc4ccc(cc4)>},203.5999878,C,machine_derived
+homopolymer_bigsmiles_00725,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)Oc1ccc(cc1)C(=O)c1ccc(cc1)*)CBr,{<Oc1ccc(cc1CBr)Oc2ccc(cc2)C(=O)c3ccc(cc3)>},98.31320425,C,machine_derived
+homopolymer_bigsmiles_00726,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)C(=O)OC(=O)c1cc(ccc1)OCC*,{<CCOc1cccc(c1)C(=O)OC(=O)c2cccc(c2)O>},3.697542049,C,machine_derived
+homopolymer_bigsmiles_00727,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1ccc(cc1)[N+](=O)[O-],{$C=C(c1ccc([N+](=O)[O-])cc1)$},-12.60583746,C,machine_derived
+homopolymer_bigsmiles_00728,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1)[Si](c1sc(cc1)[SiH](*)C)(C)C,{<c1ccc(s1)[Si](C)(C)c2ccc(s2)[SiH](C)>},60.04219897,C,machine_derived
+homopolymer_bigsmiles_00729,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)OC(=O)c1ccc(cc1)Oc1ccc(cc1)C(=O)*)C,"{<Oc1ccc(cc1)C(C)c2ccc(cc2)O<,>C(=O)c3ccc(cc3)Oc4ccc(cc4)C(=O)>}",76.95210942,C,machine_derived
+homopolymer_bigsmiles_00730,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)n1sc2c(c1=O)cccc2,{$CC(C(=O)n1sc2ccccc2c1=O)$},48.67425788,C,machine_derived
+homopolymer_bigsmiles_00731,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1cc(cc(c1)C(=O)OCCN(c1ccc(cc1)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C)NC(=O)c1cc(cc(c1)OCCN(c1ccc(cc1)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C)C(=O)*,{<Nc1cc(cc(C(=O)OCCN(C)c2ccc(S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)cc2)c1)NC(=O)c2cc(OCCN(C)c3ccc(S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)cc3)cc(c2)C(=O)>},172.7344272,C,machine_derived
+homopolymer_bigsmiles_00732,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)c1c(cc(cc1)c1cc(c(cc1)*)C)C,{<c1ccc(cc1C)c2ccc(c(C)c2)n3c(=O)c4cc5c(=O)n(c(=O)c5cc4c3=O)>},271.2577887,C,machine_derived
+homopolymer_bigsmiles_00733,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)OCCCCCCOc1ccc(cc1)C1CCC(CC1)CCCCC)C=C*)OCCCCCCOc1ccc(cc1)C1CCC(CC1)CCCCC,{<C=Cc1cc(OCCCCCCOc2ccc(C3CCC(CCCCC)CC3)cc2)c(cc1OCCCCCCOc1ccc(C2CCC(CCCCC)CC2)cc1)>},36.67582945,C,machine_derived
+homopolymer_bigsmiles_00734,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)SSC(=O)OCCCC*,{<CCCCOC(=O)SSC(=O)O>},-58.94578339,C,machine_derived
+homopolymer_bigsmiles_00735,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(=O)NCC(=O)*)C,{<NC(C)C(=O)NCC(=O)>},19.96697332,C,machine_derived
+homopolymer_bigsmiles_00736,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CNC(=O)CC*,{<CCC(=O)NCC(=O)N>},70.42884183,C,machine_derived
+homopolymer_bigsmiles_00737,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)CCCCC(=O)SCc1c(c(c(c(c1C)C)C*)C)C,{<Cc1c(C)c(C)c(c(C)c1C)CSC(=O)CCCCC(=O)S>},44.80678229,C,machine_derived
+homopolymer_bigsmiles_00738,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(=C*)c1ccccc1,{$C=C(c1ccccc1)$},66.12991425,C,machine_derived
+homopolymer_bigsmiles_00739,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2cc(ccc2)NC(=O)c2cc(ccc2)C(=O)Nc2cc(ccc2)NC(=O)*)cc1,{<C(=O)Nc1cccc(c1)NC(=O)c2cccc(c2)C(=O)Nc3cccc(c3)N4C(=O)c5ccc(cc5C4=O)>},213.4893774,C,machine_derived
+homopolymer_bigsmiles_00740,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1Br)C(c1cc(c(c(c1)Br)OC(=O)c1cc(ccc1)C(=O)*)Br)(CCC(=O)O)C)Br,{<Oc1c(Br)cc(cc1Br)C(C)(CCC(=O)O)c2cc(Br)c(c(Br)c2)OC(=O)c3cccc(c3)C(=O)>},175.2273279,C,machine_derived
+homopolymer_bigsmiles_00741,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCC(=O)OCC(C*)(CCl)CCl,{<CC(CCl)(CCl)COC(=O)CCCCC(=O)O>},2.83724036,C,machine_derived
+homopolymer_bigsmiles_00742,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1CCN(CC1)C(=O)SSCCCCSSC(=O)*,{<C(=O)SSCCCCSSC(=O)N1CCN(CC1)>},-3.571974592,C,machine_derived
+homopolymer_bigsmiles_00743,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)N(C(=O)C1(c1ccccc1)c1ccccc1)C(=O)c1ccc(cc1)N=Nc1ccc(cc1)C(=O)*,{<C(=O)c1ccc(cc1)N=Nc2ccc(cc2)C(=O)N3C(=O)N(C(c4ccccc4)(c4ccccc4)C3=O)>},183.844758,C,machine_derived
+homopolymer_bigsmiles_00744,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2n(c3c(c2cc1)ccc(c3)C#CC#C*)CCCCCCCCCCCCCCCC,{<C#CC#Cc1ccc2c3ccc(cc3n(CCCCCCCCCCCCCCCC)c2c1)>},68.35869686,C,machine_derived
+homopolymer_bigsmiles_00745,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(nccc2)c(cc1)OCc1ccc(cc1)COc1c2ncccc2c(cc1)C*,{<Cc1ccc(c2ncccc12)OCc2ccc(cc2)COc3ccc(c4cccnc34)>},200.3538526,C,machine_derived
+homopolymer_bigsmiles_00746,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCCOCCOCC*,{<CCOCCOCCOC(=O)c1ccc(cc1)C(=O)O>},36.06576581,C,machine_derived
+homopolymer_bigsmiles_00747,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2c(c(s1)*)sc(n2)CCCCCCCCC,{<c1sc(c2sc(CCCCCCCCC)nc12)>},56.24069524,C,machine_derived
+homopolymer_bigsmiles_00748,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C=C=C(C(=*)COS(=O)(=O)c1ccc(cc1)C)COS(=O)(=O)c1ccc(cc1)C,{$=C=C=C(COS(=O)(=O)c1ccc(C)cc1)C(COS(=O)(=O)c1ccc(C)cc1)=$},76.80290526,C,machine_derived
+homopolymer_bigsmiles_00749,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1)C=CC=Cc1cc(c(cc1)OCCCCCCC*)C)C,{<CCCCCCCOc1ccc(cc1C)C=CC=Cc2ccc(c(C)c2)O>},41.89270134,C,machine_derived
+homopolymer_bigsmiles_00750,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)OCCCCOC(=O)c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)*,{<Oc1ccc(cc1)C(=O)OCCCCOC(=O)c2ccc(cc2)OC(=O)c3ccc(cc3)C(=O)>},68.79315579,C,machine_derived
+homopolymer_bigsmiles_00751,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(c(ccc1)Oc1ccc(cc1)C(=O)Nc1ccc(cc1)Oc1ccc(cc1)NC(=O)c1ccc(cc1)*)C#N,{<Oc1cccc(c1C#N)Oc2ccc(cc2)C(=O)Nc3ccc(cc3)Oc4ccc(cc4)NC(=O)c5ccc(cc5)>},160.9324159,C,machine_derived
+homopolymer_bigsmiles_00752,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1*)c1ccc(cc1)COC(C)(C)C,{<C1C(=O)N(c2ccc(COC(C)(C)C)cc2)C(=O)C1>},122.5873684,C,machine_derived
+homopolymer_bigsmiles_00753,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)C(=O)Oc1ccc(cc1)C(c1ccc(cc1)OC(=O)*)(C)C)C,{<C(=O)Oc1ccc(cc1)C(C)(C)c2ccc(cc2)OC(=O)c3ccc4c(c3)c3cc(ccc3n4C)>},73.83261176,C,machine_derived
+homopolymer_bigsmiles_00754,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*/C=C/*,{$/C=C/$},59.5588378,C,machine_derived
+homopolymer_bigsmiles_00755,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ncc(cc1)c1n(c(cc1)c1n(c(cc1)*)C)C,{<c1ccc(cn1)c2ccc(n2C)c3ccc(n3C)>},256.5965094,C,machine_derived
+homopolymer_bigsmiles_00756,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ncc(cc1)*,{<c1ccc(nc1)>},322.0959561,C,machine_derived
+homopolymer_bigsmiles_00757,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)Nc2ccc(cc2)NC(=O)*)cc1,{<C(=O)Nc1ccc(cc1)NC(=O)c2ccc3c(c2)C(=O)N(C3=O)c2ccc(cc2)Oc4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)>},48.20867337,C,machine_derived
+homopolymer_bigsmiles_00758,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)*)CCCCCC,{<C(=O)N(CCCCCC)>},14.34014558,C,machine_derived
+homopolymer_bigsmiles_00759,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1cc(ccc1)C#Cc1cc(ccc1)NC(=O)c1c(cc(cc1)C(=O)*)C(=O)O,{<Nc1cccc(c1)C#Cc2cccc(c2)NC(=O)c3ccc(cc3C(=O)O)C(=O)>},187.6187871,C,machine_derived
+homopolymer_bigsmiles_00760,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(cc(c(c1)C*)C)O,{$Cc1cc(c(O)cc1C)$},12.40187977,C,machine_derived
+homopolymer_bigsmiles_00761,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(c(cc1)C(=O)Nc1ccc(cc1)NC(=O)c1c(cc(cc1)*)C(=O)O)C(=O)O,{<Oc1ccc(c(C(=O)O)c1)C(=O)Nc2ccc(cc2)NC(=O)c3ccc(cc3C(=O)O)>},216.6231471,C,machine_derived
+homopolymer_bigsmiles_00762,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)Oc1cc(ccc1)C(=O)Nc1ccc(cc1)Oc1ccc(cc1)NC(=O)c1cc(ccc1)O*)Sc1ccccc1,{<Oc1cccc(c1)C(=O)Nc2ccc(cc2)Oc3ccc(cc3)NC(=O)c4cccc(c4)Oc5nc(nc(Sc6ccccc6)n5)>},184.9515774,C,machine_derived
+homopolymer_bigsmiles_00763,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C1c2c(C(=O)O1)cc(cc2)c1cc2c(C(=O)OC2=Nc2cc(ccc2)Oc2cc(ccc2)Oc2cc(ccc2)N=*)cc1,{<=Nc1cccc(c1)Oc2cccc(c2)Oc3cccc(c3)N=C4OC(=O)c5ccc(cc54)c6ccc7c(c6)C(=O)OC7=>},193.7356518,C,machine_derived
+homopolymer_bigsmiles_00764,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(cc1)*)CC,{<Nc1ccc(cc1CC)>},162.1855704,C,machine_derived
+homopolymer_bigsmiles_00765,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCCCCCNC(=O)OCCN(CC*)c1ccc(cc1)N=Nc1ccc(cc1)C,{<CCN(c1ccc(N=Nc2ccc(C)cc2)cc1)CCOC(=O)NCCCCCCNC(=O)O>},24.09354398,C,machine_derived
+homopolymer_bigsmiles_00766,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)ccc(c2)c1ccc2c(nc([nH]2)c2ccc(cc2)*)c1,{<c1ccc(cc1)c2nc3cc(ccc3[nH]2)c4ccc5[nH]c(nc5c4)>},423.6341908,C,machine_derived
+homopolymer_bigsmiles_00767,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ncc(cc1)C(=O)OC(=O)COc1ccc(cc1)OCC(=O)OC(=O)*,{<C(=O)OC(=O)COc1ccc(cc1)OCC(=O)OC(=O)c2ccc(nc2)>},155.9709567,C,machine_derived
+homopolymer_bigsmiles_00768,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)OCCN(S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C,{$CC(C(=O)OCCN(C)S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)$},-148.0297376,C,machine_derived
+homopolymer_bigsmiles_00769,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1cc(ccc1)C(=O)OCC1C(C1)C*,{<CC1CC1COC(=O)c1cccc(c1)C(=O)O>},10.23490017,C,machine_derived
+homopolymer_bigsmiles_00770,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(=O)*)C(C)C,{<NC(C(C)C)C(=O)>},153.0278775,C,machine_derived
+homopolymer_bigsmiles_00771,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCC(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)F,{$CC(C(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)(F)$},-98.70472035,C,machine_derived
+homopolymer_bigsmiles_00772,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(*)C(=O)OC(C)(C)C,{$C(C(=O)OC(C)(C)C)$},12.73837737,C,machine_derived
+homopolymer_bigsmiles_00773,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1c(cccc1)c1c(cccc1)C(=O)OCCCC*,{<CCCCOC(=O)c1ccccc1c1ccccc1C(=O)O>},71.34273106,C,machine_derived
+homopolymer_bigsmiles_00774,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)Cc1ccc(cc1)NC(=O)Nc1ccc(cc1)CCc1ccc(cc1)NC(=O)*,{<Nc1ccc(cc1)Cc2ccc(cc2)NC(=O)Nc3ccc(cc3)CCc4ccc(cc4)NC(=O)>},183.1975298,C,machine_derived
+homopolymer_bigsmiles_00775,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1C(C*)OC(=O)C)c1ccccc1,{<CC(OC(C)=O)C1C(=O)N(c2ccccc2)C(=O)C1>},157.3759721,C,machine_derived
+homopolymer_bigsmiles_00776,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(CC(=O)*)C(Cl)Cl,{<OC(C(Cl)Cl)CC(=O)>},110.2326669,C,machine_derived
+homopolymer_bigsmiles_00777,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCCCCCCCCCNC(=O)OCCCCCCCC*,{<CCCCCCCCOC(=O)NCCCCCCCCCCNC(=O)O>},24.78605928,C,machine_derived
+homopolymer_bigsmiles_00778,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C=CC(CC1)*,{<C1C=CC(CC1)>},103.377349,C,machine_derived
+homopolymer_bigsmiles_00779,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)NCCCP(CCC*)c1ccccc1,{<CCCP(c1ccccc1)CCCNC(=O)N>},-49.19787298,C,machine_derived
+homopolymer_bigsmiles_00780,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(nn1)CCCCCCCC*,{<CCCCCCCCc1nnc(o1)>},-48.88416733,C,machine_derived
+homopolymer_bigsmiles_00781,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCCCCCNC(=O)OCC(C*)(C)C,{<CC(C)(C)COC(=O)NCCCCCCNC(=O)O>},47.60248847,C,machine_derived
+homopolymer_bigsmiles_00782,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=P(*)(OCC(C(C(F)(F)F)(F)F)(F)F)OCC(C(C(F)(F)F)(F)F)(F)F,{<N=P(OCC(F)(F)C(F)(F)C(F)(F)F)(OCC(F)(F)C(F)(F)C(F)(F)F)>},-77.91107652,C,machine_derived
+homopolymer_bigsmiles_00783,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCCCCCC(=O)NCCNC(=O)CCCCC*,{<CCCCCC(=O)NCCNC(=O)CCCCCOC(=O)c1ccc(cc1)C(=O)O>},81.65245915,C,machine_derived
+homopolymer_bigsmiles_00784,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)OC2=Nc2cc(ccc2)N=C2OC(=O)c3c2cc(cc3)C(=O)*)cc1,{<C(=O)c1ccc2c(c1)C(OC2=O)=Nc1cccc(c1)N=C3OC(=O)c4ccc(cc43)>},246.6584182,C,machine_derived
+homopolymer_bigsmiles_00785,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C*,{$C$},-2.526682925,C,machine_derived
+homopolymer_bigsmiles_00786,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c(nnc(n1)c1nc(ccc1)c1nc(c(nn1)c1ccccc1)c1ccc(cc1)Sc1ccc(cc1)*)c1ccccc1,{<c1ccc(cc1)Sc2ccc(cc2)c3nc(nnc3c3ccccc3)c4cccc(n4)c5nnc(c6ccccc6)c(n5)>},419.5781202,C,machine_derived
+homopolymer_bigsmiles_00787,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2c(cc(cc2)c2cc(c(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)Oc2ccc(cc2)C(c2ccc(cc2)OC(=O)*)(C)C)C)C)cc1,{<C(=O)Oc1ccc(cc1)C(C)(C)c2ccc(cc2)OC(=O)c3ccc4c(c3)C(=O)N(C4=O)c3ccc(cc3C)c5ccc(c(C)c5)N6C(=O)c7ccc(cc7C6=O)>},87.17702398,C,machine_derived
+homopolymer_bigsmiles_00788,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=c1sc(cs1)c1ccc(cc1)C=*,{<=Cc1ccc(cc1)C2=CSC(S2)=>},105.3372816,C,machine_derived
+homopolymer_bigsmiles_00789,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)N=Cc1ccc(cc1)OC(=O)c1ccc(cc1)C=Nc1ccc(cc1)OCCCCOC(=O)NCCCCCCNC(=O)OCCCC*,{<CCCCOC(=O)NCCCCCCNC(=O)OCCCCOc1ccc(cc1)N=Cc2ccc(cc2)C(=O)Oc3ccc(cc3)C=Nc4ccc(cc4)O>},-34.25655466,C,machine_derived
+homopolymer_bigsmiles_00790,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)CNc1ccc(cc1)NCC(=O)c1ccc(cc1)*,{<Oc1ccc(cc1)C(=O)CNc2ccc(cc2)NCC(=O)c3ccc(cc3)>},158.6944649,C,machine_derived
+homopolymer_bigsmiles_00791,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)N(c1c(ccc(c1)N(C(=O)OCC*)C)C)C,{<CCOC(=O)N(C)c1ccc(C)c(c1)N(C)C(=O)O>},42.46691504,C,machine_derived
+homopolymer_bigsmiles_00792,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)N2C(=O)N(C(C(=C2C)C(=O)OCC)c2ccc(cc2)Cl)C(=O)*)cc1,{<C(=O)N1C(=O)N(C(C)=C(C(=O)OCC)C1c1ccc(Cl)cc1)C(=O)c2ccc3c(c2)C(=O)N(C3=O)c2ccc(cc2)Oc4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)>},170.3261787,C,machine_derived
+homopolymer_bigsmiles_00793,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)Oc1ccc(cc1)C)C,{$CC(C(=O)Oc1ccc(C)cc1)(C)$},126.1154692,C,machine_derived
+homopolymer_bigsmiles_00794,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc2c(n1)ccc(c2)OCCCCCCCCCCCOC(=O)CCCCC(=O)OCCCCCCCCCCCOc1ccc(cc1)*,{<c1ccc(cc1)OCCCCCCCCCCCOC(=O)CCCCC(=O)OCCCCCCCCCCCOc2ccc3nc(sc3c2)>},-17.21827415,C,machine_derived
+homopolymer_bigsmiles_00795,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c(c(c1)OCCO*)cc(cc2)C,{<OCCOc1cc(nc2ccc(C)cc12)>},88.77435741,C,machine_derived
+homopolymer_bigsmiles_00796,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(=O)CCCCCCCCC(=O)c1ccc(cc1)OC(=O)*,{<Oc1ccc(cc1)C(=O)CCCCCCCCC(=O)c2ccc(cc2)OC(=O)>},6.568396994,C,machine_derived
+homopolymer_bigsmiles_00797,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2c(nc([nH]2)c2cc(ccc2)c2nc3c([nH]2)ccc(c3)C(=O)Nc2ccc(cc2)NC(=O)*)c1,{<C(=O)Nc1ccc(cc1)NC(=O)c2ccc3[nH]c(nc3c2)c4cccc(c4)c5nc6cc(ccc6[nH]5)>},309.3374253,C,machine_derived
+homopolymer_bigsmiles_00798,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OCC1(C2CCC(C1)CC2)C*,{<CC1(CC2CCC1CC2)CO>},81.08225465,C,machine_derived
+homopolymer_bigsmiles_00799,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(ccc1)C=Nc1ccc(cc1)N=C*,{<C=Nc1ccc(cc1)N=Cc2cccc(n2)>},139.1234551,C,machine_derived
+homopolymer_bigsmiles_00800,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*/C(=C(/*)\c1ccccc1)/c1ccccc1,{$/C(c1ccccc1)=C(c1ccccc1)/$},206.5698859,C,machine_derived
+homopolymer_bigsmiles_00801,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(CN(C(C1)C)C(=O)OCCOC(=O)*)C,{<C(=O)OCCOC(=O)N1CC(C)N(CC1C)>},60.10633691,C,machine_derived
+homopolymer_bigsmiles_00802,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(CC1)*,{$C1CCC1$},69.57488221,C,machine_derived
+homopolymer_bigsmiles_00803,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(C*)CCCCCCCCOc1ccc(cc1)C(=O)Oc1ccc(cc1)C(=O)OCC(CC)C,{<CC(CCCCCCCCOc1ccc(C(=O)Oc2ccc(C(=O)OCC(C)CC)cc2)cc1)O>},-0.17829817,C,machine_derived
+homopolymer_bigsmiles_00804,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCOC(=O)c1cc(cc(c1)OC(=O)c1ccc(cc1)N=Nc1ccc(cc1)OCCCCCCC)OC(=O)c1ccc(cc1)N=Nc1ccc(cc1)OCCCCCCC)C,{$CC(C(=O)OCCOC(=O)c1cc(OC(=O)c2ccc(N=Nc3ccc(OCCCCCCC)cc3)cc2)cc(OC(=O)c2ccc(N=Nc3ccc(OCCCCCCC)cc3)cc2)c1)(C)$},9.014452923,C,machine_derived
+homopolymer_bigsmiles_00805,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)OCCOC(C(F)(F)F)(C(F)(F)F)F,{$CC(C(=O)OCCOC(F)(C(F)(F)F)C(F)(F)F)$},-51.63721715,C,machine_derived
+homopolymer_bigsmiles_00806,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Sc1ccc(cc1)*,{<Sc1ccc(cc1)>},64.586946,C,machine_derived
+homopolymer_bigsmiles_00807,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)CCCNC(=O)CCCCC(=O)NCCCc1ccc(cc1)OCCCCC*,{<CCCCCOc1ccc(cc1)CCCNC(=O)CCCCC(=O)NCCCc2ccc(cc2)O>},28.2211431,C,machine_derived
+homopolymer_bigsmiles_00808,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SSCCCCSSCCCCCC*,{<CCCCCCSSCCCCSS>},-41.26672381,C,machine_derived
+homopolymer_bigsmiles_00809,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)OCCN(CCOC(=O)*)c2ccc(cc2)N=Nc2ccc(cc2)[N+](=O)[O-])cc1,{<C(=O)OCCN(c1ccc(N=Nc2ccc([N+](=O)[O-])cc2)cc1)CCOC(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)N3C(=O)c4ccc(cc4C3=O)>},145.3751112,C,machine_derived
+homopolymer_bigsmiles_00810,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)C(C(=O)N1C(=O)N(C(C1=O)(C)C)C(=O)C(*)C)C,{<C(C)C(=O)N1C(=O)N(C(=O)C1(C)C)C(=O)C(C)n2c(=O)c3cc4c(=O)n(c(=O)c4cc3c2=O)>},252.5865186,C,machine_derived
+homopolymer_bigsmiles_00811,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCCCC(=O)OCc1ccc(cc1)C*,{<Cc1ccc(cc1)COC(=O)CCCCC(=O)O>},-4.158432897,C,machine_derived
+homopolymer_bigsmiles_00812,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(cc1)NC(=O)c1c(cc(c(c1)C(=O)*)C(=O)O)C(=O)O)S(=O)(=O)O[Na],{<Nc1ccc(cc1S(=O)(=O)O[Na])NC(=O)c2cc(c(C(=O)O)cc2C(=O)O)C(=O)>},129.970858,C,machine_derived
+homopolymer_bigsmiles_00813,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)Cc1ccc(cc1)NC(=O)c1cc(cc(c1)NC(=O)C(CC(C)C)N1C(=O)c2c(C1=O)cccc2)C(=O)*,{<Nc1ccc(cc1)Cc2ccc(cc2)NC(=O)c3cc(NC(=O)C(CC(C)C)N4C(=O)c5ccccc5C4=O)cc(c3)C(=O)>},36.87047274,C,machine_derived
+homopolymer_bigsmiles_00814,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(CN(C(C1)C)SC(=O)OCCCCOC(=O)S*)C,{<SC(=O)OCCCCOC(=O)SN1CC(C)N(CC1C)>},-30.512105,C,machine_derived
+homopolymer_bigsmiles_00815,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(C(=O)*)CC=C,{<C(=O)N(CC=C)>},164.8639006,C,machine_derived
+homopolymer_bigsmiles_00816,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*[Si](c1ccc(cc1)*)(c1ccc(cc1)CN(C)C)C,{<c1ccc(cc1)[Si](c2ccc(CN(C)C)cc2)(C)>},12.90627629,C,machine_derived
+homopolymer_bigsmiles_00817,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1)C#CC#C*,{<C#CC#Cc1ccc(s1)>},49.13696662,C,machine_derived
+homopolymer_bigsmiles_00818,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ncnc(c1)C=Cc1ccc(cc1)C=C*,{<C=Cc1ccc(cc1)C=Cc2cc(ncn2)>},84.80053451,C,machine_derived
+homopolymer_bigsmiles_00819,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)Oc1c2c(ccc1C(=O)Nc1ccc(cc1)NC(=O)c1c(c3c(cc1)cccc3)O*)cccc2)N1CCCCC1,{<Oc1c(ccc2ccccc12)C(=O)Nc2ccc(cc2)NC(=O)c3ccc4ccccc4c3Oc3nc(nc(N4CCCCC4)n3)>},162.6671353,C,machine_derived
+homopolymer_bigsmiles_00820,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCC(=O)OCCCCCCCCCC*,{<CCCCCCCCCCOC(=O)CCC(=O)O>},1.783806133,C,machine_derived
+homopolymer_bigsmiles_00821,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2n3c(=O)c4cc5c(cc4c3nc2cc1)c(=O)n1c2ccc(cc2nc51)*,{<c1ccc2c(c1)nc1c3cc4c(=O)n5c6cc(ccc6nc5c4cc3c(=O)n21)>},384.637936,C,machine_derived
+homopolymer_bigsmiles_00822,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2n(c3c(c2c1)cc(cc3)C(=O)Oc1ccc(cc1)C1(c2c(C(=O)O1)cccc2)c1ccc(cc1)OC(=O)*)C,{<C(=O)Oc1ccc(cc1)C2(OC(=O)c3ccccc32)c3ccc(cc3)OC(=O)c4ccc5c(c4)c4cc(ccc4n5C)>},262.5942508,C,machine_derived
+homopolymer_bigsmiles_00823,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=Nc1ccc(cc1)N=C(Nc1c(cc(cc1)c1cc(c(cc1)NC(=*)C)C(=O)O)C(=O)O)C,{<=Nc1ccc(cc1)N=C(C)Nc2ccc(cc2C(=O)O)c3ccc(c(C(=O)O)c3)NC(C)=>},89.38045943,C,machine_derived
+homopolymer_bigsmiles_00824,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)C=C(CC(=O)OCC*)c1ccc(cc1)OCC,{<CCOC(=O)CC(c1ccc(OCC)cc1)=CC(=O)O>},1.131191733,C,machine_derived
+homopolymer_bigsmiles_00825,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Nc1c(ccc(c1)NC(=O)OCCOCCOCCC*)C,{<CCCOCCOCCOC(=O)Nc1ccc(C)c(c1)NC(=O)O>},-26.75831261,C,machine_derived
+homopolymer_bigsmiles_00826,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cccc1)CCc1c(cccc1)NC(=O)*,{<Nc1ccccc1CCc1ccccc1NC(=O)>},207.655323,C,machine_derived
+homopolymer_bigsmiles_00827,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)Nc1ccc(cc1)Cc1ccc(cc1)NC(=O)SCc1ccc(cc1)C*,{<Cc1ccc(cc1)CSC(=O)Nc2ccc(cc2)Cc3ccc(cc3)NC(=O)S>},90.77725081,C,machine_derived
+homopolymer_bigsmiles_00828,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)NCCC[Si](O[Si](CCCNC(=O)*)(C)C)(C)C)cc1,{<C(=O)NCCC[Si](C)(C)O[Si](C)(C)CCCNC(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)Oc3ccc(cc3)N4C(=O)c5ccc(cc5C4=O)>},143.0502256,C,machine_derived
+homopolymer_bigsmiles_00829,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1cc(ccc1)C(=O)OCCNC(=O)c1ccc(cc1)C(=O)NCC*,{<CCNC(=O)c1ccc(cc1)C(=O)NCCOC(=O)c2cccc(c2)C(=O)O>},121.124261,C,machine_derived
+homopolymer_bigsmiles_00830,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCCCCCCCCCOc1ccc(cc1)N1C(=O)C(=Cc2c(c3c(n2C)cccc3)C)C(=C(C)C)C1=O)C,{$CC(C(=O)OCCCCCCCCCCOc1ccc(N2C(=O)C(=Cc3c(C)c4ccccc4n3C)C(=C(C)C)C2=O)cc1)(C)$},-17.96880959,C,machine_derived
+homopolymer_bigsmiles_00831,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SC(=O)CCCCCCCCC(=O)SCCCCCC*,{<CCCCCCSC(=O)CCCCCCCCC(=O)S>},-39.13613776,C,machine_derived
+homopolymer_bigsmiles_00832,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(ccc1)C(=O)NCCCCCCCCCCNC(=O)*,{<C(=O)NCCCCCCCCCCNC(=O)c1cccc(n1)>},49.59402876,C,machine_derived
+homopolymer_bigsmiles_00833,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)c1ccc(cc1)C(=O)NCCCCCCCCCC*,{<CCCCCCCCCCNC(=O)c1ccc(cc1)C(=O)N>},50.1155014,C,machine_derived
+homopolymer_bigsmiles_00834,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)NC(=O)c1ccc(cc1)NC(=O)C=Cc1ccc(cc1)C=CC(=O)Nc1ccc(cc1)C(=O)*,{<Nc1ccc(cc1)NC(=O)c2ccc(cc2)NC(=O)C=Cc3ccc(cc3)C=CC(=O)Nc4ccc(cc4)C(=O)>},169.7759737,C,machine_derived
+homopolymer_bigsmiles_00835,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NNC(=O)CCCCCCCCC(=O)NNC(=S)c1cc(ccc1)C(=S)*,{<NNC(=O)CCCCCCCCC(=O)NNC(=S)c1cccc(c1)C(=S)>},32.4414411,C,machine_derived
+homopolymer_bigsmiles_00836,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(=O)N(C2=O)c2ccc(cc2)NC(=O)c2cc(ccc2)C(=O)Nc2ccc(cc2)*)cc1,{<c1ccc(cc1)NC(=O)c2cccc(c2)C(=O)Nc3ccc(cc3)N4C(=O)c5ccc(cc5C4=O)Oc6ccc7c(c6)C(=O)N(C7=O)>},155.8375326,C,machine_derived
+homopolymer_bigsmiles_00837,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=S)C=Cc1ccc(cc1)Cc1ccc(cc1)C=CC(=S)NCC*,{<CCNC(=S)C=Cc1ccc(cc1)Cc2ccc(cc2)C=CC(=S)N>},99.87529352,C,machine_derived
+homopolymer_bigsmiles_00838,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2[nH]c3c(c2c1)cc(cc3)C(=O)c1c(cc(c(c1)C(=O)*)C(=O)O)C(=O)O,{<C(=O)c1cc(c(C(=O)O)cc1C(=O)O)C(=O)c2ccc3[nH]c4ccc(cc4c3c2)>},106.1795053,C,machine_derived
+homopolymer_bigsmiles_00839,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(sc1)NC(=O)Nc1ccc(cc1)Cc1ccc(cc1)NC(=O)Nc1nc(cs1)c1ccc(cc1)Oc1ccc(cc1)*,{<c1ccc(cc1)Oc2ccc(cc2)c3csc(n3)NC(=O)Nc4ccc(cc4)Cc5ccc(cc5)NC(=O)Nc6nc(cs6)>},221.6298798,C,machine_derived
+homopolymer_bigsmiles_00840,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)N1ON1c1ccc(cc1)C(=O)OCCOCC*,{<CCOCCOC(=O)c1ccc(cc1)n2on2c2ccc(cc2)C(=O)O>},15.34426557,C,machine_derived
+homopolymer_bigsmiles_00841,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2nc3c(Sc4cc(ccc4N3)c3cc4Sc5c(Nc4cc3)nc3ccc(cc3n5)O*)nc2c1,{<Oc1ccc2nc3c(nc2c1)Sc1cc(ccc1N3)c2ccc4c(c2)Sc2nc5cc(ccc5nc2N4)>},383.4,C,machine_derived
+homopolymer_bigsmiles_00842,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2Sc3c(=Nc2cc1)[nH]c1ccc(cc1n3)c1ccc2[nH]c3=Nc4c(Sc3nc2c1)cc(cc4)*,{<c1ccc2c(c1)SC1=Nc3cc(ccc3NC1=N2)c4ccc5c(c4)N=C4Sc6cc(ccc6N=C4N5)>},418.69,C,machine_derived
+homopolymer_bigsmiles_00843,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c([nH]1)ccc(c2)c1ccc2c(nc([nH]2)c2oc(cc2)*)c1,{<c1nc2cc(ccc2[nH]1)c3ccc4[nH]c(nc4c3)c5ccc(o5)>},419.98,C,machine_derived
+homopolymer_bigsmiles_00844,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C1OC(=c2cc3ccc4=CC(=*)C=c5ccc(c2)c3c45)c2c3c4c1ccc1cccc(c41)c1c3c(ccc1)cc2,{<=c1cc2ccc3cc(cc4ccc(c1)c2c34)=c4oc(c5ccc6cccc7c8cccc9ccc4c(c98)c5c67)=>},432.43,C,machine_derived
+homopolymer_bigsmiles_00845,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c3n(c4ccc(cc4n3)Oc3ccc4n5c(nc4c3)c3ccc(cc3C5=O)C(*)(C(F)(F)F)C(F)(F)F)C(=O)c2cc1,{<c1ccc2c(c1)c1nc3cc(ccc3n1C2=O)Oc4ccc5c(c4)nc4n5C(=O)c5cc(ccc54)C(C(F)(F)F)(C(F)(F)F)>},395.15,C,machine_derived
+homopolymer_bigsmiles_00846,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2n3c(=O)c4cc5c(cc4c3nc2cc1)c(=O)n1c2ccc(cc2nc51)O*,{<Oc1ccc2c(c1)nc1c3cc4c(=O)n5c6cc(ccc6nc5c4cc3c(=O)n21)>},416.53,C,machine_derived
+homopolymer_bigsmiles_00847,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)c1ccc(cc1)c1c(cc(cc1c1ccc(cc1)c1ccccc1)c1ccc(cc1)c1cc(c(c(c1)c1ccc(cc1)c1ccccc1)c1ccc(cc1)*)c1ccc(cc1)c1ccccc1)c1ccc(cc1)c1ccccc1,{<c1ccc(cc1)c2c(c3ccc(c4ccccc4)cc3)cc(cc2c2ccc(c3ccccc3)cc2)c3ccc(cc3)c4cc(c5ccc(c6ccccc6)cc5)c(c(c5ccc(c6ccccc6)cc5)c4)c5ccc(cc5)n6c(=O)c7cc8c(=O)n(c(=O)c8cc7c6=O)>},435,C,machine_derived
+homopolymer_bigsmiles_00848,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*n1c(=O)c2cc3c(cc2c1=O)c(=O)n(c3=O)c1ccc2c(nc([nH]2)c2ccc(cc2)*)c1,{<c1ccc(cc1)c2nc3cc(ccc3[nH]2)n4c(=O)c5cc6c(=O)n(c(=O)c6cc5c4=O)>},456.35,C,machine_derived
+homopolymer_bigsmiles_00849,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2cc3C(c4c(Oc3cc2C1=O)cc1C(=O)N(C(=O)c1c4)c1cc(c(cc1)c1c(cc(cc1)*)C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F,{<c1ccc(c(C(F)(F)F)c1)c2ccc(cc2C(F)(F)F)N3C(=O)c4cc5c(cc4C3=O)C(C(F)(F)F)(C(F)(F)F)c3cc4c(cc3O5)C(=O)N(C4=O)>},472.25,C,machine_derived
+homopolymer_bigsmiles_00850,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2nc3c4c5c6c(c3nc2cc1)cccc6c1nc2ccc(cc2nc1c5ccc4)*,{<c1ccc2nc3c4cccc5c6nc7ccc(cc7nc6c6cccc(c3nc2c1)c6c45)>},411.97,C,machine_derived
+homopolymer_bigsmiles_00851,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*=C1C=c2ccc3cc(=C4c5ccccc5C(=*)c5ccccc45)cc4ccc(=C1)c2c34,{<=c1cc2ccc3cc(cc4ccc(c1)c2c34)=c4c5ccccc5c(c5ccccc45)=>},437.49,C,machine_derived
+homopolymer_bigsmiles_00852,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1n(c(cc1)*)C(C(=O)OC)C,{<c1ccc(n1C(C)C(=O)OC)>},279.4452403,C,machine_derived
+homopolymer_bigsmiles_00853,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(=O)NCC(=O)NCC(=O)*)C,{<NC(C)C(=O)NCC(=O)NCC(=O)>},208.6397491,C,machine_derived
+homopolymer_bigsmiles_00854,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc2cc3c(cc2n1)sc(n3)c1c(cc(c(c1)OCCCCCC)*)OCCCCCC,{<c1nc2cc3sc(nc3cc2s1)c4cc(OCCCCCC)c(cc4OCCCCCC)>},168.5263131,C,machine_derived
+homopolymer_bigsmiles_00855,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(*)C(=O)OC(CC)(C)C,{$C(C(=O)OC(C)(C)CC)$},136.5678336,C,machine_derived
+homopolymer_bigsmiles_00856,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1ccc(cc1)*)CCCCCCC,{<c1ccc(cc1)N(CCCCCCC)>},110.7170963,C,machine_derived
+homopolymer_bigsmiles_00857,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1c(cc(cc1)C(=O)*)c1ccccc1,"{<Oc1ccc(cc1)O<,>C(=O)c2ccc(cc2c2ccccc2)C(=O)>}",227.700588,C,machine_derived
+homopolymer_bigsmiles_00858,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)NCCNS(=O)(=O)c1ccc(cc1)c1ccc(cc1)*,{<c1ccc(cc1)c2ccc(cc2)S(=O)(=O)NCCNS(=O)(=O)>},173.2454244,C,machine_derived
+homopolymer_bigsmiles_00859,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)OC(=O)c1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)Oc1ccc(cc1)C(=O)*,{<Oc1ccc(cc1)c2ccc(cc2)OC(=O)c3ccc(cc3)OC(=O)c4ccc(cc4)C(=O)Oc5ccc(cc5)C(=O)>},213.4133554,C,machine_derived
+homopolymer_bigsmiles_00860,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1[nH]c(cc1c1ccccc1)*,{<c1cc(c2ccccc2)c([nH]1)>},120.4503456,C,machine_derived
+homopolymer_bigsmiles_00861,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc(cc1)C1C(C(C1C(=O)OCC)*)C(=O)OCC,{<c1ccc(cc1)C2C(C(=O)OCC)C(C2C(=O)OCC)>},164.3224631,C,machine_derived
+homopolymer_bigsmiles_00862,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(*)O)C,{$C(C)C(O)$},113.5665564,C,machine_derived
+homopolymer_bigsmiles_00863,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(CC)CC,{$CC(C(CC)CC)$},38.96888215,C,machine_derived
+homopolymer_bigsmiles_00864,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)CCC(=O)OCCCCCCCCCCCCCCCCCCCC*,{<CCCCCCCCCCCCCCCCCCCCOC(=O)CCC(=O)O>},-32.76938912,C,machine_derived
+homopolymer_bigsmiles_00865,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)N(CC)CC,{$CC(C(=O)N(CC)CC)$},56.77009786,C,machine_derived
+homopolymer_bigsmiles_00866,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NNC(=O)CCC(=O)NNC(=O)CCCCCCCCC(=O)*,{<NNC(=O)CCC(=O)NNC(=O)CCCCCCCCC(=O)>},64.69850401,C,machine_derived
+homopolymer_bigsmiles_00867,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCC(=O)NCCCCCCCC*,{<CCCCCCCCNC(=O)CCC(=O)N>},69.22130195,C,machine_derived
+homopolymer_bigsmiles_00868,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(C(C(=O)*)(C)C)c1ccccc1,{<NC(c1ccccc1)C(C)(C)C(=O)>},154.3595069,C,machine_derived
+homopolymer_bigsmiles_00869,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)C/C=C/CC(=O)OCCCCCCCCCCCCCC*,{<CCCCCCCCCCCCCCOC(=O)C/C=C/CC(=O)O>},-41.10158883,C,machine_derived
+homopolymer_bigsmiles_00870,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCC)CO,{$CC(C(=O)OCC)(CO)$},22.36004964,C,machine_derived
+homopolymer_bigsmiles_00871,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*O[Si](CCCN=C1c2c(ccc(c2C(=NCCC[Si](*)(C)C)c2ccccc12)O)O)(C)C,{<O[Si](C)(C)CCCN=C1c2ccccc2C(c2c(O)ccc(O)c21)=NCCC[Si](C)(C)>},51.3,C,machine_derived
+homopolymer_bigsmiles_00872,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)Oc1ccc(cc1)C(c1ccc(cc1)*)(c1ccc(cc1)O)C,{<Oc1ccc(cc1)S(=O)(=O)c2ccc(cc2)Oc3ccc(cc3)C(C)(c4ccc(O)cc4)c4ccc(cc4)>},255.52,C,machine_derived
+homopolymer_bigsmiles_00873,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OP(=O)(N=Nc1ccc(cc1)COC(=O)c1cc(cc(c1)C(C)(C)C)C(=O)OCc1ccc(cc1)N=NP(=O)(OCCCCCC*)OC)OC,{<CCCCCCOP(=O)(OC)N=Nc1ccc(cc1)COC(=O)c2cc(cc(C(C)(C)C)c2)C(=O)OCc3ccc(cc3)N=NP(=O)(OC)O>},62.39,C,machine_derived
+homopolymer_bigsmiles_00874,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2c(ccc(c2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)*)CP(=O)(OCC)OCC)cc1,{<C(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(CP(=O)(OCC)OCC)c(c1)N3C(=O)c4ccc(cc4C3=O)>},264.06,C,machine_derived
+homopolymer_bigsmiles_00875,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c(cc(cc1)NC(=O)c1ccc(cc1)NC(=O)CCCCCCCCCCC(=O)Nc1ccc(cc1)C(=O)*)C(=O)OCCCCCCCCCCCCCCCC,{<Nc1ccc(cc1C(=O)OCCCCCCCCCCCCCCCC)NC(=O)c2ccc(cc2)NC(=O)CCCCCCCCCCC(=O)Nc3ccc(cc3)C(=O)>},187.43,C,machine_derived
+homopolymer_bigsmiles_00876,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCF)C,{$CC(C(=O)OCCF)(C)$},76.42,C,machine_derived
+homopolymer_bigsmiles_00877,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1ccc(cc1)Oc1ccc(cc1)Oc1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)Sc2ccc(cc2)Oc2ccc(cc2)*)cc1,{<c1ccc(cc1)Oc2ccc(cc2)Sc3ccc(cc3)Oc4ccc(cc4)N5C(=O)c6ccc(cc6C5=O)Oc7ccc(cc7)Oc8ccc(cc8)Oc9ccc%10c(c9)C(=O)N(C%10=O)>},225.33,C,machine_derived
+homopolymer_bigsmiles_00878,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)c1ccc(cc1)C(=O)N(C)C,{$CC(c1ccc(C(=O)N(C)C)cc1)$},146.9,C,machine_derived
+homopolymer_bigsmiles_00879,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(c1ccc(cc1)C(=O)*)(C)C,{<OC(=O)c1ccc(cc1)C(C)(C)c2ccc(cc2)C(=O)>},46.39,C,machine_derived
+homopolymer_bigsmiles_00880,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc2c(cc1)ccc(c2)Oc1ccc(cc1)C(=O)Nc1cc(ccc1)NC(=O)c1ccc(cc1)*,{<Oc1ccc2ccc(cc2c1)Oc3ccc(cc3)C(=O)Nc4cccc(c4)NC(=O)c5ccc(cc5)>},204.47,C,machine_derived
+homopolymer_bigsmiles_00881,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*SCC(=O)NCCCCCCNC(=O)C*,{<CC(=O)NCCCCCCNC(=O)CS>},29.78,C,machine_derived
+homopolymer_bigsmiles_00882,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2C(c3c(c2cc1)ccc(c3)c1ccc(cc1)c1c(c(cc(c1)c1ccc(cc1)OCC(CCCC)CC)c1ccc(cc1)*)c1ccc(cc1)OCC(CCCC)CC)(CCCCCC)CCCCCC,{<c1ccc(cc1)c2cc(c3ccc(OCC(CC)CCCC)cc3)cc(c2c2ccc(OCC(CC)CCCC)cc2)c3ccc(cc3)c4ccc5c(c4)C(CCCCCC)(CCCCCC)c4cc(ccc45)>},123.52,C,machine_derived
+homopolymer_bigsmiles_00883,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)COCC(=O)OCCCC*,{<CCCCOC(=O)COCC(=O)O>},27.22,C,machine_derived
+homopolymer_bigsmiles_00884,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(CCN(CC1)C(=O)C(CC(=O)N1CCC(CC1)(CCC*)C)C)C,{<CCCC1(C)CCN(CC1)C(=O)CC(C)C(=O)N2CCC(CC2)(C)>},111.94,C,machine_derived
+homopolymer_bigsmiles_00885,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc2c(nc1)cc(cc2)Oc1cc2c(nc(cn2)c2ccc(cc2)*)cc1,{<c1ccc(cc1)c2cnc3cc(ccc3n2)Oc4ccc5nc(cnc5c4)>},381.02,C,machine_derived
+homopolymer_bigsmiles_00886,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)OC(=O)c1c(cccc1)C,{$CC(OC(=O)c1ccccc1C)$},81.84,C,machine_derived
+homopolymer_bigsmiles_00887,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(CC(c2c1cc(cc2)*)(C)C)C,{<c1ccc2c(c1)C(CC2(C)C)(C)>},261.41,C,machine_derived
+homopolymer_bigsmiles_00888,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc3Cc4c(c3c2)cc(cc4)N2C(=O)c3c(C2=O)cc(cc3)C(*)(C(F)(F)F)C(F)(F)F)cc1,{<c1ccc2c(c1)C(=O)N(C2=O)c1ccc3c(c1)c1cc(ccc1C3)N4C(=O)c5ccc(cc5C4=O)C(C(F)(F)F)(C(F)(F)F)>},442.63,C,machine_derived
+homopolymer_bigsmiles_00889,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2c3c(ccc2)c(ccc3)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)Nc2nc(nc(n2)NC(=O)*)c2ccccc2)cc1,{<C(=O)Nc1nc(nc(c2ccccc2)n1)NC(=O)c2ccc3c(c2)C(=O)N(C3=O)c2ccc(cc2)Oc4cccc5c(cccc45)N6C(=O)c7ccc(cc7C6=O)>},330.59,C,machine_derived
+homopolymer_bigsmiles_00890,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1c(cc(cc1)C(=O)*)Sc1ccc(cc1)Cl,{<Oc1ccc(cc1)OC(=O)c2ccc(cc2Sc2ccc(Cl)cc2)C(=O)>},146.43,C,machine_derived
+homopolymer_bigsmiles_00891,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(=O)N(C2=O)CCCCCCCCCCCC*)cc1,{<CCCCCCCCCCCCN1C(=O)c2ccc(cc2C1=O)Oc3ccc4c(c3)C(=O)N(C4=O)>},80.63,C,machine_derived
+homopolymer_bigsmiles_00892,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)OC(=O)c1ccc(cc1)C(=O)Oc1ccc(cc1)OCCCCC*,{<CCCCCOc1ccc(cc1)OC(=O)c2ccc(cc2)C(=O)Oc3ccc(cc3)O>},89.92,C,machine_derived
+homopolymer_bigsmiles_00893,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1C(C*)c1ccccc1)CCCCCCCCCCCC,{<CC(c1ccccc1)C1C(=O)N(CCCCCCCCCCCC)C(=O)C1>},70.24,C,machine_derived
+homopolymer_bigsmiles_00894,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)Nc1c(ccc(c1)NC(=O)OCCCCCCCC*)C,{<CCCCCCCCOC(=O)Nc1ccc(C)c(c1)NC(=O)O>},117.25,C,machine_derived
+homopolymer_bigsmiles_00895,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCCCCCOc1ccc(cc1)C(=O)Oc1ccc2c(c1)oc(=O)cc2)C,{$CC(C(=O)OCCCCCCOc1ccc(C(=O)Oc2ccc3ccc(=O)oc3c2)cc1)(C)$},118.96,C,machine_derived
+homopolymer_bigsmiles_00896,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)CC(NC(=O)Cc1ccc(cc1)OC(=O)CCCCCCC(=O)*)C(=O)OCC,{<Oc1ccc(cc1)CC(C(=O)OCC)NC(=O)Cc2ccc(cc2)OC(=O)CCCCCCC(=O)>},66.4,C,machine_derived
+homopolymer_bigsmiles_00897,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(=O)N(C2=O)c2cc(ccc2)C(c2cc(ccc2)*)O[Si](O[Si](O[Si](C)(C)C)(C)C)(C)C)cc1,{<c1cccc(c1)C(O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C)c2cccc(c2)N3C(=O)c4ccc(cc4C3=O)Oc5ccc6c(c5)C(=O)N(C6=O)>},196.68,C,machine_derived
+homopolymer_bigsmiles_00898,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)C(=O)OCCOCCOCCOC(=O)*)cc1,{<C(=O)OCCOCCOCCOC(=O)c1ccc(cc1)N2C(=O)c3ccc(cc3C2=O)>},79.22,C,machine_derived
+homopolymer_bigsmiles_00899,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C1(c2ccccc2c2ccccc12)c1ccc(cc1)Oc1c(cc(cc1)C(=O)c1ccc(cc1)C(=O)c1cc(c(cc1)*)C(F)(F)F)C(F)(F)F,{<Oc1ccc(cc1)C2(c3ccccc3c3ccccc32)c3ccc(cc3)Oc4ccc(cc4C(F)(F)F)C(=O)c5ccc(cc5)C(=O)c6ccc(c(C(F)(F)F)c6)>},265.8,C,machine_derived
+homopolymer_bigsmiles_00900,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*O[Si](O[Si](O[Si](O[Si](CC[Si](O[Si](O[Si](O[Si](O[Si](CC[Si](*)(c1ccccc1)c1ccccc1)(C)C)(C)C)(C)C)(C)C)(C)C)(c1ccccc1)c1ccccc1)(c1ccccc1)c1ccccc1)(c1ccccc1)c1ccccc1)(c1ccccc1)c1ccccc1,{<O[Si](c1ccccc1)(c1ccccc1)O[Si](c1ccccc1)(c1ccccc1)O[Si](c1ccccc1)(c1ccccc1)O[Si](c1ccccc1)(c1ccccc1)CC[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)CC[Si](c1ccccc1)(c1ccccc1)>},11.62,C,machine_derived
+homopolymer_bigsmiles_00901,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)c(ccc2)Oc1c(c(cc(c1)C(C)(C)C)C(C)(C)C)Oc1c2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)*)ccc1,"{<c1ccc(cc1)Oc2ccc(cc2)<,>N3C(=O)c4cccc(c4C3=O)Oc5c(cc(C(C)(C)C)cc5C(C)(C)C)Oc6cccc7c6C(=O)N(C7=O)>}",301.26,C,machine_derived
+homopolymer_bigsmiles_00902,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)Oc1c(c(c(c(c1F)F)COC(c1cc(ccc1)C(OCc1c(c(c(c(c1F)F)*)F)F)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F)F)F,{<Oc1ccc(cc1)c2ccc(cc2)Oc3c(F)c(F)c(c(F)c3F)COC(C(F)(F)F)(C(F)(F)F)c4cccc(c4)C(C(F)(F)F)(C(F)(F)F)OCc5c(F)c(F)c(c(F)c5F)>},139.73,C,machine_derived
+homopolymer_bigsmiles_00903,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*S(=O)(=O)c1ccc(cc1)NC(=O)c1cc(cc(c1)NC(=O)c1ccc(cc1)NC(=O)C(N1C(=O)c2c(C1=O)cccc2)C)C(=O)Nc1ccc(cc1)*,{<c1ccc(cc1)NC(=O)c2cc(NC(=O)c3ccc(NC(=O)C(C)N4C(=O)c5ccccc5C4=O)cc3)cc(c2)C(=O)Nc3ccc(cc3)S(=O)(=O)>},272.65,C,machine_derived
+homopolymer_bigsmiles_00904,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)NCc1ccc(cc1)CNC(=O)NCCCCCCCCCCCCCCCCCC*,{<CCCCCCCCCCCCCCCCCCNC(=O)NCc1ccc(cc1)CNC(=O)N>},62.4,C,machine_derived
+homopolymer_bigsmiles_00905,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1CC2CC(CC(C1)O2)OC(=O)O*,{<OC(=O)OC1CC2CC(CC(C1)O2)>},196.52,C,machine_derived
+homopolymer_bigsmiles_00906,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C(*)C(=O)OC(C)(C)C)C(=O)OC,{$C(C(=O)OC)C(C(=O)OC(C)(C)C)$},148.77,C,machine_derived
+homopolymer_bigsmiles_00907,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)c1ccc(cc1)C(=O)OCC(COC(=O)c1ccc(cc1)c1ccc(cc1)OC(CC*)C)C,{<CCC(C)Oc1ccc(cc1)c2ccc(cc2)C(=O)OCC(C)COC(=O)c3ccc(cc3)c4ccc(cc4)O>},116.96,C,machine_derived
+homopolymer_bigsmiles_00908,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)c1cc2c(C(=O)N(C2=O)c2c(cc(cc2C)C(c2cc(c(c(c2)C)*)C)c2c3c(ccc2)cccc3)C)cc1,{<c1c(C)cc(cc1C)C(c2cccc3ccccc23)c2cc(C)c(c(C)c2)N3C(=O)c4ccc(cc4C3=O)c5ccc6c(c5)C(=O)N(C6=O)>},369,C,machine_derived
+homopolymer_bigsmiles_00909,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(nc(c(n2)c2ccccc2)c2ccc(cc2)c2c(nc3c(n2)cc(cc3)C(=O)*)c2ccccc2)cc1,{<C(=O)c1ccc2nc(c3ccccc3)c(nc2c1)c3ccc(cc3)c4nc5ccc(cc5nc4c4ccccc4)>},326.27,C,machine_derived
+homopolymer_bigsmiles_00910,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCC)F,{$CC(C(=O)OCC)(F)$},124.69,C,machine_derived
+homopolymer_bigsmiles_00911,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)CCCCC(=O)NCC(CC(CC*)(C)C)C,{<CCC(C)(C)CC(C)CNC(=O)CCCCC(=O)N>},54.82,C,machine_derived
+homopolymer_bigsmiles_00912,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1c2C(=O)N(C(=O)c2c(c2ccccc12)c1ccc(cc1)Oc1ccc(cc1)C(=O)c1cc(ccc1)C(=O)c1ccc(cc1)Oc1ccc(cc1)*)CCCCCCCCCCCC,{<c1ccc(cc1)Oc2ccc(cc2)C(=O)c3cccc(c3)C(=O)c4ccc(cc4)Oc5ccc(cc5)c6c7c(C(=O)N(CCCCCCCCCCCC)C7=O)c(c8ccccc68)>},161.91,C,machine_derived
+homopolymer_bigsmiles_00913,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C(c1ccc(cc1)OC(=S)*)C,{<Oc1ccc(cc1)C(C)c2ccc(cc2)OC(=S)>},101.06,C,machine_derived
+homopolymer_bigsmiles_00914,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)OCC(CC)(C)C,{$CC(OCC(C)(C)CC)$},12.2,C,machine_derived
+homopolymer_bigsmiles_00915,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1sc(cc1)C(=O)Oc1ccc(cc1)[Si](c1ccc(cc1)OC(=O)*)(CC)CC,{<C(=O)Oc1ccc(cc1)[Si](CC)(CC)c2ccc(cc2)OC(=O)c3ccc(s3)>},-36.93,C,machine_derived
+homopolymer_bigsmiles_00916,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1C)*)C(CCCCCCCCCCCC)C,{<Oc1c(C)cc(cc1C(C)CCCCCCCCCCCC)>},44.22,C,machine_derived
+homopolymer_bigsmiles_00917,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1cc(ccc1)C(C(C(c1cc(ccc1)OC(=O)c1cc(ccc1)C(C(C(c1cc(ccc1)C(=O)*)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F,{<Oc1cccc(c1)C(F)(F)C(F)(F)C(F)(F)c2cccc(c2)OC(=O)c3cccc(c3)C(F)(F)C(F)(F)C(F)(F)c4cccc(c4)C(=O)>},105.91,C,machine_derived
+homopolymer_bigsmiles_00918,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)Oc1ccc(cc1)C(=O)Oc1ccc(cc1)OC(=O)c1ccc(cc1)OCCCC,{$CC(C(=O)Oc1ccc(C(=O)Oc2ccc(OC(=O)c3ccc(OCCCC)cc3)cc2)cc1)$},42.05,C,machine_derived
+homopolymer_bigsmiles_00919,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)c1c(cccc1)C(=O)OCCC,{$CC(c1ccccc1C(=O)OCCC)$},135.21,C,machine_derived
+homopolymer_bigsmiles_00920,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=P(*)(OCc1ccc(cc1)c1ccccc1)OCc1ccc(cc1)c1ccccc1,{<N=P(OCc1ccc(c2ccccc2)cc1)(OCc1ccc(c2ccccc2)cc1)>},51.23,C,machine_derived
+homopolymer_bigsmiles_00921,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(nn1)c1ccc(cc1)C(=O)OCCCCCCOc1ccc(cc1)C=C1C(=O)C(=Cc2ccc(cc2)OCCCCCCOC(=O)c2ccc(cc2)*)CCC1,{<c1ccc(cc1)C(=O)OCCCCCCOc2ccc(cc2)C=C3CCCC(C3=O)=Cc4ccc(cc4)OCCCCCCOC(=O)c5ccc(cc5)c6nnc(o6)>},90.11,C,machine_derived
+homopolymer_bigsmiles_00922,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)NCCCCCCNC(=O)OCCCCCCCCCCCC*,{<CCCCCCCCCCCCOC(=O)NCCCCCCNC(=O)O>},35.91,C,machine_derived
+homopolymer_bigsmiles_00923,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1oc(nc1)c1cc(c(cc1)Oc1ccc(cc1)S(=O)(=O)c1ccc(cc1)Oc1c(cc(cc1)*)C(F)(F)F)C(F)(F)F,{<c1ccc(c(C(F)(F)F)c1)Oc2ccc(cc2)S(=O)(=O)c3ccc(cc3)Oc4ccc(cc4C(F)(F)F)c5ncc(o5)>},267.06,C,machine_derived
+homopolymer_bigsmiles_00924,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1nc(nc(n1)c1ccc(cc1)Oc1ccc(cc1)C(c1ccc(cc1)Oc1ccc(cc1)*)(C(F)(F)F)C(F)(F)F)c1ccccc1,{<c1ccc(cc1)Oc2ccc(cc2)C(C(F)(F)F)(C(F)(F)F)c3ccc(cc3)Oc4ccc(cc4)c5nc(nc(c6ccccc6)n5)>},303.48,C,machine_derived
+homopolymer_bigsmiles_00925,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(c(c(c(c1C)C)Oc1ccc(cc1)NC(=O)c1ccc(cc1)C(=O)Nc1ccc(cc1)*)C)C,{<Oc1c(C)c(C)c(c(C)c1C)Oc2ccc(cc2)NC(=O)c3ccc(cc3)C(=O)Nc4ccc(cc4)>},337.62,C,machine_derived
+homopolymer_bigsmiles_00926,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)c(ccc2)c1cc2c(C(=O)N(C2=O)c2cc(ccc2)*)cc1,"{<c1cccc(c1)<,>N2C(=O)c3ccc(cc3C2=O)c4cccc5c4C(=O)N(C5=O)>}",348.28,C,machine_derived
+homopolymer_bigsmiles_00927,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1cc2c(C(=O)N(C2=O)c2cc(c(c(c2)Br)Oc2c(cc(cc2Br)*)Br)Br)cc1,{<c1cc(Br)c(c(Br)c1)Oc2c(Br)cc(cc2Br)N3C(=O)c4ccc(cc4C3=O)Oc5ccc6c(c5)C(=O)N(C6=O)>},302.26,C,machine_derived
+homopolymer_bigsmiles_00928,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)C2C3C4C(C(C2C1=O)C=C3)C(=O)N(C4=O)c1ccc(cc1)Sc1cc2c(C(=O)N(C2=O)c2ccc(cc2)CC)cc1Sc1ccc(cc1)*,{<c1ccc(cc1)Sc8cc3c(C(=O)N(c2ccc(CC)cc2)C3=O)cc8Sc2ccc(cc2)N4C(=O)C5C6C=CC(C5C4=O)C7C(=O)N(C(=O)C67)>},307.1,C,machine_derived
+homopolymer_bigsmiles_00929,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(C(C(C1)C=C*)(F)F)(C(F)(F)F)C(F)(F)F,{$C=CC1CC(C(C(F)(F)F)(C(F)(F)F)C1(F)F)$},163.71,C,machine_derived
+homopolymer_bigsmiles_00930,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(CCC(OC(=O)CCCCCCCCC(=O)*)C)C,"{<OC(C)CCC(C)O<,>C(=O)CCCCCCCCC(=O)>}",-18.21,C,machine_derived
+homopolymer_bigsmiles_00931,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2c(nc([nH]2)c2cc(ccc2)c2nc3c([nH]2)ccc(c3)C(=O)Nc2cc(cc(c2)c2nc3c([nH]2)cccc3)NC(=O)*)c1,{<C(=O)Nc1cc(cc(c2nc3ccccc3[nH]2)c1)NC(=O)c2ccc3[nH]c(nc3c2)c4cccc(c4)c5nc6cc(ccc6[nH]5)>},348.55,C,machine_derived
+homopolymer_bigsmiles_00932,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)c1ccc(cc1)CC,{$CC(C(=O)c1ccc(CC)cc1)$},68.42,C,machine_derived
+homopolymer_bigsmiles_00933,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1*)CCOc1ccc(cc1)c1ccc(cc1)C#N,{<C1C(=O)N(CCOc2ccc(c3ccc(C#N)cc3)cc2)C(=O)C1>},158.36,C,machine_derived
+homopolymer_bigsmiles_00934,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1COC2C1OCC2OC(=O)CCC(=O)O*,{<OC(=O)CCC(=O)OC1COC2C(COC12)>},86.76,C,machine_derived
+homopolymer_bigsmiles_00935,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)c1ccc(cc1)C(=O)OCCCCOC(=O)CCCCC(=O)OCCCC*,{<CCCCOC(=O)CCCCC(=O)OCCCCOC(=O)c1ccc(cc1)C(=O)O>},33.64,C,machine_derived
+homopolymer_bigsmiles_00936,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)c1ccc(cc1)COCC(CCCC)CC,{$CC(c1ccc(COCC(CC)CCCC)cc1)$},13.66,C,machine_derived
+homopolymer_bigsmiles_00937,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)Oc1cc(c(cc1)C(=O)c1ccccc1)O)C,{$CC(C(=O)Oc1ccc(C(=O)c2ccccc2)c(O)c1)(C)$},186.45,C,machine_derived
+homopolymer_bigsmiles_00938,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)C(=O)OCCOC(C(F)F)(F)F,{$CC(C(=O)OCCOC(F)(F)C(F)F)$},11.16,C,machine_derived
+homopolymer_bigsmiles_00939,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(=O)OCC(C(C*)O)O,{<CC(O)C(O)COC(=O)O>},98.39,C,machine_derived
+homopolymer_bigsmiles_00940,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)NC(=O)c1cc(cc(c1)C(C)(C)C)C(=O)Nc1ccc(cc1)OCCCCCC*,{<CCCCCCOc1ccc(cc1)NC(=O)c2cc(cc(C(C)(C)C)c2)C(=O)Nc3ccc(cc3)O>},158.08,C,machine_derived
+homopolymer_bigsmiles_00941,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N(c1ccc(cc1)C(c1ccc(cc1)*)c1ccccc1)c1ccc(cc1)C,{<c1ccc(cc1)C(c2ccccc2)c2ccc(cc2)N(c3ccc(C)cc3)>},263.16,C,machine_derived
+homopolymer_bigsmiles_00942,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1ccc(cc1)C(c1ccc(cc1)NC(=O)c1cc(cc(c1)N1C(=O)C2C(C1=O)CC=CC2)C(=O)*)(C)C,{<Nc1ccc(cc1)C(C)(C)c2ccc(cc2)NC(=O)c3cc(cc(N4C(=O)C5CC=CCC5C4=O)c3)C(=O)>},358.53,C,machine_derived
+homopolymer_bigsmiles_00943,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(CC(=O)OCCCc1ccccc1)C(=O)OCCCc1ccccc1,{$CC(C(=O)OCCCc1ccccc1)(CC(=O)OCCCc1ccccc1)$},29.9,C,machine_derived
+homopolymer_bigsmiles_00944,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C=CCCCC(CCC*)Cl,{$C=CCCCC(Cl)CCC$},-9.32,C,machine_derived
+homopolymer_bigsmiles_00945,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1C(=O)N(C(=O)C1C(C*)(C)C)c1c(cccc1)C,{<CC(C)(C)C1C(=O)N(c2ccccc2C)C(=O)C1>},286.47,C,machine_derived
+homopolymer_bigsmiles_00946,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C1(c2c(C(=O)O1)cccc2)c1ccc(cc1)Oc1c(c(c(c(c1F)F)C(=O)c1c(c(c(c(c1F)F)Oc1ccc(cc1)*)F)F)F)F,{<c1ccc(cc1)Oc2c(F)c(F)c(c(F)c2F)C(=O)c3c(F)c(F)c(c(F)c3F)Oc4ccc(cc4)C5(OC(=O)c6ccccc65)>},276.34,C,machine_derived
+homopolymer_bigsmiles_00947,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1cc(ccc1)NC(=O)CCCCCCC(=O)*,{<Nc1cccc(c1)NC(=O)CCCCCCC(=O)>},128.17,C,machine_derived
+homopolymer_bigsmiles_00948,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCOc1ccc(cc1)N=Nc1ccc(cc1)C#N)C,{$CC(C(=O)OCCOc1ccc(N=Nc2ccc(C#N)cc2)cc1)(C)$},141.68,C,machine_derived
+homopolymer_bigsmiles_00949,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N1C(=O)c2c(C1=O)cc(cc2)Oc1ccc(cc1)C1(CCC(CC1)c1ccccc1)c1ccc(cc1)Oc1cc2c(C(=O)N(C2=O)c2ccc(cc2)Cc2ccc(cc2)*)cc1,{<c1ccc(cc1)Cc2ccc(cc2)N3C(=O)c4ccc(cc4C3=O)Oc5ccc(cc5)C6(CCC(c7ccccc7)CC6)c7ccc(cc7)Oc8ccc9c(c8)C(=O)N(C9=O)>},249.05,C,machine_derived
+homopolymer_bigsmiles_00950,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)C(=O)c1c(c(c(c(c1c1ccc(cc1)F)c1ccc(cc1)F)c1ccc(cc1)F)c1ccc(cc1)F)C(=O)c1ccc(cc1)*,{<Oc1ccc(cc1)Oc2ccc(cc2)C(=O)c3c(c(c4ccc(F)cc4)c(c4ccc(F)cc4)c(c4ccc(F)cc4)c3c3ccc(F)cc3)C(=O)c4ccc(cc4)>},252.56,C,machine_derived
+homopolymer_bigsmiles_00951,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)NC(=O)Nc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)Nc2ccc(cc2)c2ccc(cc2)NC(=O)*)cc1,{<C(=O)Nc1ccc(cc1)c2ccc(cc2)NC(=O)c3ccc4c(c3)C(=O)N(C4=O)c3ccc(cc3)NC(=O)Nc5ccc(cc5)N6C(=O)c7ccc(cc7C6=O)>},253.71,C,machine_derived
+homopolymer_bigsmiles_00952,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OC(C*)CCl,"{<CC(CCl)O>,<C(CCl)CO>}",2.36,C,machine_derived
+homopolymer_bigsmiles_00953,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*NC(=O)c1cc(cc(c1)C(C)(C)C)C(=O)NCC(CCC(C*)C)C,{<CC(C)CCC(C)CNC(=O)c1cc(cc(C(C)(C)C)c1)C(=O)N>},157.37,C,machine_derived
+homopolymer_bigsmiles_00954,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2ccc(cc2)Oc2ccc(cc2)C(=O)c2cc(ccc2)C(=O)c2ccc(cc2)Oc2ccc(cc2)N2C(=O)c3c(C2=O)cc(cc3)C(=O)*)cc1,{<C(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)Oc3ccc(cc3)C(=O)c4cccc(c4)C(=O)c5ccc(cc5)Oc6ccc(cc6)N7C(=O)c8ccc(cc8C7=O)>},240.35,C,machine_derived
+homopolymer_bigsmiles_00955,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1c(cc(cc1OC)C=Cc1ccc(cc1)C=Cc1cc(c(c(c1)OC)OCCCCCCCC*)OC)OC,{<CCCCCCCCOc1c(OC)cc(cc1OC)C=Cc2ccc(cc2)C=Cc3cc(OC)c(c(OC)c3)O>},65.39,C,machine_derived
+homopolymer_bigsmiles_00956,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Nc1c2c(ccc1)c(ccc2)NC(=O)c1cc(ccc1)C(=O)*,{<Nc1cccc2c(cccc12)NC(=O)c3cccc(c3)C(=O)>},339.66,C,machine_derived
+homopolymer_bigsmiles_00957,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OS(=O)(=O)c1ccc(cc1)*,{<OS(=O)(=O)c1ccc(cc1)>},140.64,C,machine_derived
+homopolymer_bigsmiles_00958,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1ccc2ccc3c(c2n1)nc(cc3)c1ccc(cc1)c1c(cc(c(c1)CCCCCC)c1ccc(cc1)*)CCCCCC,{<c1ccc(cc1)c2cc(CCCCCC)c(cc2CCCCCC)c3ccc(cc3)c4ccc5ccc6ccc(nc6c5n4)>},160.44,C,machine_derived
+homopolymer_bigsmiles_00959,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)(C(=O)OCCCCCCCCCCn1c2ccc(cc2c2ccccc12)N=Nc1ccc(cc1)[N+](=O)[O-])C,{$CC(C(=O)OCCCCCCCCCCn1c2ccccc2c2cc(N=Nc3ccc([N+](=O)[O-])cc3)ccc21)(C)$},60.81,C,machine_derived
+homopolymer_bigsmiles_00960,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*N=Nc1ccc(cc1)NC(=O)CCC(=O)Nc1ccc(cc1)*,{<N=Nc1ccc(cc1)NC(=O)CCC(=O)Nc2ccc(cc2)>},208.85,C,machine_derived
+homopolymer_bigsmiles_00961,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*C(C*)c1cc(ccc1)Cl,{$CC(c1cccc(Cl)c1)$},122.57,C,machine_derived
+homopolymer_bigsmiles_00962,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)C1(c2cc(ccc2c2ccc(cc12)[N+](=O)[O-])OC)c1ccc(cc1)OC(=O)CCCC(=O)*,{<Oc1ccc(cc1)C2(c3cc(OC)ccc3c3ccc([N+](=O)[O-])cc32)c3ccc(cc3)OC(=O)CCCC(=O)>},195.71,C,machine_derived
+homopolymer_bigsmiles_00963,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*c1cc2c(C(=O)N(C2=O)c2c(cc(c(c2C)C(=O)c2cc(ccc2)N2C(=O)c3c(C2=O)cc(cc3)C(*)(C(F)(F)F)C(F)(F)F)C)C)cc1,{<c1ccc2c(c1)C(=O)N(C2=O)c1c(C)cc(C)c(c1C)C(=O)c3cccc(c3)N4C(=O)c5ccc(cc5C4=O)C(C(F)(F)F)(C(F)(F)F)>},280.09,C,machine_derived
+homopolymer_bigsmiles_00964,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)Oc1ccc(cc1)C(=O)c1cc(ccc1)NC(=O)c1cc(ccc1)C(=O)Nc1cc(ccc1)C(=O)c1ccc(cc1)*,{<Oc1ccc(cc1)Oc2ccc(cc2)C(=O)c3cccc(c3)NC(=O)c4cccc(c4)C(=O)Nc5cccc(c5)C(=O)c6ccc(cc6)>},222.22,C,machine_derived
+homopolymer_bigsmiles_00965,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*Oc1ccc(cc1)CC(NC(=O)CCc1ccc(cc1)OC(=O)CCCC(=O)*)C(=O)OCCOCCOCC,{<Oc1ccc(cc1)CC(C(=O)OCCOCCOCC)NC(=O)CCc2ccc(cc2)OC(=O)CCCC(=O)>},42.34,C,machine_derived
+homopolymer_bigsmiles_00966,JCIM_sup_bigsmiles.csv,JCIM_sup_bigsmiles,,*OP(=O)(OCCCCCCCCCCOc1ccc(cc1)C=Cc1ccc(cc1)OCCCCCCCCCC*)OCCCCCCCCCCOc1ccc(cc1)N=Nc1ccc(cc1)C#N,{<CCCCCCCCCCOc1ccc(cc1)C=Cc2ccc(cc2)OCCCCCCCCCCOP(=O)(OCCCCCCCCCCOc3ccc(N=Nc4ccc(C#N)cc4)cc3)O>},51.61,C,machine_derived

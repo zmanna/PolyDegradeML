@@ -22,3 +22,9 @@ Or run individual steps:
 10. `10_run_model_reliability_scoreboard.py`
 
 Scripts should orchestrate workflows. Reusable logic belongs in `src/biodegradation_ml_framework/`.
+
+## Dataset Tools
+
+Additional dataset preparation tools live in `scripts/dataset_tools/`.
+
+- `build_homopolymer_bigsmiles_dataset.py`: downloads and curates the Choi et al. (2024) homopolymer SMILES/BigSMILES Tg benchmark from Figshare. It also exposes an optional single-SMILES conversion command that can call the upstream `BigSMILES_homopolymer` package when that package and RDKit are installed.

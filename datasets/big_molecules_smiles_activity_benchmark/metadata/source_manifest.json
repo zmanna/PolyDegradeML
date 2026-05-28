@@ -1,0 +1,42 @@
+{
+  "dataset_name": "big_molecules_smiles_activity_benchmark",
+  "source": "Kaggle",
+  "kaggle_handle": "yanmaksi/big-molecules-smiles-dataset",
+  "source_url": "https://www.kaggle.com/datasets/yanmaksi/big-molecules-smiles-dataset",
+  "download_method": "kagglehub.dataset_download(\"yanmaksi/big-molecules-smiles-dataset\")",
+  "downloaded_version": "1",
+  "downloaded_file": "SMILES_Big_Data_Set.csv",
+  "raw_path": "datasets/big_molecules_smiles_activity_benchmark/raw/SMILES_Big_Data_Set.csv",
+  "curated_path": "datasets/big_molecules_smiles_activity_benchmark/processed/big_molecules_smiles_activity_curated.csv",
+  "row_count": 16087,
+  "unique_smiles_count": 15872,
+  "curated_columns": [
+    "sample_id",
+    "smiles",
+    "pic50",
+    "num_atoms",
+    "logp"
+  ],
+  "missing_values": {
+    "pic50": 1050,
+    "smiles": 0,
+    "num_atoms": 0,
+    "logp": 0
+  },
+  "representation_status": {
+    "smiles_available": true,
+    "bigsmiles_available": false,
+    "polymer_identity_available": false,
+    "repeat_unit_available": false,
+    "biodegradation_labels_available": false,
+    "degradation_rates_available": false
+  },
+  "curation_decisions": [
+    "Added stable sample_id values for row-level traceability.",
+    "Renamed SMILES to smiles, pIC50 to pic50, and logP to logp for lowercase consistency.",
+    "Removed the source mol column because it contains non-reusable RDKit object display strings.",
+    "Preserved rows with missing pic50 values because they may still be useful for unsupervised representation work."
+  ],
+  "scientific_use": "Use as a SMILES-level molecular representation benchmark, not as biodegradation or polymer degradation evidence.",
+  "license_status": "Verify on Kaggle before redistribution, publication use, or citation."
+}

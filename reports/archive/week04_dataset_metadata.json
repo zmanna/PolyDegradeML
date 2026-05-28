@@ -3,7 +3,7 @@
   "dataset_version": "v1",
   "created_at_utc": "2026-03-10T21:58:35.014457+00:00",
   "source_path": "/Users/mannz/Desktop/polymer degredation/firstdataset/data/qsarbiodegradation/qsar-biodeg.csv",
-  "curated_path": "/Users/mannz/Desktop/polymer degredation/firstdataset/data/processed/qsar_biodegradation_curated.csv",
+  "curated_path": "/Users/mannz/Desktop/polymer degredation/firstdataset/datasets/qsar_biodegradation_descriptor_benchmark/processed/qsar_biodegradation_curated.csv",
   "row_count": 1055,
   "feature_count": 41,
   "target_column": "biodegradation_class_id",

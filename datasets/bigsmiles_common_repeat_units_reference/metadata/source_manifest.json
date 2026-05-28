@@ -1,0 +1,21 @@
+{
+  "dataset_name": "bigsmiles_common_repeat_units_reference",
+  "dataset_type": "polymer_notation_reference",
+  "source_repository": "https://github.com/olsenlabmit/BigSMILES",
+  "source_commit_inspected": "e4bc86d58a275568323d81bd9b9a7c7eccad9e89",
+  "source_commit_date": "2020-12-26",
+  "source_document": "docs/source/Common_Repeat_Unit_List.html.md",
+  "related_documentation": [
+    "docs/source/line_notation.html.md",
+    "docs/source/DataFormat.html.md"
+  ],
+  "citation_to_verify": "BigSMILES article, ACS Central Science, 2019, 5, 9, 1523-1531. DOI: 10.1021/acscentsci.9b00476",
+  "license_status": "No license file was found in the inspected repository snapshot. Do not commit redistributed upstream content until reuse terms are verified.",
+  "biodegradation_labels_available": false,
+  "degradation_rates_available": false,
+  "polymer_names_available": true,
+  "repeat_units_available": true,
+  "smiles_repeat_unit_replacements_available": true,
+  "bigsmiles_examples_available": true,
+  "recommended_use": "Use as representation infrastructure and notation reference, not as biodegradation model training data."
+}

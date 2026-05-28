@@ -8,10 +8,18 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 DEFAULT_DATA_PATH: Final[Path] = (
-    Path(__file__).resolve().parents[2] / "data" / "raw" / "qsar_biodegradation.csv"
+    Path(__file__).resolve().parents[2]
+    / "datasets"
+    / "qsar_biodegradation_descriptor_benchmark"
+    / "raw"
+    / "qsar_biodegradation.csv"
 )
 CURATED_DATA_PATH: Final[Path] = (
-    Path(__file__).resolve().parents[2] / "data" / "processed" / "qsar_biodegradation_curated.csv"
+    Path(__file__).resolve().parents[2]
+    / "datasets"
+    / "qsar_biodegradation_descriptor_benchmark"
+    / "processed"
+    / "qsar_biodegradation_curated.csv"
 )
 TARGET_COLUMN: Final[str] = "Class"
 TARGET_LABELS: Final[dict[int, str]] = {1: "NRB", 2: "RB"}

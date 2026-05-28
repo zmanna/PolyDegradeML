@@ -47,10 +47,11 @@ The project is framed around model trustworthiness rather than raw accuracy alon
 
 ```text
 .
-├── data/
-│   ├── raw/                         # Original QSAR biodegradation CSV
-│   ├── processed/                   # Curated dataset with stable labels/columns
-│   └── metadata/                    # Dataset metadata and curation decisions
+├── datasets/
+│   └── qsar_biodegradation_descriptor_benchmark/
+│       ├── raw/                     # Original descriptor-only QSAR biodegradation CSV
+│       ├── processed/               # Curated dataset with stable labels/columns
+│       └── metadata/                # Dataset metadata and curation decisions
 ├── src/biodegradation_ml_framework/ # Reusable Python package
 ├── scripts/                         # Ordered research workflow scripts
 ├── results/
@@ -72,13 +73,13 @@ The project is framed around model trustworthiness rather than raw accuracy alon
 The current dataset is the QSAR biodegradation dataset stored at:
 
 ```text
-data/raw/qsar_biodegradation.csv
+datasets/qsar_biodegradation_descriptor_benchmark/raw/qsar_biodegradation.csv
 ```
 
 The curated version is generated at:
 
 ```text
-data/processed/qsar_biodegradation_curated.csv
+datasets/qsar_biodegradation_descriptor_benchmark/processed/qsar_biodegradation_curated.csv
 ```
 
 The dataset contains 1055 samples, 41 numeric descriptor columns, and a binary biodegradation class target:
@@ -86,7 +87,9 @@ The dataset contains 1055 samples, 41 numeric descriptor columns, and a binary b
 - `NRB`: not readily biodegradable
 - `RB`: readily biodegradable
 
-Important limitation: this dataset is descriptor-only. It does not include polymer names, molecular structures, SMILES, BigSMILES, or continuous degradation-rate constants.
+Important limitation: this dataset is descriptor-only. It does not include polymer names, molecular structures, SMILES, BigSMILES, Morgan fingerprints, or continuous degradation-rate constants. The folder name intentionally labels it as a descriptor benchmark so it is not confused with future polymer-structure datasets.
+
+Additional structure-aware datasets are stored as separate benchmarks under `datasets/`, including `homopolymer_bigsmiles_tg_benchmark/`, which contains SMILES, BigSMILES, polymer names for the experimental subset, and glass-transition-temperature labels from Choi et al. (2024). That dataset supports polymer representation and property-modeling experiments, but it does not contain biodegradation outcomes.
 
 ## How To Run
 

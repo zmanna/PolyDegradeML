@@ -9,7 +9,12 @@ from biodegradation_ml_framework.data import CURATED_DATA_PATH, DEFAULT_DATA_PAT
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 REPORTS_DIR = PROJECT_ROOT / "reports"
-DATA_METADATA_DIR = PROJECT_ROOT / "data" / "metadata"
+DATA_METADATA_DIR = (
+    PROJECT_ROOT
+    / "datasets"
+    / "qsar_biodegradation_descriptor_benchmark"
+    / "metadata"
+)
 METADATA_PATH = DATA_METADATA_DIR / "qsar_biodegradation_metadata.json"
 REPORT_PATH = REPORTS_DIR / "dataset_curation.md"
 

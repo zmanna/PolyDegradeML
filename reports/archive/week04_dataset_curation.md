@@ -6,7 +6,7 @@ This project currently uses the Kaggle `muhammetvarl/qsarbiodegradation` dataset
 ## Dataset Version
 - Version: `v1`
 - Source file: `/Users/mannz/Desktop/polymer degredation/firstdataset/data/qsarbiodegradation/qsar-biodeg.csv`
-- Curated file: `/Users/mannz/Desktop/polymer degredation/firstdataset/data/processed/qsar_biodegradation_curated.csv`
+- Curated file: `/Users/mannz/Desktop/polymer degredation/firstdataset/datasets/qsar_biodegradation_descriptor_benchmark/processed/qsar_biodegradation_curated.csv`
 - Rows: `1055`
 - Descriptor columns: `41`
 - Missing values after curation: `0`
