@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-05-21T22:35:13.619685+00:00",
+  "created_at_utc": "2026-05-28T21:39:18.663106+00:00",
   "dataset": "qsar_biodegradation",
   "validation_type": "5_fold_stratified_cross_validation",
   "diagnostics_csv": "results/tables/stratified_cv_fold_diagnostics.csv",

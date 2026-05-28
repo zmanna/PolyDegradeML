@@ -7,7 +7,7 @@ Scope: health check, stability review, and organization pass without major refac
 
 PolyDegradeML is in strong condition for a research-oriented machine learning repository. The current structure separates reusable source code, ordered workflow scripts, datasets, generated results, figures, reports, manuscript materials, presentation assets, and source reports. The main biodegradation workflow is understandable and mostly reproducible because scripts are numbered, path handling generally uses repository-relative `Path(__file__)` resolution, and most model functions expose deterministic `random_state` arguments.
 
-The highest-priority risks are environment reproducibility and citation/data provenance rather than code architecture. The project currently uses broad lower-bound dependency specifications, the local `.venv` has shown interpreter/package instability, and some generated artifacts are committed intentionally but need a clearer regeneration policy. The scientific narrative is strong, but final publication use should verify dataset licenses, exact citations, software versions, and which figures/tables are canonical.
+The highest-priority risks are citation/data provenance and final artifact traceability rather than code architecture. Dependency specifications were tightened after the audit identified an incompatible scikit-learn/imbalanced-learn resolution. The local `.venv` has still shown interpreter/package instability, and some generated artifacts are committed intentionally, so publication runs should use the verified environment file and provenance documents. The scientific narrative is strong, but final publication use should verify dataset licenses, exact citations, software versions, and which figures/tables are canonical.
 
 No major refactoring, model logic changes, file moves, or methodology changes were made during this pass.
 
@@ -80,9 +80,9 @@ The one-command orchestrator is `scripts/generate_all_results.py`.
 
 ## Risks
 
-- Dependency versions are specified with broad lower bounds and may resolve differently across machines.
+- Dependency versions are now constrained to the tested Python 3.11 compatibility window, with exact publication-run pins in `requirements-verified.txt`.
 - The current local `.venv` has shown instability with newer Python builds and scientific packages; Python 3.11 is the safer target for now.
-- The current dependency lower bound `scikit-learn>=1.8.0` is risky with `imbalanced-learn==0.14.0`; an isolated verification target failed importing imbalanced-learn against scikit-learn 1.8.0 and passed with scikit-learn 1.7.2.
+- The audit found that `scikit-learn==1.8.0` was risky with `imbalanced-learn==0.14.0`; the dependency files now constrain scikit-learn below 1.8 until a newer compatible pair is verified.
 - `activate-project.sh` assumes `.venv/` exists and may fail on a fresh clone until the environment is created.
 - The Kaggle CLI in the local environment may have a stale shebang if the virtual environment was moved or recreated.
 - Generated results are intentionally versioned, but a clear policy is needed for when to regenerate them and how to compare changes.
@@ -105,7 +105,7 @@ Most core stochastic operations use `random_state=42` or accept a configurable `
 
 Remaining concerns:
 
-- Exact package versions are not pinned.
+- Exact package versions for publication regeneration are pinned in `requirements-verified.txt`.
 - Neural-network training can still vary slightly across library versions and BLAS implementations.
 - Matplotlib output can vary across versions and backends.
 - Result files include `created_at_utc` timestamps, so byte-for-byte reproducibility is not expected even when metrics match.
@@ -158,7 +158,7 @@ Observed optional or workflow-specific tools:
 Recommendations:
 
 - Keep dependency changes conservative until final publication results are regenerated.
-- Before final publication runs, approve a dependency compatibility update that pins or constrains scikit-learn and imbalanced-learn to a tested pair.
+- Use `requirements-verified.txt` for final publication regeneration.
 - Add a lockfile or environment export before final paper submission.
 - Consider maintaining `requirements-dev.txt` only after deciding which developer tools are truly needed.
 - Document optional dataset-download dependencies separately from core model dependencies.
@@ -198,6 +198,8 @@ Items to verify before publication:
 - Added `REPOSITORY_MAP.md`.
 - Verified the smoke pipeline successfully with the local `.venv`.
 - Verified the full unit/regression suite successfully in an isolated Python 3.11 dependency target using `numpy==2.3.5`, `pandas==2.3.3`, `scikit-learn==1.7.2`, `imbalanced-learn==0.14.0`, and `matplotlib==3.10.7`.
+- Tightened runtime dependency constraints to avoid the incompatible scikit-learn 1.8 / imbalanced-learn 0.14 pairing.
+- Added `requirements-verified.txt` for publication-oriented regeneration.
 
 ## Changes Requiring User Approval
 
@@ -206,8 +208,7 @@ Items to verify before publication:
 - Delete archived reports or exploratory artifacts.
 - Replace print-based scripts with a logging framework.
 - Introduce a configuration system.
-- Pin or change dependency versions aggressively.
-- Update `requirements.txt` and `pyproject.toml` to replace the currently risky `scikit-learn>=1.8.0` lower bound with a tested compatibility range.
+- Further dependency upgrades outside the tested compatibility window.
 - Add new heavy dependencies such as RDKit or a BigSMILES parser to the core install.
 - Change model hyperparameters, feature-selection logic, reliability-scoreboard weights, or final model selection methodology.
 - Split binary paper/presentation artifacts into a separate release/archive workflow.

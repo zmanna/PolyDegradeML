@@ -20,6 +20,8 @@ python scripts/generate_all_results.py
 
 For deeper developer orientation, see `RUNBOOK.md`, `REPOSITORY_MAP.md`, and `CODEBASE_AUDIT.md`.
 
+For manuscript and presentation traceability, see `docs/publication_artifact_provenance.md`.
+
 ## Key Findings
 
 - Random Forest with the top-ranked feature set achieved the strongest final reliability profile in the current scoreboard.

@@ -10,6 +10,7 @@ This document explains what lives where and which files are source code, generat
 - `REPOSITORY_MAP.md`: this folder and major-file map.
 - `pyproject.toml`: package metadata and runtime dependencies.
 - `requirements.txt`: duplicate runtime dependency list for simple installs.
+- `requirements-verified.txt`: exact tested package set for publication-oriented regeneration.
 - `activate-project.sh`: local activation helper for `.venv`, `PYTHONPATH`, and Kaggle config.
 - `CITATION.cff`: citation metadata for the repository.
 - `LICENSE`: repository license.
@@ -211,6 +212,8 @@ Developer and architecture documentation.
 - `docs/uml/project_architecture.mmd`: architecture diagram.
 - `docs/uml/class_diagram.mmd`: major classes/dataclasses.
 - `docs/uml/workflow_sequence.mmd`: workflow sequence.
+- `docs/publication_artifact_provenance.md`: maps manuscript figures/tables to scripts and source outputs.
+- `docs/publication_run_2026-05-28.md`: records the stabilized publication-run command, environment, and observed output changes.
 - README files: navigation.
 
 Classification: documentation.

@@ -10,7 +10,7 @@ Recommended environment for reproducible scientific runs:
 - A fresh virtual environment
 - Editable install from the repository root
 
-Health-check note: the full test suite passed in an isolated Python 3.11 target with `numpy==2.3.5`, `pandas==2.3.3`, `scikit-learn==1.7.2`, `imbalanced-learn==0.14.0`, and `matplotlib==3.10.7`. The current dependency files should be tightened after approval because `scikit-learn==1.8.0` produced an `imbalanced-learn` import error during this audit.
+Health-check note: the full test suite passed in an isolated Python 3.11 target with `numpy==2.3.5`, `pandas==2.3.3`, `scikit-learn==1.7.2`, `imbalanced-learn==0.14.0`, and `matplotlib==3.10.7`. The dependency files now avoid the incompatible `scikit-learn==1.8.0` / `imbalanced-learn==0.14.0` pairing found during the audit.
 
 ```sh
 cd "/Users/mannz/workspaces/polymer degredation/biodegradation-ml-framework"
@@ -18,6 +18,12 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e .
+```
+
+For the most reproducible publication run, install the verified package set:
+
+```sh
+python -m pip install -r requirements-verified.txt
 ```
 
 If `python3.11` is not available, use a Python version compatible with `pyproject.toml`, but verify that `numpy`, `pandas`, `scikit-learn`, `imbalanced-learn`, and `matplotlib` install cleanly.
